@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefdd8838c41d2147942db8751b1c36e, type: 3}
+  m_Name: Park
+  m_EditorClassIdentifier: Assembly-CSharp::AreasData
+  AreaTitle: Rizal Park
+  WelcomeText: Welcome sa Rizal Park
+  areaSypnosis: 'IDk madmaing meron dito
+
+'
+  background: {fileID: 0}
+  possbileScenarios:
+  - {fileID: 11400000, guid: 9be04838c82f0ea4bafa7239ff7547df, type: 2}
+  - {fileID: 11400000, guid: e703f99f26dd8af47a49b4a6183a931b, type: 2}
+  - {fileID: 11400000, guid: c774c95f1b6a9ac489e50d053e2480b9, type: 2}
+  - {fileID: 11400000, guid: bed33a281d3238d4bb2c28f56479ead9, type: 2}
+  - {fileID: 11400000, guid: 1410d3ea0e4e26e41abc48807823e980, type: 2}

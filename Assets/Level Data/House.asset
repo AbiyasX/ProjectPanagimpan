@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefdd8838c41d2147942db8751b1c36e, type: 3}
+  m_Name: House
+  m_EditorClassIdentifier: Assembly-CSharp::AreasData
+  AreaTitle: Home
+  WelcomeText: Home Sweet Home
+  areaSypnosis: A cozy house filled with the sounds of family, laughter in the kitchen,
+    rain on the roof, and stories from Lola. The place where every feeling is safe
+    to show.
+  background: {fileID: 0}
+  possbileScenarios:
+  - {fileID: 11400000, guid: a0941ff272f58524c9aec6ab1a273f83, type: 2}
+  - {fileID: 11400000, guid: 833854f8e484aaa4b8ed4d221dcd705e, type: 2}
+  - {fileID: 11400000, guid: 42b814e32de9a224da0ee0498caa1d70, type: 2}
+  - {fileID: 11400000, guid: adc3ea9c2c72d4947a79da5851322dcd, type: 2}
+  - {fileID: 11400000, guid: 7886d42763ec4b84ab9ef337319feb94, type: 2}

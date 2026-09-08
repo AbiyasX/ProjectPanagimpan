@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefdd8838c41d2147942db8751b1c36e, type: 3}
+  m_Name: House 1
+  m_EditorClassIdentifier: Assembly-CSharp::AreasData
+  AreaTitle: Bahay ni piong
+  WelcomeText: Welcome sa bahay ni piong
+  areaSypnosis: Bahay ni piong na puno ng kung ano ano
+  background: {fileID: 0}
+  possbileScenarios:
+  - {fileID: 11400000, guid: 03d5e27e84a5ab0428c1543d17024031, type: 2}
+  - {fileID: 11400000, guid: cc678e0cfcc157a4bb75b9fc350161de, type: 2}
+  - {fileID: 11400000, guid: 2c73a94d2454d1b4b9924945d60582e8, type: 2}
+  - {fileID: 11400000, guid: e5164826b1d5bee498824768c0e92aa7, type: 2}
+  - {fileID: 11400000, guid: 7e6e94bc20aca8f489c7de0b2b54d3ee, type: 2}

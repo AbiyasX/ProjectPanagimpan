@@ -1,0 +1,26 @@
+OVDF v1.1
+ScenarioSystem, Assembly-CSharp
+MetaGuid:a0eaf68b687d6c74195f38dd1e474fb9
+
+# $Szj2UVFCYedGNVgbHfJvKU
+Position: $root:2
++ [Sirenix.OdinInspector.ColumnGroupAttribute]
+
+# $AFJBok7SJoEPmv1dKvoR4s
+Position: $Szj2UVFCYedGNVgbHfJvKU:1
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# UI_Scenes
+Position: $root:5
+
+# emotionsContents
+Position: $root:4
+
+# emotionsButton
+Position: $root:3
+
+# textScenario
+Position: $AFJBok7SJoEPmv1dKvoR4s:0
+
+# roundsPerArea
+Position: $root:1
