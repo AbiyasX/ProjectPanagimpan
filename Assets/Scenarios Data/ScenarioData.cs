@@ -32,4 +32,11 @@ public class ScenarioData : ScriptableObject
     
     [EnumToggleButtons]
     public Emotions emotionsRequirment;
+
+    [Header("Reward")]
+    [Tooltip("Name shown in the notification when the reward is earned.")]
+    public string rewardName;
+    [Tooltip("Slot in the RewardSystem rewards list (0 = first). -1 = no reward.")]
+    [MinValue(-1)]
+    public int rewardIndex = -1;
 }

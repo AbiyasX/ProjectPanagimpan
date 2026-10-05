@@ -20,8 +20,18 @@ public class ScenarioSystem : MonoBehaviour
     public GameObject emotionsButton;
     public GameObject emotionsContents;
     public TextMeshProUGUI[] currentplayerText;
-    public GameObject textMessageUI;
     public GameObject endResult;
+
+    [Header("Notifications")]
+    public NotificationSender correctNotification;
+    public NotificationSender wrongNotification;
+
+    [Header("Dialogue")]
+    public DialogueSystem dialogueSystem;
+    [Tooltip("Plays after the players enter their names. Use {player1} / {player2} in the text.")]
+    public DialogueData introDialogue;
+    [Tooltip("Plays after the last area is finished, before the end result shows.")]
+    public DialogueData endingDialogue;
 
 
     [Header("Player Names")]
@@ -72,6 +82,8 @@ public class ScenarioSystem : MonoBehaviour
     {
         getEmotions = FindAnyObjectByType<FERController>(FindObjectsInactive.Include);
         faceFeeder = FindAnyObjectByType<OpenCVFaceFeeder>(FindObjectsInactive.Include);
+        if (dialogueSystem == null)
+            dialogueSystem = FindAnyObjectByType<DialogueSystem>(FindObjectsInactive.Include);
         showAreaTitle = false;
         showUI = false;
         SetFERActive(false);
@@ -125,8 +137,47 @@ public class ScenarioSystem : MonoBehaviour
         if (playerNameUI != null)
             playerNameUI.SetActive(false);
 
-        gameStarted = true;
-        CurrentArea();
+        PlayDialogue(introDialogue, () =>
+        {
+            gameStarted = true;
+            CurrentArea();
+        });
+    }
+
+    void PlayDialogue(DialogueData dialogue, System.Action onFinished)
+    {
+        if (dialogueSystem == null || dialogue == null)
+        {
+            onFinished?.Invoke();
+            return;
+        }
+
+        dialogueSystem.SetTextReplacement("{player1}", player1);
+        dialogueSystem.SetTextReplacement("{player2}", player2);
+        dialogueSystem.PlayDialogue(dialogue, onFinished);
+    }
+
+    void EndGame()
+    {
+        gameStarted = false;
+        showUI = false;
+        showAreaTitle = false;
+        SetFERActive(false);
+        AreaUI.SetActive(false);
+        foreach (GameObject scene in UI_Scenes)
+        {
+            scene.SetActive(false);
+        }
+
+        PlayDialogue(endingDialogue, () =>
+        {
+            endResult.SetActive(true);
+
+            if (RewardSystem.Instance != null)
+                RewardSystem.Instance.ShowRewards();
+            else
+                Debug.LogWarning("No RewardSystem in the scene");
+        });
     }
 
     string nextPlayer()
@@ -146,8 +197,8 @@ public class ScenarioSystem : MonoBehaviour
         Area_Index++;
         if (Area_Index >= SceneArea.Length)
         {
-            endResult.SetActive(true);
             Debug.LogWarning("You Finished The AREAS!!!");
+            EndGame();
             return;
         }
         startingPlayer = Area_Index % 2;
@@ -239,8 +290,11 @@ public class ScenarioSystem : MonoBehaviour
 
     public bool emotionChecker()
     {
+        Emotions faceEmotion = getEmotions.CurrentEmotion;
 
-        if(currentScene.emotionsRequirment.HasFlag(getEmotions.CurrentEmotion) && currentScene.emotionsRequirment.HasFlag(pickedEmotions))
+        // HasFlag(None) is always true, so None must be rejected explicitly
+        if (faceEmotion != Emotions.None && pickedEmotions != Emotions.None &&
+            currentScene.emotionsRequirment.HasFlag(faceEmotion) && currentScene.emotionsRequirment.HasFlag(pickedEmotions))
         {
             return isEmotionCorrect = true;
         }
@@ -261,43 +315,53 @@ public class ScenarioSystem : MonoBehaviour
     public void scenarioCondition()
     {
         playerEmotionChecker();
+        emotionChecker();
         string lastPlayer = GetLastPlayer();
+        string rewardMessage = TryGiveReward(currentScene);
 
         ShowNextUI();
         GetRandomScenario();
 
         if (isPLayerEmotionCorrect)
         {
-            showMessage($"You guessed {lastPlayer}'s emotion correctly!", Color.green);
+            SendNotification(correctNotification, $"You guessed {lastPlayer}'s emotion correctly!" + rewardMessage, Color.green);
         }
         else
         {
-            showMessage($"You did not guess {lastPlayer}'s emotion correctly!", Color.red);
+            SendNotification(wrongNotification, $"You did not guess {lastPlayer}'s emotion correctly!" + rewardMessage, Color.red);
         }
     }
 
-    void showMessage(string message, Color color)
+    // Both players' emotions matched the scenario, so give its reward
+    string TryGiveReward(ScenarioData scene)
     {
-        
-        textMessageUI.SetActive(true);
+        if (!isEmotionCorrect || scene == null || scene.rewardIndex < 0) return "";
 
-        TextMeshProUGUI textMessage = textMessageUI.GetComponent<TextMeshProUGUI>();
-        textMessage.DOKill();
-        textMessageUI.transform.DOKill();
+        if (RewardSystem.Instance == null)
+        {
+            Debug.LogWarning("No RewardSystem in the scene");
+            return "";
+        }
 
-        textMessage.text = message;
-        textMessage.color = new Color(color.r, color.g, color.b, 1f);
-        textMessage.alpha = 1f;
+        if (!RewardSystem.Instance.Collect(scene.rewardIndex)) return "";
 
-        textMessage.DOFade(0f, 2f).SetDelay(1f);
+        return string.IsNullOrEmpty(scene.rewardName) ? "" : $"\nYou earned: {scene.rewardName}!";
+    }
 
-        textMessageUI.transform.DOLocalMoveY(50f, 2f).SetRelative(true);
-        
+    void SendNotification(NotificationSender sender, string message, Color fallbackColor)
+    {
+        if (sender != null)
+            sender.SendNotification(message);
+        else if (NotificationSystem.Instance != null)
+            NotificationSystem.Instance.showMessage(message, fallbackColor);
+        else
+            Debug.LogWarning("No NotificationSystem in the scene");
     }
 
     private void GetRandomScenario()
     {
         playerSwitcher = true;
+        if (Area_Index >= SceneArea.Length) return;
         selectedScenes = SceneArea[Area_Index].possbileScenarios.OrderBy(x => Random.value).Take(2).ToArray();
         if (selectedScenes == null) return;
         for (int i = 0; i < selectedScenes.Length; i++)

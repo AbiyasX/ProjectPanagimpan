@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7adab9d9ef604e42af226d41cf88436, type: 3}
+  m_Name: DialogueData
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogue_Background: {fileID: 0}
+  dialogue_Texts:
+  - speakerType: 1
+    dialogueSpeaker: Bogart
+    dialogueText: Hello pipay..
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: Pipay
+    dialogueText: Hi bogart...
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: Pipay
+    dialogueText: "Bogart.. \nI Remember you told me about your dead cat. \ncondolence.\n\nRIP
+      Cat."
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: Bogart
+    dialogueText: "Thank you for your empathy. \nPipay... :D"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  startTriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 3fc946433aa95ea4e918c9055f1dff68, type: 2}
+        m_TargetAssemblyTypeName: NotificationSender, Assembly-CSharp
+        m_MethodName: SendNotification
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: START OF DIALOG
+          m_BoolArgument: 0
+        m_CallState: 2
+  endTriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: fdd1d42b064349541bc90c6e003686fc, type: 2}
+        m_TargetAssemblyTypeName: NotificationSender, Assembly-CSharp
+        m_MethodName: SendNotification
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: END OF DIALOG
+          m_BoolArgument: 0
+        m_CallState: 2

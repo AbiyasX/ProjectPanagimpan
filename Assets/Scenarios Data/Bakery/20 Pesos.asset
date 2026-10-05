@@ -19,3 +19,5 @@ MonoBehaviour:
   textScenario: Your mom gave you Php20 to buy pandesal, but when you reached the
     bakery, the money was gone from your pocket.
   emotionsRequirment: 0
+  rewardName: Green Box
+  rewardIndex: 0

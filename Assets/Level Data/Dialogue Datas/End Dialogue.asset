@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7adab9d9ef604e42af226d41cf88436, type: 3}
+  m_Name: End Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogue_Background: {fileID: 0}
+  dialogue_Texts:
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: WOW... we reached the end!!!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: WOW WE DID ITT YEHEY!!!!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  startTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
