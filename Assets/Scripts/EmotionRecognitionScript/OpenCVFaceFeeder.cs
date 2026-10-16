@@ -9,18 +9,34 @@ public class OpenCVFaceFeeder : MonoBehaviour
 {
     public FERController fer;           
     public RawImage display;          
-    public float readInterval = 0.2f;   
+    public float readInterval = 0.2f;
+    public bool useFrontCamera = true;
 
     WebCamTexture webcam;
-    Mat rgbaMat, grayMat;
+    Mat camMat, rgbaMat, grayMat;
     CascadeClassifier cascade;
     Texture2D displayTex, faceTex;
     float lastRead;
     string lastLabel = "";
+    bool isFrontFacing;
 
     void OnEnable()
     {
-        webcam = new WebCamTexture(640, 480);
+        string camName = null;
+        isFrontFacing = false;
+        foreach (WebCamDevice device in WebCamTexture.devices)
+        {
+            if (device.isFrontFacing == useFrontCamera)
+            {
+                camName = device.name;
+                isFrontFacing = device.isFrontFacing;
+                break;
+            }
+        }
+        if (camName == null)
+            Debug.LogWarning("Requested camera not found - using the default camera");
+
+        webcam = camName != null ? new WebCamTexture(camName, 640, 480) : new WebCamTexture(640, 480);
         webcam.Play();
 
         cascade = new CascadeClassifier();
@@ -33,8 +49,17 @@ public class OpenCVFaceFeeder : MonoBehaviour
     {
         if (webcam == null || !webcam.didUpdateThisFrame || webcam.width < 100) return;
 
-        if (rgbaMat == null) { rgbaMat = new Mat(webcam.height, webcam.width, CvType.CV_8UC4); grayMat = new Mat(); }
-        Utils.webCamTextureToMat(webcam, rgbaMat);
+        if (camMat == null || camMat.cols() != webcam.width || camMat.rows() != webcam.height)
+        {
+            camMat?.Dispose();
+            camMat = new Mat(webcam.height, webcam.width, CvType.CV_8UC4);
+        }
+        if (rgbaMat == null) { rgbaMat = new Mat(); grayMat = new Mat(); }
+
+        // flip=true converts Unity's bottom-up pixels to a top-down Mat; skip it if the camera is already vertically mirrored
+        Utils.webCamTextureToMat(webcam, camMat, !webcam.videoVerticallyMirrored);
+        RotateUpright(camMat, rgbaMat, webcam.videoRotationAngle);
+        if (isFrontFacing) Core.flip(rgbaMat, rgbaMat, 1); // mirror like a selfie
 
         Imgproc.cvtColor(rgbaMat, grayMat, Imgproc.COLOR_RGBA2GRAY);
         Imgproc.equalizeHist(grayMat, grayMat);
@@ -71,9 +96,14 @@ public class OpenCVFaceFeeder : MonoBehaviour
         
         if (display != null)
         {
-            if (displayTex == null) displayTex = new Texture2D(rgbaMat.cols(), rgbaMat.rows(), TextureFormat.RGBA32, false);
+            if (displayTex == null || displayTex.width != rgbaMat.cols() || displayTex.height != rgbaMat.rows())
+            {
+                if (displayTex != null) Destroy(displayTex);
+                displayTex = new Texture2D(rgbaMat.cols(), rgbaMat.rows(), TextureFormat.RGBA32, false);
+            }
             Utils.matToTexture2D(rgbaMat, displayTex);
             display.texture = displayTex;
+            FitToDisplay();
         }
     }
 
@@ -86,6 +116,8 @@ public class OpenCVFaceFeeder : MonoBehaviour
             webcam = null;
         }
 
+        camMat?.Dispose();
+        camMat = null;
         rgbaMat?.Dispose();
         rgbaMat = null;
         grayMat?.Dispose();
@@ -99,5 +131,37 @@ public class OpenCVFaceFeeder : MonoBehaviour
         faceTex = null;
         displayTex = null;
         lastLabel = "";
+    }
+
+    // Crop the camera image to the RawImage's shape so it isn't stretched or squashed
+    void FitToDisplay()
+    {
+        Vector2 size = display.rectTransform.rect.size;
+        if (size.x <= 0 || size.y <= 0) return;
+
+        float boxAspect = size.x / size.y;
+        float texAspect = (float)displayTex.width / displayTex.height;
+        if (texAspect > boxAspect)
+        {
+            float w = boxAspect / texAspect;
+            display.uvRect = new UnityEngine.Rect((1 - w) / 2, 0, w, 1);
+        }
+        else
+        {
+            float h = texAspect / boxAspect;
+            display.uvRect = new UnityEngine.Rect(0, (1 - h) / 2, 1, h);
+        }
+    }
+
+    // Android cameras deliver frames rotated; turn them upright so the face cascade can detect faces
+    static void RotateUpright(Mat src, Mat dst, int angle)
+    {
+        switch (angle)
+        {
+            case 90:  Core.rotate(src, dst, Core.ROTATE_90_CLOCKWISE); break;
+            case 180: Core.rotate(src, dst, Core.ROTATE_180); break;
+            case 270: Core.rotate(src, dst, Core.ROTATE_90_COUNTERCLOCKWISE); break;
+            default:  src.copyTo(dst); break;
+        }
     }
 }

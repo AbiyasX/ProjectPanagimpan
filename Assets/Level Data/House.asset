@@ -18,9 +18,26 @@ MonoBehaviour:
     rain on the roof, and stories from Lola. The place where every feeling is safe
     to show.
   background: {fileID: 0}
+  areaDialogue: {fileID: 11400000, guid: c41b6542c7656fb4d86ef98a89d6b731, type: 2}
   possbileScenarios:
   - {fileID: 11400000, guid: a0941ff272f58524c9aec6ab1a273f83, type: 2}
   - {fileID: 11400000, guid: 833854f8e484aaa4b8ed4d221dcd705e, type: 2}
   - {fileID: 11400000, guid: 42b814e32de9a224da0ee0498caa1d70, type: 2}
   - {fileID: 11400000, guid: adc3ea9c2c72d4947a79da5851322dcd, type: 2}
   - {fileID: 11400000, guid: 7886d42763ec4b84ab9ef337319feb94, type: 2}
+  rewardName: Green
+  onRewardEarned:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 6693b6cd008e0a448be5f120db14d0f9, type: 2}
+        m_TargetAssemblyTypeName: RewardSystemData, Assembly-CSharp
+        m_MethodName: CollectReward
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

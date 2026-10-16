@@ -16,26 +16,26 @@ MonoBehaviour:
   dialogue_Texts:
   - speakerType: 1
     dialogueSpeaker: Bogart
-    dialogueText: Hello pipay..
+    dialogueText: Hello {player2}..
     OnTriggerEvent:
       m_PersistentCalls:
         m_Calls: []
   - speakerType: 2
     dialogueSpeaker: Pipay
-    dialogueText: Hi bogart...
+    dialogueText: Hi {player1}...
     OnTriggerEvent:
       m_PersistentCalls:
         m_Calls: []
   - speakerType: 1
     dialogueSpeaker: Pipay
-    dialogueText: "Bogart.. \nI Remember you told me about your dead cat. \ncondolence.\n\nRIP
+    dialogueText: "{player2}.. \nI Remember you told me about your dead cat. \ncondolence.\n\nRIP
       Cat."
     OnTriggerEvent:
       m_PersistentCalls:
         m_Calls: []
   - speakerType: 2
     dialogueSpeaker: Bogart
-    dialogueText: "Thank you for your empathy. \nPipay... :D"
+    dialogueText: "Thank you for your empathy. \n{player1}... :D"
     OnTriggerEvent:
       m_PersistentCalls:
         m_Calls: []

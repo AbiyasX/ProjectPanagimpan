@@ -20,7 +20,6 @@ public class DialogueSystem : MonoBehaviour
     private Action onDialogueFinished;
     private bool isPlaying;
 
-    // Tokens like {player1} that get replaced in speaker names and dialogue text
     private readonly Dictionary<string, string> textReplacements = new Dictionary<string, string>();
 
     public bool IsPlaying => isPlaying;

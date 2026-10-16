@@ -22,15 +22,8 @@ public class ScenarioSystem : MonoBehaviour
     public TextMeshProUGUI[] currentplayerText;
     public GameObject endResult;
 
-    [Header("Notifications")]
-    public NotificationSender correctNotification;
-    public NotificationSender wrongNotification;
-
     [Header("Dialogue")]
     public DialogueSystem dialogueSystem;
-    [Tooltip("Plays after the players enter their names. Use {player1} / {player2} in the text.")]
-    public DialogueData introDialogue;
-    [Tooltip("Plays after the last area is finished, before the end result shows.")]
     public DialogueData endingDialogue;
 
 
@@ -48,6 +41,9 @@ public class ScenarioSystem : MonoBehaviour
     [Header("Game Settings")]
     [MinValue(1)]
     public int roundsPerArea = 3;
+    [Tooltip("Correct guesses needed in an area to earn the reward.")]
+    [MinValue(1)]
+    public int correctGuessesForReward = 2;
 
     [Header("Datas")]
     public AreasData[] SceneArea;
@@ -77,6 +73,8 @@ public class ScenarioSystem : MonoBehaviour
     private int Area_Index;
 
     private int rounds;
+    private int correctGuesses;
+    private string areaResultMessage;
 
     private void Start()
     {
@@ -137,11 +135,8 @@ public class ScenarioSystem : MonoBehaviour
         if (playerNameUI != null)
             playerNameUI.SetActive(false);
 
-        PlayDialogue(introDialogue, () =>
-        {
-            gameStarted = true;
-            CurrentArea();
-        });
+        gameStarted = true;
+        CurrentArea();
     }
 
     void PlayDialogue(DialogueData dialogue, System.Action onFinished)
@@ -203,17 +198,25 @@ public class ScenarioSystem : MonoBehaviour
         }
         startingPlayer = Area_Index % 2;
         playerSwitcher = true;
+        correctGuesses = 0;
         CurrentArea();
     }
 
     void CurrentArea()
     {
         showUI = false;
-        showAreaTitle = true;
+        showAreaTitle = false;
         if (Area_Index >= SceneArea.Length) return;
-        areaTitle.text = SceneArea[Area_Index].AreaTitle;
-        welcomeText.text = SceneArea[Area_Index].WelcomeText;
-        areaSypnosis.text = SceneArea[Area_Index].areaSypnosis;
+
+        AreasData area = SceneArea[Area_Index];
+        areaTitle.text = area.AreaTitle;
+        welcomeText.text = area.WelcomeText;
+        areaSypnosis.text = area.areaSypnosis;
+
+        PlayDialogue(area.areaDialogue, () =>
+        {
+            continueButton();
+        });
     }
 
     public void continueButton()
@@ -234,6 +237,7 @@ public class ScenarioSystem : MonoBehaviour
 
             if (rounds >= roundsPerArea)
             {
+                areaResultMessage = CheckAreaReward();
                 nextArea();
                 rounds = 0;
             }
@@ -292,7 +296,6 @@ public class ScenarioSystem : MonoBehaviour
     {
         Emotions faceEmotion = getEmotions.CurrentEmotion;
 
-        // HasFlag(None) is always true, so None must be rejected explicitly
         if (faceEmotion != Emotions.None && pickedEmotions != Emotions.None &&
             currentScene.emotionsRequirment.HasFlag(faceEmotion) && currentScene.emotionsRequirment.HasFlag(pickedEmotions))
         {
@@ -317,45 +320,45 @@ public class ScenarioSystem : MonoBehaviour
         playerEmotionChecker();
         emotionChecker();
         string lastPlayer = GetLastPlayer();
-        string rewardMessage = TryGiveReward(currentScene);
+
+        if (isPLayerEmotionCorrect)
+            correctGuesses++;
+
+        string rewardMessage = $"\nCorrect guesses: {correctGuesses}/{roundsPerArea}";
 
         ShowNextUI();
         GetRandomScenario();
 
-        if (isPLayerEmotionCorrect)
+        if (!string.IsNullOrEmpty(areaResultMessage))
         {
-            SendNotification(correctNotification, $"You guessed {lastPlayer}'s emotion correctly!" + rewardMessage, Color.green);
-        }
-        else
-        {
-            SendNotification(wrongNotification, $"You did not guess {lastPlayer}'s emotion correctly!" + rewardMessage, Color.red);
-        }
-    }
-
-    // Both players' emotions matched the scenario, so give its reward
-    string TryGiveReward(ScenarioData scene)
-    {
-        if (!isEmotionCorrect || scene == null || scene.rewardIndex < 0) return "";
-
-        if (RewardSystem.Instance == null)
-        {
-            Debug.LogWarning("No RewardSystem in the scene");
-            return "";
+            rewardMessage = areaResultMessage;
+            areaResultMessage = null;
         }
 
-        if (!RewardSystem.Instance.Collect(scene.rewardIndex)) return "";
-
-        return string.IsNullOrEmpty(scene.rewardName) ? "" : $"\nYou earned: {scene.rewardName}!";
-    }
-
-    void SendNotification(NotificationSender sender, string message, Color fallbackColor)
-    {
-        if (sender != null)
-            sender.SendNotification(message);
-        else if (NotificationSystem.Instance != null)
-            NotificationSystem.Instance.showMessage(message, fallbackColor);
-        else
+        if (NotificationSystem.Instance == null)
+        {
             Debug.LogWarning("No NotificationSystem in the scene");
+            return;
+        }
+
+        if (isPLayerEmotionCorrect)
+            NotificationSystem.Instance.ShowCorrect($"You guessed {lastPlayer}'s emotion correctly!" + rewardMessage);
+        else
+            NotificationSystem.Instance.ShowWrong($"You did not guess {lastPlayer}'s emotion correctly!" + rewardMessage);
+    }
+
+    // End of the area: give the area's reward if the players got enough correct guesses
+    string CheckAreaReward()
+    {
+        string result = $"\nArea finished! Correct guesses: {correctGuesses}/{roundsPerArea}";
+
+        if (correctGuesses < correctGuessesForReward)
+            return result + $"\nYou needed {correctGuessesForReward} to get the reward.";
+
+        AreasData area = SceneArea[Area_Index];
+        area.onRewardEarned?.Invoke();
+
+        return string.IsNullOrEmpty(area.rewardName) ? result : result + $"\nYou earned: {area.rewardName}!";
     }
 
     private void GetRandomScenario()

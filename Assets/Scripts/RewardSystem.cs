@@ -2,21 +2,6 @@ using Sirenix.OdinInspector;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Events/Collect Reward")]
-public class RewardSystemData : ScriptableObject
-{
-    public void CollectReward(int index)
-    {
-        if(RewardSystem.Instance == null)
-        {
-            Debug.LogWarning("No RewardSystem in the scene");
-            return;
-        }
-        RewardSystem.Instance.Collect(index);
-    }
-}
-
-
 [System.Serializable]
 public class Reward
 {

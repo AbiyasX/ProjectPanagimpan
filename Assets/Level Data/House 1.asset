@@ -16,6 +16,7 @@ MonoBehaviour:
   WelcomeText: Welcome sa bahay ni piong
   areaSypnosis: Bahay ni piong na puno ng kung ano ano
   background: {fileID: 0}
+  areaDialogue: {fileID: 11400000, guid: c41b6542c7656fb4d86ef98a89d6b731, type: 2}
   possbileScenarios:
   - {fileID: 11400000, guid: 03d5e27e84a5ab0428c1543d17024031, type: 2}
   - {fileID: 11400000, guid: cc678e0cfcc157a4bb75b9fc350161de, type: 2}
