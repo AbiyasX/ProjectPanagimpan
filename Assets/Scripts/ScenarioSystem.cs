@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-
+[RequireComponent(typeof(NameSetter))]
 public class ScenarioSystem : MonoBehaviour
 {
     [Header("GameObjects")]
@@ -26,11 +26,10 @@ public class ScenarioSystem : MonoBehaviour
     public DialogueSystem dialogueSystem;
     public DialogueData endingDialogue;
 
-
-    [Header("Player Names")]
+    /*[Header("Player Names")]
     public GameObject playerNameUI;
     public TMP_InputField player1Input;
-    public TMP_InputField player2Input;
+    public TMP_InputField player2Input;*/
 
     [Header("AreaUI")]
     public GameObject AreaUI;
@@ -55,8 +54,8 @@ public class ScenarioSystem : MonoBehaviour
     [ReadOnly]
     Emotions pickedEmotions;
 
-    private string player1 = "Player 1";
-    private string player2 = "Player 2";
+    //private string player1 = "Player 1";
+    //private string player2 = "Player 2";
 
     private string currentPlayer;
 
@@ -64,7 +63,7 @@ public class ScenarioSystem : MonoBehaviour
     private int startingPlayer;
     private bool showAreaTitle = true;
     private bool showUI = false;
-    private bool gameStarted = false;
+    public bool gameStarted = false;
 
     bool isEmotionCorrect = false;
     bool isPLayerEmotionCorrect = false;
@@ -76,8 +75,12 @@ public class ScenarioSystem : MonoBehaviour
     private int correctGuesses;
     private string areaResultMessage;
 
+    private NameSetter nameSetterScript;
+
     private void Start()
     {
+        nameSetterScript = GetComponent<NameSetter>();
+
         getEmotions = FindAnyObjectByType<FERController>(FindObjectsInactive.Include);
         faceFeeder = FindAnyObjectByType<OpenCVFaceFeeder>(FindObjectsInactive.Include);
         if (dialogueSystem == null)
@@ -86,8 +89,8 @@ public class ScenarioSystem : MonoBehaviour
         showUI = false;
         SetFERActive(false);
 
-        if (playerNameUI != null)
-            playerNameUI.SetActive(true);
+        /*if (playerNameUI != null)
+            playerNameUI.SetActive(true);*/
     }
 
     bool RequiresCamera()
@@ -125,7 +128,7 @@ public class ScenarioSystem : MonoBehaviour
         }
     }
 
-    public void ConfirmPlayerNames()
+    /*public void ConfirmPlayerNames()
     {
         if (player1Input != null && !string.IsNullOrWhiteSpace(player1Input.text))
             player1 = player1Input.text.Trim();
@@ -137,7 +140,7 @@ public class ScenarioSystem : MonoBehaviour
 
         gameStarted = true;
         CurrentArea();
-    }
+    }*/
 
     void PlayDialogue(DialogueData dialogue, System.Action onFinished)
     {
@@ -147,8 +150,8 @@ public class ScenarioSystem : MonoBehaviour
             return;
         }
 
-        dialogueSystem.SetTextReplacement("{player1}", player1);
-        dialogueSystem.SetTextReplacement("{player2}", player2);
+        dialogueSystem.SetTextReplacement("{player1}", nameSetterScript.p1Name);
+        dialogueSystem.SetTextReplacement("{player2}", nameSetterScript.p2Name);
         dialogueSystem.PlayDialogue(dialogue, onFinished);
     }
 
@@ -178,13 +181,13 @@ public class ScenarioSystem : MonoBehaviour
     string nextPlayer()
     {
         int activePlayer = playerSwitcher ? startingPlayer : 1 - startingPlayer;
-        return currentPlayer = activePlayer == 0 ? player1 : player2;
+        return currentPlayer = activePlayer == 0 ? nameSetterScript.p1Name : nameSetterScript.p2Name;
     }
 
     string GetLastPlayer()
     {
         int lastPlayerIndex = playerSwitcher ? 1 - startingPlayer : startingPlayer;
-        return lastPlayerIndex == 0 ? player1 : player2;
+        return lastPlayerIndex == 0 ? nameSetterScript.p1Name : nameSetterScript.p2Name;
     }
 
     void nextArea()
@@ -202,7 +205,7 @@ public class ScenarioSystem : MonoBehaviour
         CurrentArea();
     }
 
-    void CurrentArea()
+    public void CurrentArea()
     {
         showUI = false;
         showAreaTitle = false;

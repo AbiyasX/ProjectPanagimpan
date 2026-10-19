@@ -1,0 +1,11 @@
+﻿<Solution>
+  <Project Path="EnoxSoftware.OpenCVForUnity.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="EnoxSoftware.OpenCVForUnityExample.csproj" />
+  <Project Path="EnoxSoftware.OpenCVForUnity.Editor.Json.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
+  <Project Path="EnoxSoftware.OpenCVForUnity.Editor.csproj" />
+  <Project Path="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" />
+</Solution>
