@@ -8,7 +8,7 @@ public class AreasData : ScriptableObject
     public string WelcomeText;
     [TextArea(10,10)]
     public string areaSypnosis;
-    public GameObject background;
+    public Sprite background;
     [Tooltip("Optional. Plays when this area starts, before the area title shows. Use {player1} / {player2} in the text.")]
     public DialogueData areaDialogue;
     public ScenarioData[] possbileScenarios;

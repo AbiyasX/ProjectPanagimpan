@@ -23,6 +23,9 @@ public class ScenarioData : ScriptableObject
     public string scenaroSypnosis;
 
     [Header("ScenarioResult")]
+
+    public Sprite Image;
+
     public string goodResult;
     public string badResult;
 

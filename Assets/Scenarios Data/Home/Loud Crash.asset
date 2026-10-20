@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Loud Crash
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioTitle: Loud Crash
-  scenaroSypnosis: 
+  scenaroSypnosis: loud crash downstairs at night
+  Image: {fileID: -1594447757, guid: dbe27d29dc5e95f458fb78831bad6916, type: 3}
   goodResult: 
   badResult: 
   textScenario: 'You heard a loud crash downstairs at night while everyone was asleep.
 
 '
   emotionsRequirment: 0
+  rewardName: 
+  rewardIndex: -1

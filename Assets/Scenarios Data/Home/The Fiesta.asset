@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: The Fiesta
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioTitle: The Fiesta
-  scenaroSypnosis: 
+  scenaroSypnosis: The fiesta is over. You're walking home with your friend
+  Image: {fileID: -1594447757, guid: dbe27d29dc5e95f458fb78831bad6916, type: 3}
   goodResult: 
   badResult: 
   textScenario: 'The fiesta is over. You''re walking home with your friend, tired,
@@ -21,3 +22,5 @@ MonoBehaviour:
 
 '
   emotionsRequirment: 0
+  rewardName: 
+  rewardIndex: -1

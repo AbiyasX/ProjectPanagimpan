@@ -37,6 +37,17 @@ public class ScenarioSystem : MonoBehaviour
     public TextMeshProUGUI welcomeText;
     public TextMeshProUGUI areaSypnosis;
 
+    [Header("Area Background")]
+    [Tooltip("UI Image that shows the area's background sprite (put it behind your UI in the Canvas).")]
+    public Image backgroundImage;
+    [Tooltip("Optional. Use this instead of (or with) the Image if your background is a world-space SpriteRenderer.")]
+    public SpriteRenderer backgroundRenderer;
+    [Tooltip("Fade time when switching backgrounds. 0 = instant.")]
+    [MinValue(0)]
+    public float backgroundFadeDuration = 0.5f;
+    [Tooltip("Keep the last area's background visible during the ending dialogue / results.")]
+    public bool keepBackgroundOnEnd = true;
+
     [Header("Game Settings")]
     [MinValue(1)]
     public int roundsPerArea = 3;
@@ -47,6 +58,20 @@ public class ScenarioSystem : MonoBehaviour
     [Header("Datas")]
     public AreasData[] SceneArea;
     public TextMeshProUGUI[] scenarioTitleText;
+
+    [Header("Scenario Choice Cards")]
+    [Tooltip("One Image per choice card, same order as Scenario Title Text.")]
+    public Image[] scenarioImage;
+    [Tooltip("One synopsis text per choice card, same order as Scenario Title Text.")]
+    public TextMeshProUGUI[] scenarioSypnosisText;
+
+    [Header("Selected Scenario")]
+    [Tooltip("Images that show the picked scenario's image (e.g. on the emotion-pick and camera screens).")]
+    public Image[] selectedScenarioImage;
+    [Tooltip("Texts that show the picked scenario's synopsis.")]
+    public TextMeshProUGUI[] selectedScenarioSypnosis;
+    [Tooltip("Hide the Image object when a scenario has no image.")]
+    public bool hideImageWhenEmpty = true;
 
     private ScenarioData[] selectedScenes;
     private ScenarioData currentScene;
@@ -155,6 +180,147 @@ public class ScenarioSystem : MonoBehaviour
         dialogueSystem.PlayDialogue(dialogue, onFinished);
     }
 
+    // ---------- Background ----------
+
+    // Puts the area's background sprite on the Image / SpriteRenderer.
+    void ShowAreaBackground(AreasData area)
+    {
+        Sprite sprite = area != null ? area.background : null;
+
+        if (sprite == null)
+        {
+            ClearBackground();
+            return;
+        }
+
+        if (backgroundImage != null)
+            SetImageSprite(backgroundImage, sprite);
+
+        if (backgroundRenderer != null)
+            SetRendererSprite(backgroundRenderer, sprite);
+
+        if (backgroundImage == null && backgroundRenderer == null)
+            Debug.LogWarning("ScenarioSystem: assign a Background Image or Background Renderer to show area backgrounds.");
+    }
+
+    void SetImageSprite(Image image, Sprite sprite)
+    {
+        if (image.sprite == sprite && image.gameObject.activeSelf) return; // same background, no flicker
+
+        image.DOKill();
+        image.gameObject.SetActive(true);
+
+        if (backgroundFadeDuration <= 0f || image.sprite == null)
+        {
+            image.sprite = sprite;
+            image.color = new Color(image.color.r, image.color.g, image.color.b, 1f);
+            return;
+        }
+
+        float half = backgroundFadeDuration * 0.5f;
+        DOTween.Sequence()
+            .Append(image.DOFade(0f, half))
+            .AppendCallback(() => image.sprite = sprite)
+            .Append(image.DOFade(1f, half))
+            .SetTarget(image);
+    }
+
+    void SetRendererSprite(SpriteRenderer renderer, Sprite sprite)
+    {
+        if (renderer.sprite == sprite && renderer.gameObject.activeSelf) return;
+
+        renderer.DOKill();
+        renderer.gameObject.SetActive(true);
+
+        if (backgroundFadeDuration <= 0f || renderer.sprite == null)
+        {
+            renderer.sprite = sprite;
+            renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 1f);
+            return;
+        }
+
+        float half = backgroundFadeDuration * 0.5f;
+        DOTween.Sequence()
+            .Append(renderer.DOFade(0f, half))
+            .AppendCallback(() => renderer.sprite = sprite)
+            .Append(renderer.DOFade(1f, half))
+            .SetTarget(renderer);
+    }
+
+    void ClearBackground()
+    {
+        if (backgroundImage != null)
+        {
+            backgroundImage.DOKill();
+            backgroundImage.sprite = null;
+            backgroundImage.gameObject.SetActive(false);
+        }
+
+        if (backgroundRenderer != null)
+        {
+            backgroundRenderer.DOKill();
+            backgroundRenderer.sprite = null;
+            backgroundRenderer.gameObject.SetActive(false);
+        }
+    }
+
+    // ---------- Scenario Image & Synopsis ----------
+
+    // Sets a UI Image to a scenario's sprite (hides it if there's no sprite and hideImageWhenEmpty is on).
+    void SetScenarioImage(Image image, Sprite sprite)
+    {
+        if (image == null) return;
+
+        image.sprite = sprite;
+        image.preserveAspect = true;
+
+        if (hideImageWhenEmpty)
+            image.gameObject.SetActive(sprite != null);
+        else
+            image.enabled = sprite != null;
+    }
+
+    void SetScenarioSypnosis(TextMeshProUGUI text, string sypnosis)
+    {
+        if (text == null) return;
+        text.text = sypnosis ?? "";
+    }
+
+    // Fills the choice cards (title / image / synopsis) for the two random scenarios.
+    void ShowScenarioChoices()
+    {
+        int cardCount = scenarioTitleText.Length;
+
+        for (int i = 0; i < cardCount; i++)
+        {
+            bool hasScenario = selectedScenes != null && i < selectedScenes.Length && selectedScenes[i] != null;
+            ScenarioData scenario = hasScenario ? selectedScenes[i] : null;
+
+            if (scenarioTitleText[i] != null)
+                scenarioTitleText[i].text = hasScenario ? scenario.scenarioTitle : "";
+
+            if (scenarioImage != null && i < scenarioImage.Length)
+                SetScenarioImage(scenarioImage[i], hasScenario ? scenario.Image : null);
+
+            if (scenarioSypnosisText != null && i < scenarioSypnosisText.Length)
+                SetScenarioSypnosis(scenarioSypnosisText[i], hasScenario ? scenario.scenaroSypnosis : "");
+        }
+    }
+
+    // Shows the picked scenario's image / synopsis on the later screens.
+    void ShowSelectedScenario(ScenarioData scenario)
+    {
+        if (selectedScenarioImage != null)
+            foreach (Image img in selectedScenarioImage)
+                SetScenarioImage(img, scenario != null ? scenario.Image : null);
+
+        if (selectedScenarioSypnosis != null)
+            foreach (TextMeshProUGUI txt in selectedScenarioSypnosis)
+                SetScenarioSypnosis(txt, scenario != null ? scenario.scenaroSypnosis : "");
+    }
+
+    // --------------------------------
+
     void EndGame()
     {
         gameStarted = false;
@@ -166,6 +332,9 @@ public class ScenarioSystem : MonoBehaviour
         {
             scene.SetActive(false);
         }
+
+        if (!keepBackgroundOnEnd)
+            ClearBackground();
 
         PlayDialogue(endingDialogue, () =>
         {
@@ -216,6 +385,9 @@ public class ScenarioSystem : MonoBehaviour
         welcomeText.text = area.WelcomeText;
         areaSypnosis.text = area.areaSypnosis;
 
+        // Swap in this area's background before its dialogue plays
+        ShowAreaBackground(area);
+
         PlayDialogue(area.areaDialogue, () =>
         {
             continueButton();
@@ -250,8 +422,8 @@ public class ScenarioSystem : MonoBehaviour
             }
         }
 
-        foreach (GameObject showIU in UI_Scenes) 
-        { 
+        foreach (GameObject showIU in UI_Scenes)
+        {
             showIU.SetActive(false);
         }
     }
@@ -259,21 +431,25 @@ public class ScenarioSystem : MonoBehaviour
     // First
     public void SelectScene(int index)
     {
+        if (selectedScenes == null || index < 0 || index >= selectedScenes.Length) return;
+
         currentScene = selectedScenes[index];
         playerSwitcher = true;
-        foreach(TextMeshProUGUI allScenearioText in textScenario)
+        foreach (TextMeshProUGUI allScenearioText in textScenario)
         {
             allScenearioText.DOKill();
             allScenearioText.text = "";
             allScenearioText.DOText(currentScene.textScenario, 2f);
         }
 
+        ShowSelectedScenario(currentScene);
+
         ShowNextUI();
         EmotionPicker();
     }
 
     // Second
-    public void EmotionPicker() 
+    public void EmotionPicker()
     {
         Emotions[] emotions = (Emotions[])System.Enum.GetValues(typeof(Emotions));
         for (int i = 0; i < emotions.Length; i++)
@@ -306,7 +482,7 @@ public class ScenarioSystem : MonoBehaviour
         }
 
         return isEmotionCorrect = false;
-    } 
+    }
 
     public bool playerEmotionChecker()
     {
@@ -370,9 +546,7 @@ public class ScenarioSystem : MonoBehaviour
         if (Area_Index >= SceneArea.Length) return;
         selectedScenes = SceneArea[Area_Index].possbileScenarios.OrderBy(x => Random.value).Take(2).ToArray();
         if (selectedScenes == null) return;
-        for (int i = 0; i < selectedScenes.Length; i++)
-        {
-            scenarioTitleText[i].text = selectedScenes[i].scenarioTitle;
-        }
+
+        ShowScenarioChoices();
     }
 }

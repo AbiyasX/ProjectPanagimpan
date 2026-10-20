@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Chores
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioTitle: Chores
-  scenaroSypnosis: 
+  scenaroSypnosis: You did all your chores without being asked
+  Image: {fileID: -1594447757, guid: dbe27d29dc5e95f458fb78831bad6916, type: 3}
   goodResult: 
   badResult: 
   textScenario: 'You did all your chores without being asked, and your mom noticed
@@ -21,3 +22,5 @@ MonoBehaviour:
 
 '
   emotionsRequirment: 0
+  rewardName: 
+  rewardIndex: -1

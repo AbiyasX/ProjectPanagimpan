@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Your Toy
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioTitle: Your Toy
-  scenaroSypnosis: 
+  scenaroSypnosis: Your little sibling broke your favorite toy
+  Image: {fileID: -1594447757, guid: dbe27d29dc5e95f458fb78831bad6916, type: 3}
   goodResult: 
   badResult: 
   textScenario: Your little sibling broke your favorite toy, then came crying to
     say sorry before you even found out.
   emotionsRequirment: 0
+  rewardName: 
+  rewardIndex: -1

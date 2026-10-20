@@ -17,7 +17,7 @@ MonoBehaviour:
   areaSypnosis: A cozy house filled with the sounds of family, laughter in the kitchen,
     rain on the roof, and stories from Lola. The place where every feeling is safe
     to show.
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: b3e4fe03e461c0e4189279ded062bfee, type: 3}
   areaDialogue: {fileID: 11400000, guid: c41b6542c7656fb4d86ef98a89d6b731, type: 2}
   possbileScenarios:
   - {fileID: 11400000, guid: a0941ff272f58524c9aec6ab1a273f83, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   AreaTitle: Bahay ni piong
   WelcomeText: Welcome sa bahay ni piong
   areaSypnosis: Bahay ni piong na puno ng kung ano ano
-  background: {fileID: 0}
+  background: {fileID: 21300000, guid: b3e4fe03e461c0e4189279ded062bfee, type: 3}
   areaDialogue: {fileID: 11400000, guid: c41b6542c7656fb4d86ef98a89d6b731, type: 2}
   possbileScenarios:
   - {fileID: 11400000, guid: 03d5e27e84a5ab0428c1543d17024031, type: 2}
@@ -23,3 +23,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2c73a94d2454d1b4b9924945d60582e8, type: 2}
   - {fileID: 11400000, guid: e5164826b1d5bee498824768c0e92aa7, type: 2}
   - {fileID: 11400000, guid: 7e6e94bc20aca8f489c7de0b2b54d3ee, type: 2}
+  rewardName: 
+  onRewardEarned:
+    m_PersistentCalls:
+      m_Calls: []

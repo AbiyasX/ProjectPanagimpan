@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Your birthday
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioTitle: your birthday
-  scenaroSypnosis: 
+  scenaroSypnosis: Its your birthday and when you got home
+  Image: {fileID: -1594447757, guid: dbe27d29dc5e95f458fb78831bad6916, type: 3}
   goodResult: 
   badResult: 
   textScenario: Its your birthday and when you got home, your whole family shouted
     "Surprise!" with a bilao of pancit.
   emotionsRequirment: 0
+  rewardName: 
+  rewardIndex: -1
