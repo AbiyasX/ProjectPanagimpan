@@ -5,6 +5,14 @@ using UnityEngine;
 using DG.Tweening;
 using Sirenix.OdinInspector;
 
+[Serializable]
+public class DialogueCharacterSlot
+{
+    public SpeakerType speakerType;
+    public string speakerName;
+    public CharacterScript character;
+}
+
 public class DialogueSystem : MonoBehaviour
 {
     public TextMeshProUGUI speakerUI;
@@ -12,6 +20,7 @@ public class DialogueSystem : MonoBehaviour
     public GameObject dialogueBackGround;
     public GameObject dialoguePanel;
     public DialogueData[] dialogueData;
+    public DialogueCharacterSlot[] characters;
     public float charsPerSecond = 40f;
 
     private Tween typeTween;
@@ -103,11 +112,33 @@ public class DialogueSystem : MonoBehaviour
         }
     }
 
+    void UpdateTalkingCharacters(DialogueText line)
+    {
+        if (characters == null) return;
+
+        foreach (var slot in characters)
+        {
+            if (slot == null || slot.character == null) continue;
+            slot.character.StartTalking(IsSpeaker(slot, line));
+        }
+    }
+
+    bool IsSpeaker(DialogueCharacterSlot slot, DialogueText line)
+    {
+        if (line == null || line.speakerType != slot.speakerType) return false;
+
+        if (slot.speakerType == SpeakerType.Player1 || slot.speakerType == SpeakerType.Player2)
+            return true;
+
+        return string.Equals(slot.speakerName, line.dialogueSpeaker, StringComparison.OrdinalIgnoreCase);
+    }
+
     void StartLine()
     {
         var line = currentDialogue.dialogue_Texts[textIndex];
 
         speakerUI.text = ApplyReplacements(GetSpeaker(line));
+        UpdateTalkingCharacters(line);
 
         typeTween?.Kill();
         dialogueTextUI.text = "";
@@ -131,7 +162,6 @@ public class DialogueSystem : MonoBehaviour
         {
             NextLine();
         }
-
     }
 
     void NextLine()
@@ -150,6 +180,7 @@ public class DialogueSystem : MonoBehaviour
         typeTween?.Kill();
         isPlaying = false;
 
+        UpdateTalkingCharacters(null);
         speakerUI.text = "";
         dialogueTextUI.text = "";
         dialoguePanel.SetActive(false);
