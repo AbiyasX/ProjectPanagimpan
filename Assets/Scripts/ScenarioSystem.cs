@@ -31,11 +31,11 @@ public class ScenarioSystem : MonoBehaviour
     public TMP_InputField player1Input;
     public TMP_InputField player2Input;*/
 
-    [Header("AreaUI")]
+    /*[Header("AreaUI")]
     public GameObject AreaUI;
     public TextMeshProUGUI areaTitle;
     public TextMeshProUGUI welcomeText;
-    public TextMeshProUGUI areaSypnosis;
+    public TextMeshProUGUI areaSypnosis;*/
 
     [Header("Area Background")]
     [Tooltip("UI Image that shows the area's background sprite (put it behind your UI in the Canvas).")]
@@ -145,7 +145,7 @@ public class ScenarioSystem : MonoBehaviour
 
         UpdateFERState();
         if (currentScene != null && ferActive) emotionChecker();
-        AreaUI.SetActive(showAreaTitle);
+        //AreaUI.SetActive(showAreaTitle);
         UI_Scenes[Ui_Index].SetActive(showUI);
         foreach (TextMeshProUGUI text in currentplayerText)
         {
@@ -327,7 +327,7 @@ public class ScenarioSystem : MonoBehaviour
         showUI = false;
         showAreaTitle = false;
         SetFERActive(false);
-        AreaUI.SetActive(false);
+        //AreaUI.SetActive(false);
         foreach (GameObject scene in UI_Scenes)
         {
             scene.SetActive(false);
@@ -381,9 +381,9 @@ public class ScenarioSystem : MonoBehaviour
         if (Area_Index >= SceneArea.Length) return;
 
         AreasData area = SceneArea[Area_Index];
-        areaTitle.text = area.AreaTitle;
+        /*areaTitle.text = area.AreaTitle;
         welcomeText.text = area.WelcomeText;
-        areaSypnosis.text = area.areaSypnosis;
+        areaSypnosis.text = area.areaSypnosis;*/
 
         // Swap in this area's background before its dialogue plays
         ShowAreaBackground(area);
