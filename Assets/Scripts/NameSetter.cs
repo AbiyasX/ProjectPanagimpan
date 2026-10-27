@@ -4,15 +4,23 @@ using UnityEngine.UI;
 
 public class NameSetter : MonoBehaviour
 {
-    [Header("Player Names")]
+    [Header("Name Setter Screen")]
     [SerializeField] private GameObject nameSetUI;
-    [SerializeField] private TextMeshProUGUI nameText;
+    [SerializeField] private TextMeshProUGUI inputText;
     [SerializeField] private TMP_InputField nameInput;
     [Space]
     [SerializeField] private GameObject nameErrorUI;
     [SerializeField] private TextMeshProUGUI nameError;
     [Space]
+    [SerializeField] private Image polaroidImage;
+    [SerializeField] private Sprite player1Image;
+    [SerializeField] private Sprite player2Image;
+    
+    [Header("Name Confirmation Screen")]
     [SerializeField] private GameObject nameConfirmationUI;
+    [Space]
+    [SerializeField] private TextMeshProUGUI nameTextPlayer1;
+    [SerializeField] private TextMeshProUGUI nameTextPlayer2;
     
     [HideInInspector] public string p1Name = "Player 1";
     [HideInInspector] public string p2Name = "Player 2";
@@ -42,7 +50,8 @@ public class NameSetter : MonoBehaviour
 
                     PassSystem.Instance.OpenPassScreen();
 
-                    nameText.text = "Player 2's name is...";
+                    polaroidImage.sprite = player2Image;
+                    inputText.text = "Player 2's name is...";
                     nameInput.text = "";
                     nameErrorUI.SetActive(false);
                 }
@@ -51,8 +60,13 @@ public class NameSetter : MonoBehaviour
                     p2Name = nameInput.text.Trim();
 
                     if (nameSetUI != null && nameConfirmationUI != null)
+                    {
+                        nameTextPlayer1.text = p1Name;
+                        nameTextPlayer2.text = p2Name;
+
                         nameSetUI.SetActive(false);
                         nameConfirmationUI.SetActive(true);
+                    }
                 }
             }
     }
@@ -72,7 +86,8 @@ public class NameSetter : MonoBehaviour
 
         currentPlayer = 1;
 
-        nameText.text = "Player 1's name is...";
+        polaroidImage.sprite = player1Image;
+        inputText.text = "Player 1's name is...";
         nameInput.text = "";
         nameErrorUI.SetActive(false);
     }
