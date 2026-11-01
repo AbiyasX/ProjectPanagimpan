@@ -1,6 +1,14 @@
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
+[System.Serializable]
+public class ModelEmotion
+{
+    [ReadOnly]
+    public string modelOutput;
+    public Emotions emotion;
+}
 
 public class FERController : MonoBehaviour
 {
@@ -13,17 +21,49 @@ public class FERController : MonoBehaviour
     public int smoothingFrames = 8;
 
     // Wag i reorder
-    static readonly string[] EMOTIONS =
+    static readonly string[] MODEL_OUTPUTS =
         { "Anger", "Contempt", "Disgust", "Fear", "Happiness", "Neutral", "Sadness", "Surprise" };
 
+    public ModelEmotion[] emotionMapping = CreateDefaultMapping();
+
     const int SIZE = 224;
-    static readonly float[] MEAN = { 0.485f, 0.456f, 0.406f };   
-    static readonly float[] STD  = { 0.229f, 0.224f, 0.225f };
+    static readonly float[] MEAN = { 0.485f, 0.456f, 0.406f };
+    static readonly float[] STD = { 0.229f, 0.224f, 0.225f };
 
     Unity.InferenceEngine.Model model;
     Unity.InferenceEngine.Worker worker;
     RenderTexture rt;
     readonly Queue<float[]> history = new Queue<float[]>();
+
+    static ModelEmotion[] CreateDefaultMapping()
+    {
+        var mapping = new ModelEmotion[MODEL_OUTPUTS.Length];
+        for (int i = 0; i < mapping.Length; i++)
+        {
+            mapping[i] = new ModelEmotion
+            {
+                modelOutput = MODEL_OUTPUTS[i],
+                emotion = System.Enum.TryParse(MODEL_OUTPUTS[i], out Emotions e) ? e : Emotions.None
+            };
+        }
+        return mapping;
+    }
+
+    void OnValidate()
+    {
+        if (emotionMapping == null || emotionMapping.Length != MODEL_OUTPUTS.Length)
+        {
+            emotionMapping = CreateDefaultMapping();
+            return;
+        }
+
+        for (int i = 0; i < emotionMapping.Length; i++)
+        {
+            if (emotionMapping[i] == null)
+                emotionMapping[i] = new ModelEmotion();
+            emotionMapping[i].modelOutput = MODEL_OUTPUTS[i];
+        }
+    }
 
     void OnEnable()
     {
@@ -40,31 +80,41 @@ public class FERController : MonoBehaviour
     {
         if (worker == null) return (string.Empty, 0f);
 
-        float[] data = Preprocess(faceCrop);                       
+        float[] data = Preprocess(faceCrop);
         using var input = new Unity.InferenceEngine.Tensor<float>(new Unity.InferenceEngine.TensorShape(1, 3, SIZE, SIZE), data);
         worker.Schedule(input);
 
         using var output = (worker.PeekOutput() as Unity.InferenceEngine.Tensor<float>).ReadbackAndClone();
-        float[] probs = Softmax(output.DownloadToArray());         
-        probs = Smooth(probs);                                    
+        float[] probs = Softmax(output.DownloadToArray());
+        probs = Smooth(probs);
 
         int best = 0;
         for (int i = 1; i < probs.Length; i++) if (probs[i] > probs[best]) best = i;
 
-        EmotionFeedBack(EMOTIONS[best]);
+        Emotions emotion = GetEmotion(best);
+        EmotionFeedBack(emotion);
 
-        return (EMOTIONS[best], probs[best]);
+        return (emotion.ToString(), probs[best]);
     }
 
+    Emotions GetEmotion(int index)
+    {
+        if (emotionMapping == null || index < 0 || index >= emotionMapping.Length || emotionMapping[index] == null)
+            return Emotions.None;
+
+        return emotionMapping[index].emotion;
+    }
+
+    public void EmotionFeedBack(Emotions emotion)
+    {
+        Debug.Log(emotion);
+        CurrentEmotion = emotion;
+    }
 
     public void EmotionFeedBack(string getEmotion)
     {
-        Debug.Log(getEmotion);
-
         if (System.Enum.TryParse(getEmotion, out Emotions emotion))
-        {
-            CurrentEmotion = emotion;
-        }
+            EmotionFeedBack(emotion);
     }
 
     float[] Preprocess(Texture src)
@@ -105,7 +155,7 @@ public class FERController : MonoBehaviour
         return avg;
     }
 
-    public void ResetSmoothing() => history.Clear();   
+    public void ResetSmoothing() => history.Clear();
 
     static float[] Softmax(float[] z)
     {

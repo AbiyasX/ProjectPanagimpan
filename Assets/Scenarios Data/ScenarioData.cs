@@ -8,12 +8,12 @@ public enum Emotions
 {
     None = 0,
     Anger = 1,
-    Contempt = 2,
-    Disgust = 4,
-    Fear = 8,
-    Happiness = 16,
+    Disapppoint = 2,
+    Yucky = 4,
+    Scared = 8,
+    Happy = 16,
     Neutral = 32,
-    Sadness = 64,
+    Sad = 64,
     Surprise = 128
 }
 [CreateAssetMenu(fileName = "ScenarioData", menuName = "Scriptable Objects/ScenarioData")]

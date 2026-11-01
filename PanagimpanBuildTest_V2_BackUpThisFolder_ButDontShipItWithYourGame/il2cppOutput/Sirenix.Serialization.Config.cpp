@@ -663,7 +663,7 @@ inline void GlobalConfig_1__ctor_mC76D239EBDA570AA651A8190F7C7B5896B6FB92B (Glob
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 126503
+// Method Definition Index: 126626
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLogger__ctor_mCA9C19B7C07EFFFAD3E169B3648B87BFF11CBE1B (CustomLogger_t6040AD320682803EC99394A34340712670E1BEA2* __this, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___0_logWarningDelegate, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___1_logErrorDelegate, Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04* ___2_logExceptionDelegate, const RuntimeMethod* method) 
 {
 	{
@@ -722,7 +722,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 126504
+// Method Definition Index: 126627
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLogger_LogWarning_m384E98FEF07F40FE14E66B1BEEE47C2B96F1FF54 (CustomLogger_t6040AD320682803EC99394A34340712670E1BEA2* __this, String_t* ___0_warning, const RuntimeMethod* method) 
 {
 	{
@@ -733,7 +733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLogger_LogWarning_m384E98FEF07F40F
 		return;
 	}
 }
-// Method Definition Index: 126505
+// Method Definition Index: 126628
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLogger_LogError_mF5B0CDB0426E3C1DCF9CD27DD950F0770130787C (CustomLogger_t6040AD320682803EC99394A34340712670E1BEA2* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	{
@@ -744,7 +744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLogger_LogError_mF5B0CDB0426E3C1DC
 		return;
 	}
 }
-// Method Definition Index: 126506
+// Method Definition Index: 126629
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLogger_LogException_m4BD777821948F6F746F3B55B7D1E4355A714CB34 (CustomLogger_t6040AD320682803EC99394A34340712670E1BEA2* __this, Exception_t* ___0_exception, const RuntimeMethod* method) 
 {
 	{
@@ -771,7 +771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomLogger_LogException_m4BD777821948F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 126507
+// Method Definition Index: 126630
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DefaultLoggers_get_DefaultLogger_mA3CC5060E6E8E0229A24386D671C5E0166697888 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -787,7 +787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DefaultLoggers_get_DefaultLogg
 		return L_0;
 	}
 }
-// Method Definition Index: 126508
+// Method Definition Index: 126631
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DefaultLoggers_get_UnityLogger_mC8BBE10B6CFD689CB6D6F484FDEDDF70BB3C11E3 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -890,7 +890,7 @@ IL_005e:
 		return L_10;
 	}
 }
-// Method Definition Index: 126509
+// Method Definition Index: 126632
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultLoggers__cctor_m1EFA00538A85AEB345484B98BCE7F2B6AF610717 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -924,7 +924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultLoggers__cctor_m1EFA00538A85AEB34
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 126510
+// Method Definition Index: 126633
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GlobalSerializationConfig_get_Logger_mDFC55510AB3AE1A3F6528A5A57AB05374B030F6D (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -940,7 +940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GlobalSerializationConfig_get_
 		return L_0;
 	}
 }
-// Method Definition Index: 126511
+// Method Definition Index: 126634
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GlobalSerializationConfig_get_EditorSerializationFormat_m0573CC38209AC61C2F93E4188F1915295DA7AC5B (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -948,7 +948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GlobalSerializationConfig_get_EditorS
 		return L_0;
 	}
 }
-// Method Definition Index: 126512
+// Method Definition Index: 126635
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_set_EditorSerializationFormat_m8349A1C57A555C5EE69D3BD04A4ABC0EFA35AE29 (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -957,7 +957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_set_EditorSeri
 		return;
 	}
 }
-// Method Definition Index: 126513
+// Method Definition Index: 126636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GlobalSerializationConfig_get_BuildSerializationFormat_mE03BA49AD00F401EFC7E1DF72B682ED6B2B71CFD (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -965,7 +965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GlobalSerializationConfig_get_BuildSe
 		return L_0;
 	}
 }
-// Method Definition Index: 126514
+// Method Definition Index: 126637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_set_BuildSerializationFormat_m3511DF4F481DC42F2CE57E830FF4AB72DC3547D6 (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -974,7 +974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_set_BuildSeria
 		return;
 	}
 }
-// Method Definition Index: 126515
+// Method Definition Index: 126638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GlobalSerializationConfig_get_LoggingPolicy_m35EFC76D29300449D127175B960D9BBD7B7CEB3F (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -982,7 +982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GlobalSerializationConfig_get_Logging
 		return L_0;
 	}
 }
-// Method Definition Index: 126516
+// Method Definition Index: 126639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_set_LoggingPolicy_mCD8D5A715E73BA039180268DE041491D113991E2 (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -991,7 +991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_set_LoggingPol
 		return;
 	}
 }
-// Method Definition Index: 126517
+// Method Definition Index: 126640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GlobalSerializationConfig_get_ErrorHandlingPolicy_mA4101823477854B0B75A39666814943F6F3F1222 (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -999,7 +999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GlobalSerializationConfig_get_ErrorHa
 		return L_0;
 	}
 }
-// Method Definition Index: 126518
+// Method Definition Index: 126641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_set_ErrorHandlingPolicy_m9B4BA707933DA680B3163A9F6AF385F93B9ADDAB (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1008,7 +1008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_set_ErrorHandl
 		return;
 	}
 }
-// Method Definition Index: 126519
+// Method Definition Index: 126642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_OnInspectorGUI_mC89EC4B9CA9971D018B5369149E7D88298D73CE8 (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1102,7 +1102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig_OnInspectorGUI
 		return;
 	}
 }
-// Method Definition Index: 126520
+// Method Definition Index: 126643
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig__ctor_mE1FD8D203BD4E74152867B121EDF03268C53FCC2 (GlobalSerializationConfig_tF44A9F8572E42F8D3BFD2F91420918D064D2A4AA* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1117,7 +1117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig__ctor_mE1FD8D2
 		return;
 	}
 }
-// Method Definition Index: 126521
+// Method Definition Index: 126644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GlobalSerializationConfig__cctor_m73494285D559AFB482394D6A2E77D6E12B069203 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

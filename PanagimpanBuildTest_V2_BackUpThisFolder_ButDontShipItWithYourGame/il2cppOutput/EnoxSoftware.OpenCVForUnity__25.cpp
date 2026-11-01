@@ -16517,7 +16517,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t OpenCVInternalUtils_Unsig
 		return ((int64_t)((uint64_t)L_0>>((int32_t)(L_1&((int32_t)63)))));
 	}
 }
-// Method Definition Index: 67647
+// Method Definition Index: 67648
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RectInt__ctor_m6E8B3A6C7EE11257A6B438E36274116FE39B5B42_inline (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* __this, int32_t ___0_xMin, int32_t ___1_yMin, int32_t ___2_width, int32_t ___3_height, const RuntimeMethod* method) 
 {
 	{

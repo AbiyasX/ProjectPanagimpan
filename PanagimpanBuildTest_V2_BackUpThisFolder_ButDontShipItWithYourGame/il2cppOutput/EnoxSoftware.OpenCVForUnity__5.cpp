@@ -29823,7 +29823,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SparsePyrLKOpticalFlow_t8A1906EDE03042EB0FF8D
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 69237
+// Method Definition Index: 69244
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;

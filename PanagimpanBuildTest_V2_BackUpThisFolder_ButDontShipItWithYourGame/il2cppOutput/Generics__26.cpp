@@ -13239,7 +13239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_mEA9A6C71B80C9370
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109242
+// Method Definition Index: 109248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComplexTypeSerializer_1_ReadValue_m3CAB8C47FA0EF6C11E7A8BA41CFCB4A51D74ACD7_gshared (ComplexTypeSerializer_1_tD20C3B900C65B80127CE81A9E947549657B35223* __this, RuntimeObject* ___0_reader, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15255,7 +15255,7 @@ IL_0ac8:
 		return;
 	}
 }
-// Method Definition Index: 109243
+// Method Definition Index: 109249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ComplexTypeSerializer_1_GetBaseFormatter_mBDE6ABA00176D9011F9B4D2D76B6554216DF34E1_gshared (RuntimeObject* ___0_serializationPolicy, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15449,7 +15449,7 @@ IL_00aa:
 		return L_30;
 	}
 }
-// Method Definition Index: 109244
+// Method Definition Index: 109250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComplexTypeSerializer_1_WriteValue_m35BCEC832FCFA0E491493F4293FF99BAD208E4A3_gshared (ComplexTypeSerializer_1_tD20C3B900C65B80127CE81A9E947549657B35223* __this, String_t* ___0_name, Il2CppFullySharedGenericAny ___1_value, RuntimeObject* ___2_writer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15940,7 +15940,7 @@ IL_01a7:
 		return;
 	}
 }
-// Method Definition Index: 109245
+// Method Definition Index: 109251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComplexTypeSerializer_1__ctor_mBE7055785DCAED6F62F05AFACEB16066C46ABB41_gshared (ComplexTypeSerializer_1_tD20C3B900C65B80127CE81A9E947549657B35223* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15948,7 +15948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComplexTypeSerializer_1__ctor_mBE7055785
 		return;
 	}
 }
-// Method Definition Index: 109246
+// Method Definition Index: 109252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ComplexTypeSerializer_1__cctor_mEE9B5872732D44B5DCED1DF7E450ADC7F1C9C18C_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

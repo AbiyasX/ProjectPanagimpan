@@ -7,10 +7,12 @@ using OpenCVForUnity.UnityUtils;
 
 public class OpenCVFaceFeeder : MonoBehaviour
 {
-    public FERController fer;           
-    public RawImage display;          
+    public FERController fer;
+    public RawImage display;
     public float readInterval = 0.2f;
     public bool useFrontCamera = true;
+    public bool showFaceBox = true;
+    public bool showEmotionLabel = false;
 
     WebCamTexture webcam;
     Mat camMat, rgbaMat, grayMat;
@@ -66,6 +68,7 @@ public class OpenCVFaceFeeder : MonoBehaviour
         MatOfRect facesRes = new MatOfRect();
         cascade.detectMultiScale(grayMat, facesRes, 1.2, 5, 0, new Size(80, 80), new Size());
         OpenCVForUnity.CoreModule.Rect[] faces = facesRes.toArray();
+        facesRes.Dispose();
 
         if (faces.Length > 0)
         {
@@ -87,13 +90,16 @@ public class OpenCVFaceFeeder : MonoBehaviour
                 }
             }
 
-            Imgproc.rectangle(rgbaMat, new Point(r.x, r.y), new Point(r.x + r.width, r.y + r.height),
-                              new Scalar(0, 200, 0, 255), 2);
-            Imgproc.putText(rgbaMat, lastLabel, new Point(r.x, r.y - 10),
-                            Imgproc.FONT_HERSHEY_SIMPLEX, 0.8, new Scalar(0, 200, 0, 255), 2);
+            if (showFaceBox)
+                Imgproc.rectangle(rgbaMat, new Point(r.x, r.y), new Point(r.x + r.width, r.y + r.height),
+                                  new Scalar(0, 200, 0, 255), 2);
+
+            if (showEmotionLabel)
+                Imgproc.putText(rgbaMat, lastLabel, new Point(r.x, r.y - 10),
+                                Imgproc.FONT_HERSHEY_SIMPLEX, 0.8, new Scalar(0, 200, 0, 255), 2);
         }
         else lastLabel = "";
-        
+
         if (display != null)
         {
             if (displayTex == null || displayTex.width != rgbaMat.cols() || displayTex.height != rgbaMat.rows())
@@ -158,10 +164,10 @@ public class OpenCVFaceFeeder : MonoBehaviour
     {
         switch (angle)
         {
-            case 90:  Core.rotate(src, dst, Core.ROTATE_90_CLOCKWISE); break;
+            case 90: Core.rotate(src, dst, Core.ROTATE_90_CLOCKWISE); break;
             case 180: Core.rotate(src, dst, Core.ROTATE_180); break;
             case 270: Core.rotate(src, dst, Core.ROTATE_90_COUNTERCLOCKWISE); break;
-            default:  src.copyTo(dst); break;
+            default: src.copyTo(dst); break;
         }
     }
 }

@@ -26139,7 +26139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueCollection_System_Collect
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 75302
+// Method Definition Index: 75308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueCollection__ctor_mD96AA438D8206FA7AAC3CE44811F2264CFDAE9D0_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, SortedDictionary_2_t988B01B17248124FE8F06E2783DC4D609EF0DE2E* ___0_dictionary, const RuntimeMethod* method) 
 {
 	{
@@ -26164,7 +26164,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 75303
+// Method Definition Index: 75309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m28BBA96E916C7C1718013FC218AD0011F85BC3F2_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26177,7 +26177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueCollection_System_Collect
 		return (RuntimeObject*)L_3;
 	}
 }
-// Method Definition Index: 75304
+// Method Definition Index: 75310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueCollection_System_Collections_IEnumerable_GetEnumerator_m761DAC9C156639CBA7E5AD8E77475C026B01408A_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26190,7 +26190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueCollection_System_Collect
 		return (RuntimeObject*)L_3;
 	}
 }
-// Method Definition Index: 75305
+// Method Definition Index: 75311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueCollection_CopyTo_m217D3040F584350D28F9C67F0FBB6C776432099A_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_array, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	U3CU3Ec__DisplayClass5_0_t6D9A35B94F4DCE3D131AC032CA531F4088FF6B0F* V_0 = NULL;
@@ -26278,7 +26278,7 @@ IL_006d:
 		return;
 	}
 }
-// Method Definition Index: 75306
+// Method Definition Index: 75312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueCollection_System_Collections_ICollection_CopyTo_mEE3B6DACF29B4592E7F91F753A98CBA467CF5DDC_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, RuntimeArray* ___0_array, int32_t ___1_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26453,7 +26453,7 @@ IL_00eb:
 		return;
 	}
 }
-// Method Definition Index: 75307
+// Method Definition Index: 75313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ValueCollection_get_Count_m7067AD82D21E332E041B9E833C259AB012772E99_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26464,14 +26464,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ValueCollection_get_Count_m7067AD82D2
 		return L_1;
 	}
 }
-// Method Definition Index: 75308
+// Method Definition Index: 75314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m671AF1ECB838A0090E2C71A5119F42B3F3A2D034_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, const RuntimeMethod* method) 
 {
 	{
 		return (bool)1;
 	}
 }
-// Method Definition Index: 75309
+// Method Definition Index: 75315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m8AD6154E6F39A744559AF232B3FDE138ADC96FD5_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	{
@@ -26480,7 +26480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueCollection_System_Collections_Gener
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-// Method Definition Index: 75310
+// Method Definition Index: 75316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m3F0CC075369E24B0F37813A94ABC4C2CA101413F_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26489,7 +26489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueCollection_System_Collections_Gener
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-// Method Definition Index: 75311
+// Method Definition Index: 75317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_mD610C8D39A17ADB2C04D25CB60E71EEC59FA5E40_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	{
@@ -26501,7 +26501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueCollection_System_Collections_Gener
 		return L_2;
 	}
 }
-// Method Definition Index: 75312
+// Method Definition Index: 75318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_mD38A7956C8D810201B6A5DE46BE0EE3DB3410CBB_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	{
@@ -26510,14 +26510,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueCollection_System_Collections_Gener
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-// Method Definition Index: 75313
+// Method Definition Index: 75319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueCollection_System_Collections_ICollection_get_IsSynchronized_m67D8FEB33A9CE9D7F5FDE4BFC2894D6CD7F94066_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, const RuntimeMethod* method) 
 {
 	{
 		return (bool)0;
 	}
 }
-// Method Definition Index: 75314
+// Method Definition Index: 75320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueCollection_System_Collections_ICollection_get_SyncRoot_m0BA7614D40512200B5F5A8B5747C18C0572BA780_gshared (ValueCollection_tADEE28D8D83F8CCC9E6402F2E4242942BAE648F1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
