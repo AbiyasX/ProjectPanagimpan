@@ -41,7 +41,9 @@ public class RoundSystem : MonoBehaviour
 
         roundSeq = DOTween.Sequence()
             .JoinCallback(() => AudioManager.Instance.PlaySFX(roundStartSFX))
-            .Append(t.DOScale(5f, 0.5f).SetEase(Ease.OutQuad))      
+            .Append(t.DOScaleZ(1f, 0.5f).SetEase(Ease.OutQuad))
+            .Append(t.DOScaleX(4f, 0.5f).SetEase(Ease.OutQuad))  
+            .Append(t.DOScaleY(2f, 0.5f).SetEase(Ease.OutQuad))   
             .Append(t.DOShakeScale(0.4f, 0.1f, 10, 90))             
             .AppendInterval(1f)                                    
             .Append(t.DOScale(0f, 0.4f).SetEase(Ease.InBack))      

@@ -36,8 +36,8 @@ public class EmotionPicker : MonoBehaviour
     [Header("Chosen Emotion")]
     public Image chosenEmotionImage;
     public TextMeshProUGUI chosenEmotionText;
-    public string chosenTextFormat = "You Chose: {0}";
-    public string noChoiceText = "You Chose: ";
+    public string chosenTextFormat = "You'd Feel: {0}";
+    public string noChoiceText = "You'd Feel: ";
 
     [Header("Confirm Panel")]
     public GameObject confirmPanel;
@@ -88,7 +88,7 @@ public class EmotionPicker : MonoBehaviour
             Select(entry);
         }
 
-        SetImage(chosenEmotionImage, GetSprite(entry));
+        SetImage(chosenEmotionImage, GetSprite(entry), GetColor(entry));
 
         if (chosenEmotionText != null)
             chosenEmotionText.text = string.Format(chosenTextFormat, GetLabel(entry));
@@ -233,7 +233,7 @@ public class EmotionPicker : MonoBehaviour
 
         confirmPanel.SetActive(true);
 
-        SetImage(confirmEmotionImage, GetSprite(chosen));
+        SetImage(confirmEmotionImage, GetSprite(chosen), GetColor(chosen));
 
         if (confirmEmotionText != null)
         {
@@ -304,7 +304,7 @@ public class EmotionPicker : MonoBehaviour
 
         chosen = null;
 
-        SetImage(chosenEmotionImage, null);
+        SetImage(chosenEmotionImage, null, Color.white);
 
         if (chosenEmotionText != null)
             chosenEmotionText.text = noChoiceText;
@@ -314,11 +314,12 @@ public class EmotionPicker : MonoBehaviour
 
     // ---------- Helpers ----------
 
-    void SetImage(Image image, Sprite sprite)
+    void SetImage(Image image, Sprite sprite, Color color)
     {
         if (image == null) return;
 
         image.sprite = sprite;
+        image.color = color;
         image.preserveAspect = true;
         image.gameObject.SetActive(sprite != null);
     }
@@ -334,6 +335,19 @@ public class EmotionPicker : MonoBehaviour
                 return child.sprite;
 
         return entry.button.image != null ? entry.button.image.sprite : null;
+    }
+
+    Color GetColor(EmotionButton entry)
+    {
+        if (entry.button == null) return Color.white;
+
+        //if (entry.color.HasValue) return entry.color.Value;
+
+        foreach (Image child in entry.button.GetComponentsInChildren<Image>(true))
+            if (child != entry.button.image && child.sprite != null)
+                return child.color;
+
+        return entry.button.image != null ? entry.button.image.color : Color.white;
     }
 
     string GetLabel(EmotionButton entry)
