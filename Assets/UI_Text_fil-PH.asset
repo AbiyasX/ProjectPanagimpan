@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_Text_fil-PH
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: fil-PH
+  m_SharedData: {fileID: 11400000, guid: 74a95eb004f8d474dbebc14da2696f7f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 225691615232
+    m_Localized: Simulan ang Laro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 450141405184
+    m_Localized: Umalis
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

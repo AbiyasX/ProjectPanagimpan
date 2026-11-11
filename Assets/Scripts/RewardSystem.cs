@@ -18,6 +18,17 @@ public class RewardSystem : MonoBehaviour
     public RewardPanelScript rewardPanel;
     public List<Reward> rewards = new List<Reward>();
 
+    public int CollectedCount
+    {
+        get
+        {
+            int count = 0;
+            foreach (var reward in rewards)
+                if (reward.isCollected) count++;
+            return count;
+        }
+    }
+
     void Awake()
     {
         Instance = this;

@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7adab9d9ef604e42af226d41cf88436, type: 3}
+  m_Name: EndResult 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogue_Background: {fileID: 0}
+  dialogue_Texts:
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: The two kids finally arrive at the school festival.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: Bringing with them safely their gifts and food to share.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: The first thing they see is their friends, who have been waiting
+      for them all this time.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: Friend 1
+    dialogueText: You guys finally made it!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: Friend 2
+    dialogueText: "Hi {player1}! Hi {player2}! We\u2019re happy you made it safely!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: Hi everyone! We missed you all!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: Hello friends!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: The kids all laugh and share a hug.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: Friend 3
+    dialogueText: You guys brought food and gifts too!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: Kid 2
+    dialogueText: "That\u2019s right! We brought them for all of us to share!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: Friend 3
+    dialogueText: You guys are so nice, thank you!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: Of course! We wanted to make this festival more fun for us friends.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: Friend 2
+    dialogueText: "That\u2019s so kind of you guys!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: "It\u2019s nothing! You guys mean a lot to us both."
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: Yeah! We love you guys!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: Friend 1
+    dialogueText: We love you too!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: Friend 3
+    dialogueText: Friends forever!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: And so, the friends spend the rest of the day hanging out.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: And enjoying all of the gifts and pasalubong that {player1} and
+      {player2} brought.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: '{player1} and  {player2}  made new memories with the rest of their
+      friends.'
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: What do you think I felt about this memory?
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: "Hmm, I think you felt\u2026 happy!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: "Hehe, you\u2019re right. I did!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: THE END.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  startTriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7693026590095107061, guid: dc20cbb2795e406428ee21fc2423be34, type: 3}
+        m_TargetAssemblyTypeName: RewardSystem, Assembly-CSharp
+        m_MethodName: ShowRewards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  endTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
