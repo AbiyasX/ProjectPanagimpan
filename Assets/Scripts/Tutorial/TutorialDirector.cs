@@ -49,8 +49,9 @@ public class TutorialDirector : MonoBehaviour
     public ScenarioData[] round2Prompts;
 
     [Header("Reward")]
-    [Tooltip("Give the Home area's reward (pasalubong) the first time a practice guess is correct.")]
-    public bool givePasalubongOnCorrect = true;
+    [Tooltip("Which slot in the RewardSystem's Rewards list is the spaghetti (0 = first). It is always given at the end of the Home scene, right or wrong answers, tutorial or no tutorial.")]
+    [Min(0)]
+    public int spaghettiRewardIndex = 0;
 
     [Header("Testing")]
     [Tooltip("For testing without a camera. Set back to Use Camera before building!")]
@@ -81,6 +82,14 @@ public class TutorialDirector : MonoBehaviour
     // =====================================================================
     //  SETUP
     // =====================================================================
+
+    void Awake()
+    {
+        // Unity's own "Rendering Debugger" overlay ([Debug Canvas] / Display Stats) can pop up by accident
+        // while tapping through the game (its shortcut is Ctrl+Backspace, or a three-finger double tap).
+        // Nobody needs it here, so switch it off. Delete this line if you ever want that overlay back.
+        UnityEngine.Rendering.DebugManager.instance.enableRuntimeUI = false;
+    }
 
     void Start()
     {
@@ -214,6 +223,95 @@ public class TutorialDirector : MonoBehaviour
         }
     }
 
+    // ---------------------------------------------------------------------
+    //  Camera screen: always start on the "open camera" step
+    // ---------------------------------------------------------------------
+    GameObject cameraPanel;      // the panel with the live camera + the check button
+    Button openCameraButton;     // the button that opens that panel
+    bool cameraPartsSearched;
+    float cameraScreenShownAt;
+
+    // Shows the game's camera screen with the camera panel closed, so the guesser reads the
+    // instructions and presses the "open camera" button themselves.
+    IEnumerator ShowCameraScreen()
+    {
+        FindCameraParts();
+
+        bool wasAlreadyOpen = cameraPanel != null && cameraPanel.activeSelf;
+        if (cameraPanel != null) cameraPanel.SetActive(false);
+
+        // The open button ignores taps for a moment, so a leftover tap from the pop-up can't press it.
+        if (openCameraButton != null) openCameraButton.enabled = false;
+
+        screenChanger.NextScreen();
+        screenChanger.SetVisible(true);
+        if (faceCapture != null) faceCapture.SetActive(true);
+        cameraScreenShownAt = Time.realtimeSinceStartup;
+
+        // TEMPORARY (for finding the round-1 bug): say what state the camera screen started in.
+        Debug.Log($"[Tutorial debug] Camera screen shown. Camera panel found: {cameraPanel != null}, was already open: {wasAlreadyOpen}, open button found: {openCameraButton != null}.", this);
+
+        yield return new WaitForSecondsRealtime(0.5f);
+        if (openCameraButton != null) openCameraButton.enabled = true;
+    }
+
+    // Finds the camera panel and its open button from how the scene's buttons are wired:
+    //  - the camera panel is the object the check button sits inside and switches off when pressed
+    //  - the open button is the button outside that panel that switches it on
+    void FindCameraParts()
+    {
+        if (cameraPartsSearched) return;
+        cameraPartsSearched = true;
+
+        foreach (Button check in checkButtons)
+        {
+            if (check == null) continue;
+            for (int i = 0; i < check.onClick.GetPersistentEventCount(); i++)
+            {
+                GameObject target = check.onClick.GetPersistentTarget(i) as GameObject;
+                if (target == null || check.onClick.GetPersistentMethodName(i) != nameof(GameObject.SetActive)) continue;
+                if (!check.transform.IsChildOf(target.transform) || IsScreen(target)) continue;
+                cameraPanel = target;
+            }
+        }
+        if (cameraPanel == null) return;
+
+        foreach (Button button in FindObjectsByType<Button>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+        {
+            if (button.transform.IsChildOf(cameraPanel.transform)) continue;
+            for (int i = 0; i < button.onClick.GetPersistentEventCount(); i++)
+                if (button.onClick.GetPersistentTarget(i) == cameraPanel && button.onClick.GetPersistentMethodName(i) == nameof(GameObject.SetActive))
+                    openCameraButton = button;
+        }
+
+        // TEMPORARY (for finding the round-1 bug): report whenever the camera panel gets opened, and by what.
+        cameraPanel.AddComponent<CameraPanelProbe>().director = this;
+    }
+
+    bool IsScreen(GameObject candidate)
+    {
+        if (screenChanger.screens == null) return false;
+        foreach (GameObject screen in screenChanger.screens)
+            if (screen == candidate)
+                return true;
+        return false;
+    }
+
+    // TEMPORARY: writes a line (with a stack trace) to the Console each time the camera panel is switched on.
+    class CameraPanelProbe : MonoBehaviour
+    {
+        public TutorialDirector director;
+
+        void OnEnable()
+        {
+            if (director == null) return;
+            float since = Time.realtimeSinceStartup - director.cameraScreenShownAt;
+            UnityEngine.EventSystems.EventSystem events = UnityEngine.EventSystems.EventSystem.current;
+            string selected = events != null && events.currentSelectedGameObject != null ? events.currentSelectedGameObject.name : "nothing";
+            Debug.Log($"[Tutorial debug] Camera panel OPENED {since:F2}s after the camera screen was shown. Selected UI object: {selected}. Frame {Time.frameCount}.", this);
+        }
+    }
+
     void StopListeningToPickers()
     {
         if (scenarioPicker != null) scenarioPicker.ScenarioSelected -= OnScenarioChosen;
@@ -287,6 +385,9 @@ public class TutorialDirector : MonoBehaviour
         yield return Say(
             Kid1("Thanks Nanay!"),
             Kid2("Thank you Tita!"));
+
+        // The kids always leave home with the spaghetti (shown with the game's own reward panel).
+        yield return GiveSpaghetti();
 
         // NOTE: Pop-up to remind kids they'll be guided throughout the game.
         yield return popup.Show("Don't worry!\nYou'll be guided the whole way through the game.", "Let's go!");
@@ -362,9 +463,7 @@ public class TutorialDirector : MonoBehaviour
         if (checkButtons.Count > 0)
         {
             checkPressed = false;
-            screenChanger.NextScreen();
-            screenChanger.SetVisible(true);
-            if (faceCapture != null) faceCapture.SetActive(true);
+            yield return ShowCameraScreen();
 
             yield return new WaitUntil(() => checkPressed);
 
@@ -407,7 +506,6 @@ public class TutorialDirector : MonoBehaviour
         if (correct)
         {
             yield return Say(Parent("You got it! Your kite is charging up, and you found pasalubong to bring to your friends!"));
-            yield return GivePasalubong();
         }
         else
         {
@@ -475,15 +573,46 @@ public class TutorialDirector : MonoBehaviour
         scenarioSystem.progressTracker.SetProgress(areaIndex, roundsDone, scenarioSystem.SceneArea.Length, scenarioSystem.roundsPerArea);
     }
 
-    // The Home area's reward (set on the House AreasData). RewardSystem only gives it once.
-    IEnumerator GivePasalubong()
+    // Gives the spaghetti through the game's RewardSystem, which shows it on the RewardPanel already in the scene
+    // (tap to reveal). Waits until that panel has closed. Nothing here depends on the practice answers.
+    IEnumerator GiveSpaghetti()
     {
-        AreasData home = HomeArea();
-        if (!givePasalubongOnCorrect || home == null || home.onRewardEarned == null) yield break;
+        RewardSystem rewards = RewardSystem.Instance;
 
-        home.onRewardEarned.Invoke();
+        if (rewards == null)
+        {
+            // RewardSystem only registers itself when its object is ON. If it is switched off in the scene,
+            // switch it on here, otherwise no reward can ever be given.
+            rewards = FindAnyObjectByType<RewardSystem>(FindObjectsInactive.Include);
+            if (rewards == null)
+            {
+                Debug.LogError("TutorialDirector: there is no RewardSystem in this scene, so the spaghetti can't be given.", this);
+                yield break;
+            }
 
-        RewardPanelScript panel = RewardSystem.Instance != null ? RewardSystem.Instance.rewardPanel : null;
+            Debug.LogWarning($"TutorialDirector: the '{rewards.gameObject.name}' object was switched off in the scene, so it was switched on to give the spaghetti. Tick it on in the Hierarchy to make this permanent.", rewards);
+            for (Transform t = rewards.transform; t != null; t = t.parent)
+                if (!t.gameObject.activeSelf)
+                    t.gameObject.SetActive(true);
+
+            if (RewardSystem.Instance == null)
+            {
+                Debug.LogError("TutorialDirector: the RewardSystem could not be started, so the spaghetti can't be given.", rewards);
+                yield break;
+            }
+            rewards = RewardSystem.Instance;
+        }
+
+        if (spaghettiRewardIndex >= rewards.rewards.Count)
+        {
+            Debug.LogError($"TutorialDirector: Spaghetti Reward Index is {spaghettiRewardIndex}, but the RewardSystem only has {rewards.rewards.Count} reward(s).", this);
+            yield break;
+        }
+
+        // Collect() marks it as collected and opens the reward panel. It returns false if it was already collected.
+        if (!rewards.Collect(spaghettiRewardIndex)) yield break;
+
+        RewardPanelScript panel = rewards.rewardPanel;
         if (panel != null)
             yield return new WaitWhile(() => panel.IsShowing);
     }

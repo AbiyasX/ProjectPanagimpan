@@ -28161,7 +28161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1592270293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34092,7 +34092,7 @@ MonoBehaviour:
   parentCharacter: {fileID: 0}
   round1Prompts: []
   round2Prompts: []
-  givePasalubongOnCorrect: 1
+  spaghettiRewardIndex: 0
   guessTestMode: 0
 --- !u!1 &1990000011
 GameObject:
