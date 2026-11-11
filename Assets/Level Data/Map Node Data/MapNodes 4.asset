@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0d9501cdf1a0ed47a6a25c5c1d3a9f6, type: 3}
   m_Name: MapNodes 4
   m_EditorClassIdentifier: Assembly-CSharp::MapNodes
-  Name: 
-  Model: {fileID: 1752029018277641856, guid: bf01c0f72b5c2a141a133caaa52670e4, type: 3}
+  Name: School
+  Model: {fileID: 919132149155446097, guid: c516ea29a8b9766468fe97c2db6ada37, type: 3}
