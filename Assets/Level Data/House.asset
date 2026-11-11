@@ -18,6 +18,11 @@ MonoBehaviour:
     rain on the roof, and stories from Lola. The place where every feeling is safe
     to show.
   background: {fileID: 21300000, guid: b3e4fe03e461c0e4189279ded062bfee, type: 3}
+  Player1Sprite: {fileID: 21300000, guid: be7fbb00273f51b4aab60890f147e60c, type: 3}
+  Player2Sprite: {fileID: 21300000, guid: 16207dc38622f4e419d6a5d7e5780fb9, type: 3}
+  overridePositions: 1
+  player1Position: {x: -126, y: 29.999987}
+  player2Position: {x: 133, y: 21.999987}
   BackgroundMusic: {fileID: 8300000, guid: 6748dbb275033c245a249a9cdd045163, type: 3}
   areaDialogue: {fileID: 11400000, guid: c41b6542c7656fb4d86ef98a89d6b731, type: 2}
   possbileScenarios:
@@ -26,6 +31,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 42b814e32de9a224da0ee0498caa1d70, type: 2}
   - {fileID: 11400000, guid: adc3ea9c2c72d4947a79da5851322dcd, type: 2}
   - {fileID: 11400000, guid: 7886d42763ec4b84ab9ef337319feb94, type: 2}
+  - {fileID: 11400000, guid: a0941ff272f58524c9aec6ab1a273f83, type: 2}
   rewardName: Green
   onRewardEarned:
     m_PersistentCalls:

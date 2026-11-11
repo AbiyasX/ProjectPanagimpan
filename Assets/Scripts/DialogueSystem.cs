@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using DG.Tweening;
 using Sirenix.OdinInspector;
 
@@ -11,6 +12,11 @@ public class DialogueCharacterSlot
     public SpeakerType speakerType;
     public string speakerName;
     public CharacterScript character;
+
+    [Tooltip("Optional. If empty, the first Image / SpriteRenderer found on the character (or its children) is used.")]
+    public Image targetImage;
+    [Tooltip("Optional. If empty, the first Image / SpriteRenderer found on the character (or its children) is used.")]
+    public SpriteRenderer targetRenderer;
 }
 
 public class DialogueSystem : MonoBehaviour
@@ -73,6 +79,103 @@ public class DialogueSystem : MonoBehaviour
     public void SetTextReplacement(string token, string value)
     {
         textReplacements[token] = value;
+    }
+
+    // Uses the Player 1 / Player 2 sprites (and positions, if overridden) from the area's AreasData.
+    [Button("Test Set Area")]
+    public void SetArea(AreasData area)
+    {
+        if (area == null) return;
+        SetPlayerSprites(area.Player1Sprite, area.Player2Sprite);
+
+        if (area.overridePositions)
+        {
+            SetCharacterPosition(SpeakerType.Player1, area.player1Position);
+            SetCharacterPosition(SpeakerType.Player2, area.player2Position);
+        }
+    }
+
+    // Move the players where you want them in the Scene, then press this
+    // to save their current positions into that area's AreasData.
+    [Button("Save Current Positions To Area")]
+    void SaveCurrentPositionsToArea(AreasData area)
+    {
+        if (area == null)
+        {
+            Debug.LogWarning("Drag an AreasData asset in first");
+            return;
+        }
+
+        Transform p1 = GetCharacterTransform(SpeakerType.Player1);
+        Transform p2 = GetCharacterTransform(SpeakerType.Player2);
+
+        if (p1 != null) area.player1Position = GetPosition(p1);
+        if (p2 != null) area.player2Position = GetPosition(p2);
+        area.overridePositions = true;
+
+#if UNITY_EDITOR
+        UnityEditor.EditorUtility.SetDirty(area);
+        UnityEditor.AssetDatabase.SaveAssets();
+#endif
+        Debug.Log($"Saved player positions to '{area.name}'", area);
+    }
+
+    Transform GetCharacterTransform(SpeakerType type)
+    {
+        if (characters == null) return null;
+        foreach (var slot in characters)
+            if (slot != null && slot.character != null && slot.speakerType == type)
+                return slot.character.transform;
+        return null;
+    }
+
+    void SetCharacterPosition(SpeakerType type, Vector2 position)
+    {
+        Transform t = GetCharacterTransform(type);
+        if (t == null) return;
+
+        if (t is RectTransform rt)
+            rt.anchoredPosition = position;
+        else
+            t.localPosition = new Vector3(position.x, position.y, t.localPosition.z);
+    }
+
+    static Vector2 GetPosition(Transform t)
+    {
+        return t is RectTransform rt ? rt.anchoredPosition : (Vector2)t.localPosition;
+    }
+
+    // Swaps the Player1 and Player2 character sprites. A null sprite keeps the current one.
+    public void SetPlayerSprites(Sprite player1Sprite, Sprite player2Sprite)
+    {
+        if (characters == null) return;
+
+        foreach (var slot in characters)
+        {
+            if (slot == null) continue;
+
+            Sprite sprite = null;
+            if (slot.speakerType == SpeakerType.Player1) sprite = player1Sprite;
+            else if (slot.speakerType == SpeakerType.Player2) sprite = player2Sprite;
+
+            if (sprite == null) continue;
+
+            Image image = slot.targetImage;
+            SpriteRenderer renderer = slot.targetRenderer;
+
+            if (image == null && renderer == null && slot.character != null)
+            {
+                image = slot.character.GetComponentInChildren<Image>(true);
+                if (image == null)
+                    renderer = slot.character.GetComponentInChildren<SpriteRenderer>(true);
+            }
+
+            if (image != null) image.sprite = sprite;
+            if (renderer != null) renderer.sprite = sprite;
+
+            if (image == null && renderer == null)
+                Debug.LogWarning($"DialogueSystem: no Image or SpriteRenderer found for character '{slot.speakerName}'", this);
+        }
     }
 
     [Button("Play Dialogue")]

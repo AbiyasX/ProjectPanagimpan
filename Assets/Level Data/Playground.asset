@@ -18,6 +18,11 @@ MonoBehaviour:
 
 '
   background: {fileID: 21300000, guid: c83ac55ed8277e941a67b1dfb52bdf54, type: 3}
+  Player1Sprite: {fileID: 21300000, guid: c8f8deb1340091d438cc93abc311fd75, type: 3}
+  Player2Sprite: {fileID: 21300000, guid: 1bcfb5437d1799f4fb4eaec33bbd10ea, type: 3}
+  overridePositions: 1
+  player1Position: {x: -126, y: 8}
+  player2Position: {x: 83, y: 25}
   BackgroundMusic: {fileID: 8300000, guid: af890908458682c4295ea706d5b8e5df, type: 3}
   areaDialogue: {fileID: 11400000, guid: 1212ec596d8441a40971f02a0925bb22, type: 2}
   possbileScenarios:

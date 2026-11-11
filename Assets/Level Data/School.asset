@@ -16,10 +16,16 @@ MonoBehaviour:
   WelcomeText: 'Enjoy Studying '
   areaSypnosis: A lively school where kids learn, play, and make friends every day.
     Where every day brings something new to feel.
-  background: {fileID: 0}
-  possbileScenarios:
-  - {fileID: 11400000, guid: 4238ea7df5b2fea4cbf9b6cb286d4a59, type: 2}
-  - {fileID: 11400000, guid: 8eedf4a4cd71c034291785f8cba23726, type: 2}
-  - {fileID: 11400000, guid: 73e95758087245e468c8e2e08e132eda, type: 2}
-  - {fileID: 11400000, guid: a675d3f797bf67043b511a22f1702a24, type: 2}
-  - {fileID: 11400000, guid: 11fb735d389735a488d2d6d7f5d17b27, type: 2}
+  background: {fileID: 21300000, guid: a5e8eeb9cb1599e4e9f6f9ca1e687d68, type: 3}
+  Player1Sprite: {fileID: 21300000, guid: bc2eeb5d992d6534ab17c45a39222d40, type: 3}
+  Player2Sprite: {fileID: 21300000, guid: f758ea71c6bbd0e4aa816043b599bbe1, type: 3}
+  overridePositions: 1
+  player1Position: {x: -97, y: 0}
+  player2Position: {x: 133, y: -12}
+  BackgroundMusic: {fileID: 8300000, guid: 8da7a24cb08583a449d9f0efa136f185, type: 3}
+  areaDialogue: {fileID: 0}
+  possbileScenarios: []
+  rewardName: 
+  onRewardEarned:
+    m_PersistentCalls:
+      m_Calls: []
