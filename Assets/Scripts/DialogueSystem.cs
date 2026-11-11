@@ -159,12 +159,23 @@ public class DialogueSystem : MonoBehaviour
         UpdateTalkingCharacters(line);
 
         typeTween?.Kill();
-        dialogueTextUI.text = "";
         lastTypedLength = 0;
 
+        // Set the FULL text once so TMP lays out the final lines/wrapping right away,
+        // then reveal it by tweening maxVisibleCharacters (no reflow while typing).
         string text = ApplyReplacements(line.dialogueText);
-        float duration = text.Length / charsPerSecond;
-        typeTween = dialogueTextUI.DOText(text, duration)
+        dialogueTextUI.text = text;
+        dialogueTextUI.maxVisibleCharacters = 0;
+        dialogueTextUI.ForceMeshUpdate();
+
+        int total = dialogueTextUI.textInfo.characterCount;
+        float duration = total / charsPerSecond;
+
+        typeTween = DOTween.To(
+                () => dialogueTextUI.maxVisibleCharacters,
+                x => dialogueTextUI.maxVisibleCharacters = x,
+                total,
+                duration)
             .SetEase(Ease.Linear)
             .OnUpdate(PlayTypingSound)
             .SetLink(gameObject);
@@ -174,14 +185,16 @@ public class DialogueSystem : MonoBehaviour
 
     void PlayTypingSound()
     {
-        string shown = dialogueTextUI.text;
-        int length = shown.Length;
+        int length = dialogueTextUI.maxVisibleCharacters;
         if (length <= lastTypedLength) return;
 
         int previous = lastTypedLength;
         lastTypedLength = length;
 
-        if (char.IsWhiteSpace(shown[length - 1])) return;
+        var info = dialogueTextUI.textInfo;
+        if (length - 1 >= info.characterCount) return;
+        if (char.IsWhiteSpace(info.characterInfo[length - 1].character)) return;
+
         if (length / playEveryNChars == previous / playEveryNChars) return;
         if (typingClips == null || typingClips.Length == 0) return;
 
@@ -223,6 +236,7 @@ public class DialogueSystem : MonoBehaviour
         UpdateTalkingCharacters(null);
         speakerUI.text = "";
         dialogueTextUI.text = "";
+        dialogueTextUI.maxVisibleCharacters = 99999;
         dialoguePanel.SetActive(false);
         dialogueBackGround.SetActive(false);
 
