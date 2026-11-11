@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7adab9d9ef604e42af226d41cf88436, type: 3}
+  m_Name: TusokTusokDialogData
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogue_Background: {fileID: 0}
+  dialogue_Texts:
+  - speakerType: 0
+    dialogueSpeaker: Narrator
+    dialogueText: The pair first arrives at their favorite place to eat tusok-tusok.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: Hey, this is where we always hang out after school!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: Oh yeah! I love all the food they have here.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: Do you remember my favorite? I know yours is kikiam.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: Yeah! Yours is kwek-kwek!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: "You\u2019re right, haha!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: "We have so many memories here, and we\u2019re always making more!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: You know, this is a good time to charge our kite again.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: Yes, we should! Do you still remember our time spent here?
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: Eating, drinking, having a laugh? Yeah!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: The kids share yet another laugh, then taking the time to remember
+      their memories here at the tusok-tusokan.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  startTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []

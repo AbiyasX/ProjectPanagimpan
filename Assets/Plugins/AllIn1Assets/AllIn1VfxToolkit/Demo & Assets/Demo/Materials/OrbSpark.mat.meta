@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a30bf8ecd0a09e7459ff400bed82a075
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Materials/OrbSpark.mat
+  uploadId: 1035270

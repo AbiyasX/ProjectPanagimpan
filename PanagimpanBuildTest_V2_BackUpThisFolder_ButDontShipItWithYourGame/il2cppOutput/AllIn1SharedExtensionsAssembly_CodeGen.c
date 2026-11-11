@@ -1,0 +1,93 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m09A97F4BE821455A82EEF416FABD23406E5E554B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mD089E41DEEEF18E24DF6537EA77E46D3C86790A4 (void);
+extern void AllIn1DepthColoringProperties_ApplyValues_m1C2B3204B4FB56948EE79961E332F7A7377295DD (void);
+extern void AllIn1DepthColoringProperties__ctor_m17A097947A4E1DB888A02FC5B12C0197BCEE3DF0 (void);
+extern void DepthColoringCamera_OnEnable_mA4649F677A6639F33842EE574F16FB7FEE0AEF09 (void);
+extern void DepthColoringCamera__ctor_m2176F8FEFD1A4E00BF78E9DC7009406B059299AA (void);
+extern void FastLightConfigurator_Update_m620EDDC112FD74546E193EE0392C840AF53D77B7 (void);
+extern void FastLightConfigurator__ctor_m78355CD9E53EBB9BC5E9BB679786D2D41BCB185B (void);
+extern void ShaderGlobalTimeController_Update_mC209CDE8FD3F9123139F7F26506735D90C9BF18D (void);
+extern void ShaderGlobalTimeController__ctor_m5F7AE5B4EF17EA8DAB51F46BDBE95CDD1F3F673D (void);
+extern void ShadowsConfigurator_OnEnable_mC8062745147788FF7903E2908136D9D4906CCDA6 (void);
+extern void ShadowsConfigurator_Update_mB4024DAD138A15FFBC5B357BA0EBD4D4A98CA1EB (void);
+extern void ShadowsConfigurator_UpdateEditor_m499D3FE97A8031172AD4F5CFE66594D490DCBDD5 (void);
+extern void ShadowsConfigurator_UpdateRuntime_m8FA41DFE69B51289F25D157A88D4B79DE56BCF88 (void);
+extern void ShadowsConfigurator_SetupShadowColor_mF1372BB8D7D7A36764922B512A06EBFF19D2E3E7 (void);
+extern void ShadowsConfigurator__ctor_m76412793E537CF5DDD2BD4CE83F49D76A1AE30AC (void);
+extern void WindController_Update_m33EBCB57AC460667F651BB96F4E8532FA96F28FC (void);
+extern void WindController_ApplyWindValues_mE21224E582DB9D53EEA6B0636170A57BF70A6C4E (void);
+extern void WindController__ctor_mE86FB7CFA9F7C2A07F692C01C3A3AE55DE8791D8 (void);
+static Il2CppMethodPointer s_methodPointers[19] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m09A97F4BE821455A82EEF416FABD23406E5E554B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mD089E41DEEEF18E24DF6537EA77E46D3C86790A4,
+	AllIn1DepthColoringProperties_ApplyValues_m1C2B3204B4FB56948EE79961E332F7A7377295DD,
+	AllIn1DepthColoringProperties__ctor_m17A097947A4E1DB888A02FC5B12C0197BCEE3DF0,
+	DepthColoringCamera_OnEnable_mA4649F677A6639F33842EE574F16FB7FEE0AEF09,
+	DepthColoringCamera__ctor_m2176F8FEFD1A4E00BF78E9DC7009406B059299AA,
+	FastLightConfigurator_Update_m620EDDC112FD74546E193EE0392C840AF53D77B7,
+	FastLightConfigurator__ctor_m78355CD9E53EBB9BC5E9BB679786D2D41BCB185B,
+	ShaderGlobalTimeController_Update_mC209CDE8FD3F9123139F7F26506735D90C9BF18D,
+	ShaderGlobalTimeController__ctor_m5F7AE5B4EF17EA8DAB51F46BDBE95CDD1F3F673D,
+	ShadowsConfigurator_OnEnable_mC8062745147788FF7903E2908136D9D4906CCDA6,
+	ShadowsConfigurator_Update_mB4024DAD138A15FFBC5B357BA0EBD4D4A98CA1EB,
+	ShadowsConfigurator_UpdateEditor_m499D3FE97A8031172AD4F5CFE66594D490DCBDD5,
+	ShadowsConfigurator_UpdateRuntime_m8FA41DFE69B51289F25D157A88D4B79DE56BCF88,
+	ShadowsConfigurator_SetupShadowColor_mF1372BB8D7D7A36764922B512A06EBFF19D2E3E7,
+	ShadowsConfigurator__ctor_m76412793E537CF5DDD2BD4CE83F49D76A1AE30AC,
+	WindController_Update_m33EBCB57AC460667F651BB96F4E8532FA96F28FC,
+	WindController_ApplyWindValues_mE21224E582DB9D53EEA6B0636170A57BF70A6C4E,
+	WindController__ctor_mE86FB7CFA9F7C2A07F692C01C3A3AE55DE8791D8,
+};
+static const int32_t s_InvokerIndices[19] = 
+{
+	34251,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AllIn1SharedExtensionsAssembly_CodeGenModule;
+const Il2CppCodeGenModule g_AllIn1SharedExtensionsAssembly_CodeGenModule = 
+{
+	"AllIn1SharedExtensionsAssembly.dll",
+	19,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

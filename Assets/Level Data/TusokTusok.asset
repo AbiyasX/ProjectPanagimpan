@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefdd8838c41d2147942db8751b1c36e, type: 3}
+  m_Name: TusokTusok
+  m_EditorClassIdentifier: Assembly-CSharp::AreasData
+  AreaTitle: TusokTusok
+  WelcomeText: Tusok
+  areaSypnosis: '
+
+'
+  background: {fileID: 21300000, guid: 02833b3124944c846a516561fea4fb0e, type: 3}
+  BackgroundMusic: {fileID: 8300000, guid: 6a986ebdd9894524d812536201a63696, type: 3}
+  areaDialogue: {fileID: 11400000, guid: 19043824e3ad54141adaa34001a4b51e, type: 2}
+  possbileScenarios:
+  - {fileID: 11400000, guid: 3bb9667ff48c3884a81d48429f9aeb23, type: 2}
+  - {fileID: 11400000, guid: e48d37d5eaa0dd14f9fb2dae9ea13f55, type: 2}
+  - {fileID: 11400000, guid: 6b628e96bb15e264ba262f55e4383a6d, type: 2}
+  - {fileID: 11400000, guid: 99b285290d19c2e4195b2c9a2ac19e79, type: 2}
+  - {fileID: 11400000, guid: 3c836c7c13fc84a4480bd272b5d9a9cf, type: 2}
+  rewardName: Blue
+  onRewardEarned:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 6693b6cd008e0a448be5f120db14d0f9, type: 2}
+        m_TargetAssemblyTypeName: RewardSystemData, Assembly-CSharp
+        m_MethodName: CollectReward
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

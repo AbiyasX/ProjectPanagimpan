@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 230441eae76c4b840818690a94c936e4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2655988077585873504
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures/ImportPreset/AllIn1VfxImportPreset.preset
+  uploadId: 1035270

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 742172b1482a6584a8d6c884aed4e370
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/AllIn1SharedAssembly.asmdef
+  uploadId: 1035270

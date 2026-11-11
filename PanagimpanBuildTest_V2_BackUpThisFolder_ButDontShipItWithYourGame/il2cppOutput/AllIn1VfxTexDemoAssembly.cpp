@@ -1,0 +1,2005 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E;
+struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
+struct Dictionary_2_t609CD6E7E686007E5CF00E6A12C74A3B3106EF96;
+struct List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F;
+struct List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3;
+struct List_1_t8292C421BBB00D7661DC07462822936152BAB446;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct PointerModelU5BU5D_tE7B1CA281F392BD0840E1A81754AC94AF44FEE81;
+struct RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997;
+struct TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB;
+struct AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD;
+struct AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873;
+struct AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938;
+struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
+struct BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622;
+struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1;
+struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct DefaultInputActions_t8041965208E4C6952C7969FD33249007DE96F0A6;
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707;
+struct ExtendedPointerEventData_t164B462A9B123B2EE69B7DEC4F33F6AA3DE7937F;
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D;
+struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1;
+struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
+struct InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct String_t;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77;
+struct UIToolkitInteroperabilityBridge_t8E98EE5D73E8CCAA894A1BE50049E2A06E592CDD;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t979983055485449447C70366CB0227F1448FCECA;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t6EF1BAAB70DD327A61595E05A8C1E0BF25D179E1____02426E57531027559F32AD57B54F7EBBF3A370B37BBA2A696CD62BBA674AA9AF_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t6EF1BAAB70DD327A61595E05A8C1E0BF25D179E1____B8776E009973DFB5D0C2F311EAB19BE7E71BA98E0562D78B3EA87DBE09DD4198_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1;
+IL2CPP_EXTERN_C String_t* _stringLiteralB1EFBA0C65B736BCC0888A4050F62D0D24AA95D9;
+IL2CPP_EXTERN_C String_t* _stringLiteralB93A832C1F693E12C0F1F117D18A77DA7AD47E26;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD_RuntimeMethod_var;
+
+struct All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997;
+struct TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tC496832DCC059C54195D5A3D7EE67C68397257F9 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t6EF1BAAB70DD327A61595E05A8C1E0BF25D179E1  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t979983055485449447C70366CB0227F1448FCECA  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct InlinedArray_1_tC2490B07B1DD813665B621955586CF31457DB284 
+{
+	int32_t ___length;
+	int32_t ___firstValue;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___additionalValues;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct SubmitCancelModel_t9EE6EB92BEF49CDE76DD473E3677C344D2953C58 
+{
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct SubmitCancelModel_t9EE6EB92BEF49CDE76DD473E3677C344D2953C58_marshaled_pinvoke
+{
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct SubmitCancelModel_t9EE6EB92BEF49CDE76DD473E3677C344D2953C58_marshaled_com
+{
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D276_tF3CF5A60C1C51246DA00C407F83D4B66A1C6E61C 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D276_tF3CF5A60C1C51246DA00C407F83D4B66A1C6E61C__padding[276];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D354_t852A8DE2C7154CD94CD4FE00A6BD9518647A1410 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D354_t852A8DE2C7154CD94CD4FE00A6BD9518647A1410__padding[354];
+	};
+};
+#pragma pack(pop, tp)
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88 
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	bool ___sendEvents;
+	bool ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88_marshaled_pinvoke
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88_marshaled_com
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct Nullable_1_t33D5AB3CF72EDE570A226DE48EF7C3A10F25A7C4 
+{
+	bool ___hasValue;
+	UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88 ___value;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct MoveDirection_t0981B415CB2BEB70F14E647EDE5DE29F52DEC5E6 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct UIPointerBehavior_tCAF2F71C525676D79B709E579FA26750E57F6E9F 
+{
+	int32_t ___value__;
+};
+struct UIPointerType_tF7BFB4984CB24DD368B1FFBC86A82CA43C1B9B1B 
+{
+	int32_t ___value__;
+};
+struct CursorLockBehavior_t9141355F41B4E0611F5F963716D819E6EB8C9D55 
+{
+	int32_t ___value__;
+};
+struct FramePressState_t1C7FDAE5827219BC328972DD7E496343581BDF95 
+{
+	int32_t ___value__;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___move;
+	int32_t ___consecutiveMoveCount;
+	int32_t ___lastMoveDirection;
+	float ___lastMoveTime;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2_marshaled_pinvoke
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___move;
+	int32_t ___consecutiveMoveCount;
+	int32_t ___lastMoveDirection;
+	float ___lastMoveTime;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2_marshaled_com
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___move;
+	int32_t ___consecutiveMoveCount;
+	int32_t ___lastMoveDirection;
+	float ___lastMoveTime;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69 
+{
+	bool ___m_IsPressed;
+	int32_t ___m_FramePressState;
+	float ___m_PressTime;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___m_PressRaycast;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RawPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LastPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_DragObject;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PressPosition;
+	float ___m_ClickTime;
+	int32_t ___m_ClickCount;
+	bool ___m_Dragging;
+	bool ___m_ClickedOnSameGameObject;
+	bool ___m_IgnoreNextClick;
+};
+struct ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_pinvoke
+{
+	int32_t ___m_IsPressed;
+	int32_t ___m_FramePressState;
+	float ___m_PressTime;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke ___m_PressRaycast;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RawPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LastPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_DragObject;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PressPosition;
+	float ___m_ClickTime;
+	int32_t ___m_ClickCount;
+	int32_t ___m_Dragging;
+	int32_t ___m_ClickedOnSameGameObject;
+	int32_t ___m_IgnoreNextClick;
+};
+struct ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_com
+{
+	int32_t ___m_IsPressed;
+	int32_t ___m_FramePressState;
+	float ___m_PressTime;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com ___m_PressRaycast;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RawPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LastPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_DragObject;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PressPosition;
+	float ___m_ClickTime;
+	int32_t ___m_ClickCount;
+	int32_t ___m_Dragging;
+	int32_t ___m_ClickedOnSameGameObject;
+	int32_t ___m_IgnoreNextClick;
+};
+struct All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	String_t* ___collectionName;
+	TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* ___demoTextureCollection;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42 
+{
+	bool ___changedThisFrame;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69 ___leftButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69 ___rightButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69 ___middleButton;
+	ExtendedPointerEventData_t164B462A9B123B2EE69B7DEC4F33F6AA3DE7937F* ___eventData;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScreenPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScrollDelta;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_WorldPosition;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_WorldOrientation;
+	float ___m_Pressure;
+	float ___m_AzimuthAngle;
+	float ___m_AltitudeAngle;
+	float ___m_Twist;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Radius;
+};
+struct PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42_marshaled_pinvoke
+{
+	int32_t ___changedThisFrame;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_pinvoke ___leftButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_pinvoke ___rightButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_pinvoke ___middleButton;
+	ExtendedPointerEventData_t164B462A9B123B2EE69B7DEC4F33F6AA3DE7937F* ___eventData;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScreenPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScrollDelta;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_WorldPosition;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_WorldOrientation;
+	float ___m_Pressure;
+	float ___m_AzimuthAngle;
+	float ___m_AltitudeAngle;
+	float ___m_Twist;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Radius;
+};
+struct PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42_marshaled_com
+{
+	int32_t ___changedThisFrame;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_com ___leftButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_com ___rightButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_com ___middleButton;
+	ExtendedPointerEventData_t164B462A9B123B2EE69B7DEC4F33F6AA3DE7937F* ___eventData;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScreenPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScrollDelta;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_WorldPosition;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_WorldOrientation;
+	float ___m_Pressure;
+	float ___m_AzimuthAngle;
+	float ___m_AltitudeAngle;
+	float ___m_Twist;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Radius;
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct InlinedArray_1_t6E2851F85C23093EDE233F71F5CE3D6D08FAE920 
+{
+	int32_t ___length;
+	PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42 ___firstValue;
+	PointerModelU5BU5D_tE7B1CA281F392BD0840E1A81754AC94AF44FEE81* ___additionalValues;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___maxTweenScale;
+	float ___minTweenScale;
+	float ___tweenSpeed;
+	bool ___isTweening;
+	float ___currentScale;
+	float ___iniScale;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scaleToApply;
+};
+struct AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___startingCollectionIndex;
+	int32_t ___startingPageIndex;
+	All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* ___textureCollections;
+	int32_t ___nextPageKey;
+	int32_t ___nextPageKeyAlt;
+	int32_t ___previousPageKey;
+	int32_t ___previousPageKeyAlt;
+	int32_t ___nextCollectionKey;
+	int32_t ___nextCollectionKeyAlt;
+	int32_t ___previousCollectionKey;
+	int32_t ___previousCollectionKeyAlt;
+	RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* ___images;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___collectionText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___pageText;
+	AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* ___expositorTween;
+	AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* ___nextPageButtTween;
+	AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* ___prevPageButtTween;
+	AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* ___nextCollectionButtTween;
+	AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* ___prevCollectionButtTween;
+	int32_t ___currTextureCollectionIndex;
+	int32_t ___currTextureIndex;
+	int32_t ___numberOfImagesPerPage;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	List_1_t8292C421BBB00D7661DC07462822936152BAB446* ___m_RaycastResultCache;
+	bool ___m_SendPointerHoverToParent;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___m_AxisEventData;
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___m_EventSystem;
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_BaseEventData;
+	BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* ___m_InputOverride;
+	BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* ___m_DefaultInput;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F* ___m_SystemInputModules;
+	BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* ___m_CurrentInputModule;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstSelected;
+	bool ___m_sendNavigationEvents;
+	int32_t ___m_DragThreshold;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CurrentSelected;
+	bool ___m_HasFocus;
+	bool ___m_SelectionGuard;
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_DummyData;
+	UIToolkitInteroperabilityBridge_t8E98EE5D73E8CCAA894A1BE50049E2A06E592CDD* ___m_UIToolkitInterop;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58  : public BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1
+{
+	float ___m_MoveRepeatDelay;
+	float ___m_MoveRepeatRate;
+	float ___m_TrackedDeviceDragThresholdMultiplier;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_XRTrackingOrigin;
+	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___m_ActionsAsset;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_PointAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_MoveAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_SubmitAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_CancelAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_LeftClickAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_MiddleClickAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_RightClickAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_ScrollWheelAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_TrackedDevicePositionAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_TrackedDeviceOrientationAction;
+	bool ___m_DeselectOnBackgroundClick;
+	int32_t ___m_PointerBehavior;
+	int32_t ___m_CursorLockBehavior;
+	float ___m_ScrollDeltaPerTick;
+	bool ___m_ActionsHooked;
+	bool ___m_NeedToPurgeStalePointers;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnPointDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnMoveDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnSubmitCancelDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnLeftClickDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnRightClickDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnMiddleClickDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnScrollWheelDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnTrackedDevicePositionDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnTrackedDeviceOrientationDelegate;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___m_OnControlsChangedDelegate;
+	int32_t ___m_CurrentPointerId;
+	int32_t ___m_CurrentPointerIndex;
+	int32_t ___m_CurrentPointerType;
+	InlinedArray_1_tC2490B07B1DD813665B621955586CF31457DB284 ___m_PointerIds;
+	InlinedArray_1_t6E2851F85C23093EDE233F71F5CE3D6D08FAE920 ___m_PointerStates;
+	NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2 ___m_NavigationState;
+	SubmitCancelModel_t9EE6EB92BEF49CDE76DD473E3677C344D2953C58 ___m_SubmitCancelState;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LocalMultiPlayerRoot;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___m_Texture;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_UVRect;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
+};
+struct U3CPrivateImplementationDetailsU3E_t6EF1BAAB70DD327A61595E05A8C1E0BF25D179E1_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D354_t852A8DE2C7154CD94CD4FE00A6BD9518647A1410 ___02426E57531027559F32AD57B54F7EBBF3A370B37BBA2A696CD62BBA674AA9AF;
+	__StaticArrayInitTypeSizeU3D276_tF3CF5A60C1C51246DA00C407F83D4B66A1C6E61C ___B8776E009973DFB5D0C2F311EAB19BE7E71BA98E0562D78B3EA87DBE09DD4198;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	int32_t ___GenerateAllMips;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_StaticFields
+{
+	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems;
+	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer;
+	Nullable_1_t33D5AB3CF72EDE570A226DE48EF7C3A10F25A7C4 ___s_UIToolkitOverrideConfigOld;
+};
+struct InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_StaticFields
+{
+	DefaultInputActions_t8041965208E4C6952C7969FD33249007DE96F0A6* ___defaultActions;
+	Dictionary_2_t609CD6E7E686007E5CF00E6A12C74A3B3106EF96* ___s_InputActionReferenceCounts;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* m_Items[1];
+
+	inline RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D  : public RuntimeArray
+{
+	ALIGN_FIELD (8) All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* m_Items[1];
+
+	inline All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* m_Items[1];
+
+	inline Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindAnyObjectByType_TisRuntimeObject_mE7A79400E013891ADB85E4C6A5CF95B447D374BA_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_UpdateScaleToApply_mDAD3F31EA3FC671EEE3DBCE21E5CDFF7A4319F53 (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_ApplyScale_mA47BDF1F3A4B1AC306590A1FB6B7E7051A30F99B (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_CheckEventSystem_mD06B6C604A613732521694DD75A7E31AE0E08C7A (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_RefreshCollectionAndPageText_m0107EFE52902B719673C71A68CC4FD85E631BA55 (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_AssignCurrentImages_m219466C9A22397E01B804260AF179B0844993135 (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) ;
+inline EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD (const RuntimeMethod* method)
+{
+	return ((  EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* (*) (const RuntimeMethod*))Object_FindAnyObjectByType_TisRuntimeObject_mE7A79400E013891ADB85E4C6A5CF95B447D374BA_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+inline EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+inline InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58* GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD (int32_t ___0_keyCode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_ChangeTextureIndex_m3101C038696D3C8A48AFCB55D263C73DBA3ABD6B (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, int32_t ___0_pagesAmount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_ChangeCollectionIndex_m5614B1A62B4B44A6BACA58B2AED41D9E0D07ABA9 (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, int32_t ___0_collectionChangeAmount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02 (RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 127531
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAE4E2A66CF010E8C2BED7DB9C2F20A6F14EFC515 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t6EF1BAAB70DD327A61595E05A8C1E0BF25D179E1____02426E57531027559F32AD57B54F7EBBF3A370B37BBA2A696CD62BBA674AA9AF_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t6EF1BAAB70DD327A61595E05A8C1E0BF25D179E1____B8776E009973DFB5D0C2F311EAB19BE7E71BA98E0562D78B3EA87DBE09DD4198_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)354));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t6EF1BAAB70DD327A61595E05A8C1E0BF25D179E1____02426E57531027559F32AD57B54F7EBBF3A370B37BBA2A696CD62BBA674AA9AF_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)276));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t6EF1BAAB70DD327A61595E05A8C1E0BF25D179E1____B8776E009973DFB5D0C2F311EAB19BE7E71BA98E0562D78B3EA87DBE09DD4198_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 3;
+		(&V_0)->___TotalTypes = 3;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 127532
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE44828C7C605830E75A884206604FB7980FBE0C9 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t979983055485449447C70366CB0227F1448FCECA* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshal_pinvoke(const MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637& unmarshaled, MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshal_pinvoke_back(const MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshaled_pinvoke& marshaled, MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshal_pinvoke_cleanup(MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshal_com(const MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637& unmarshaled, MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshal_com_back(const MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshaled_com& marshaled, MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshal_com_cleanup(MonoScriptData_t92A8C433C59C46C7E5164EE2B9FC0C35496B7637_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 127533
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1VfxDemoTextureCollection__ctor_m3E4264373986F09BC5251912A694818C93890178 (All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 127534
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_Start_m6514C407F9D5C0FD6FD2BB37C876C61ADD12E0D1 (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:18>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_0, NULL);
+		float L_2 = L_1.___x;
+		__this->___iniScale = L_2;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 127535
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_Update_m31102AE2356B093EEEDA2E7524390C2A50833FAD (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:23>
+		bool L_0 = __this->___isTweening;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:23>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:24>
+		float L_1 = __this->___currentScale;
+		float L_2 = __this->___iniScale;
+		float L_3;
+		L_3 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		float L_4 = __this->___tweenSpeed;
+		float L_5;
+		L_5 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_1, L_2, ((float)il2cpp_codegen_multiply(L_3, L_4)), NULL);
+		__this->___currentScale = L_5;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:25>
+		AllIn1DemoScaleTween_UpdateScaleToApply_mDAD3F31EA3FC671EEE3DBCE21E5CDFF7A4319F53(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:26>
+		AllIn1DemoScaleTween_ApplyScale_mA47BDF1F3A4B1AC306590A1FB6B7E7051A30F99B(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:27>
+		float L_6 = __this->___currentScale;
+		float L_7;
+		L_7 = fabsf(((float)il2cpp_codegen_subtract(L_6, (1.0f))));
+		if ((!(((float)L_7) < ((float)(0.0199999996f)))))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:27>
+		__this->___isTweening = (bool)0;
+	}
+
+IL_0057:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 127536
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_UpdateScaleToApply_mDAD3F31EA3FC671EEE3DBCE21E5CDFF7A4319F53 (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:32>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___scaleToApply);
+		float L_1 = __this->___currentScale;
+		L_0->___x = L_1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:33>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___scaleToApply);
+		float L_3 = __this->___currentScale;
+		L_2->___y = L_3;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 127537
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_ApplyScale_mA47BDF1F3A4B1AC306590A1FB6B7E7051A30F99B (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:38>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___scaleToApply;
+		NullCheck(L_0);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_0, L_1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 127538
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_ScaleUpTween_mAA72D11CAB852D82A83966A7A5315777CD92D403 (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:43>
+		__this->___isTweening = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:44>
+		float L_0 = __this->___iniScale;
+		float L_1 = __this->___maxTweenScale;
+		__this->___currentScale = ((float)il2cpp_codegen_multiply(L_0, L_1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:45>
+		AllIn1DemoScaleTween_UpdateScaleToApply_mDAD3F31EA3FC671EEE3DBCE21E5CDFF7A4319F53(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:46>
+		return;
+	}
+}
+// Method Definition Index: 127539
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:50>
+		__this->___isTweening = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:51>
+		float L_0 = __this->___iniScale;
+		float L_1 = __this->___minTweenScale;
+		__this->___currentScale = ((float)il2cpp_codegen_multiply(L_0, L_1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:52>
+		AllIn1DemoScaleTween_UpdateScaleToApply_mDAD3F31EA3FC671EEE3DBCE21E5CDFF7A4319F53(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 127540
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween__ctor_mA6D5B1E13DC36651582147578B70C31CD834061D (AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:8>
+		__this->___maxTweenScale = (2.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:9>
+		__this->___minTweenScale = (0.800000012f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:10>
+		__this->___tweenSpeed = (15.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:13>
+		__this->___currentScale = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1DemoScaleTween.cs:14>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		__this->___scaleToApply = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 127541
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_Start_m6AB96957F295464AAC17C0218A0D101E79A5604D (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:38>
+		AllIn1VfxTextureDemoManager_CheckEventSystem_mD06B6C604A613732521694DD75A7E31AE0E08C7A(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:40>
+		int32_t L_0 = __this->___startingCollectionIndex;
+		__this->___currTextureCollectionIndex = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:41>
+		int32_t L_1 = __this->___startingPageIndex;
+		__this->___currTextureIndex = L_1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:42>
+		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_2 = __this->___images;
+		NullCheck(L_2);
+		__this->___numberOfImagesPerPage = ((int32_t)(((RuntimeArray*)L_2)->max_length));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:44>
+		AllIn1VfxTextureDemoManager_RefreshCollectionAndPageText_m0107EFE52902B719673C71A68CC4FD85E631BA55(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:45>
+		AllIn1VfxTextureDemoManager_AssignCurrentImages_m219466C9A22397E01B804260AF179B0844993135(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:46>
+		return;
+	}
+}
+// Method Definition Index: 127542
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_CheckEventSystem_mD06B6C604A613732521694DD75A7E31AE0E08C7A (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB93A832C1F693E12C0F1F117D18A77DA7AD47E26);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* V_0 = NULL;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:51>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
+		L_0 = Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD(Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:52>
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_1 = V_0;
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:52>
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_3 = V_0;
+		NullCheck(L_3);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:54>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_5, _stringLiteralB93A832C1F693E12C0F1F117D18A77DA7AD47E26, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:55>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5;
+		NullCheck(L_6);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_7;
+		L_7 = GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8(L_6, GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8_RuntimeMethod_var);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:58>
+		NullCheck(L_6);
+		InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58* L_8;
+		L_8 = GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7(L_6, GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7_RuntimeMethod_var);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:62>
+		return;
+	}
+}
+// Method Definition Index: 127543
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_Update_m3D6A3018BABDD10EF381F9EB792D36521ED16C2C (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:66>
+		int32_t L_0 = __this->___nextPageKey;
+		bool L_1;
+		L_1 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_2 = __this->___nextPageKeyAlt;
+		bool L_3;
+		L_3 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:66>
+		AllIn1VfxTextureDemoManager_ChangeTextureIndex_m3101C038696D3C8A48AFCB55D263C73DBA3ABD6B(__this, 1, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:67>
+		int32_t L_4 = __this->___previousPageKey;
+		bool L_5;
+		L_5 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_4, NULL);
+		if (L_5)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		int32_t L_6 = __this->___previousPageKeyAlt;
+		bool L_7;
+		L_7 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0042;
+		}
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:67>
+		AllIn1VfxTextureDemoManager_ChangeTextureIndex_m3101C038696D3C8A48AFCB55D263C73DBA3ABD6B(__this, (-1), NULL);
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:69>
+		int32_t L_8 = __this->___nextCollectionKey;
+		bool L_9;
+		L_9 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_8, NULL);
+		if (L_9)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		int32_t L_10 = __this->___nextCollectionKeyAlt;
+		bool L_11;
+		L_11 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0063;
+		}
+	}
+
+IL_005c:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:69>
+		AllIn1VfxTextureDemoManager_ChangeCollectionIndex_m5614B1A62B4B44A6BACA58B2AED41D9E0D07ABA9(__this, 1, NULL);
+	}
+
+IL_0063:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:70>
+		int32_t L_12 = __this->___previousCollectionKey;
+		bool L_13;
+		L_13 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_12, NULL);
+		if (L_13)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		int32_t L_14 = __this->___previousCollectionKeyAlt;
+		bool L_15;
+		L_15 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_14, NULL);
+		if (!L_15)
+		{
+			goto IL_0084;
+		}
+	}
+
+IL_007d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:70>
+		AllIn1VfxTextureDemoManager_ChangeCollectionIndex_m5614B1A62B4B44A6BACA58B2AED41D9E0D07ABA9(__this, (-1), NULL);
+	}
+
+IL_0084:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 127544
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_ChangeTextureIndex_m3101C038696D3C8A48AFCB55D263C73DBA3ABD6B (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, int32_t ___0_pagesAmount, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:75>
+		int32_t L_0 = __this->___currTextureIndex;
+		int32_t L_1 = ___0_pagesAmount;
+		int32_t L_2 = __this->___numberOfImagesPerPage;
+		__this->___currTextureIndex = ((int32_t)il2cpp_codegen_add(L_0, ((int32_t)il2cpp_codegen_multiply(L_1, L_2))));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:77>
+		int32_t L_3 = ___0_pagesAmount;
+		if ((((int32_t)L_3) <= ((int32_t)0)))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:77>
+		AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* L_4 = __this->___nextPageButtTween;
+		NullCheck(L_4);
+		AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC(L_4, NULL);
+		goto IL_0031;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:78>
+		AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* L_5 = __this->___prevPageButtTween;
+		NullCheck(L_5);
+		AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC(L_5, NULL);
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:79>
+		AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* L_6 = __this->___expositorTween;
+		NullCheck(L_6);
+		AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC(L_6, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:81>
+		V_0 = (bool)0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:82>
+		int32_t L_7 = __this->___currTextureIndex;
+		if ((((int32_t)L_7) >= ((int32_t)0)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:84>
+		V_0 = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:85>
+		AllIn1VfxTextureDemoManager_ChangeCollectionIndex_m5614B1A62B4B44A6BACA58B2AED41D9E0D07ABA9(__this, (-1), NULL);
+		goto IL_0077;
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:87>
+		int32_t L_8 = __this->___currTextureIndex;
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_9 = __this->___textureCollections;
+		int32_t L_10 = __this->___currTextureCollectionIndex;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_13 = L_12->___demoTextureCollection;
+		NullCheck(L_13);
+		if ((((int32_t)L_8) < ((int32_t)((int32_t)(((RuntimeArray*)L_13)->max_length)))))
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:89>
+		V_0 = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:90>
+		AllIn1VfxTextureDemoManager_ChangeCollectionIndex_m5614B1A62B4B44A6BACA58B2AED41D9E0D07ABA9(__this, 1, NULL);
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:93>
+		bool L_14 = V_0;
+		if (L_14)
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:95>
+		AllIn1VfxTextureDemoManager_AssignCurrentImages_m219466C9A22397E01B804260AF179B0844993135(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:96>
+		AllIn1VfxTextureDemoManager_RefreshCollectionAndPageText_m0107EFE52902B719673C71A68CC4FD85E631BA55(__this, NULL);
+	}
+
+IL_0086:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:98>
+		return;
+	}
+}
+// Method Definition Index: 127545
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_ChangeCollectionIndex_m5614B1A62B4B44A6BACA58B2AED41D9E0D07ABA9 (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, int32_t ___0_collectionChangeAmount, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:102>
+		int32_t L_0 = __this->___currTextureCollectionIndex;
+		int32_t L_1 = ___0_collectionChangeAmount;
+		__this->___currTextureCollectionIndex = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:104>
+		int32_t L_2 = ___0_collectionChangeAmount;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:104>
+		AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* L_3 = __this->___nextCollectionButtTween;
+		NullCheck(L_3);
+		AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC(L_3, NULL);
+		goto IL_002a;
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:105>
+		AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* L_4 = __this->___prevCollectionButtTween;
+		NullCheck(L_4);
+		AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC(L_4, NULL);
+	}
+
+IL_002a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:106>
+		AllIn1DemoScaleTween_t2F87F7E2F564623C6C880B3D127A0C2F55095FFD* L_5 = __this->___expositorTween;
+		NullCheck(L_5);
+		AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC(L_5, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:108>
+		int32_t L_6 = __this->___currTextureCollectionIndex;
+		if ((((int32_t)L_6) >= ((int32_t)0)))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:108>
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_7 = __this->___textureCollections;
+		NullCheck(L_7);
+		__this->___currTextureCollectionIndex = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_7)->max_length)), 1));
+		goto IL_0067;
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:109>
+		int32_t L_8 = __this->___currTextureCollectionIndex;
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_9 = __this->___textureCollections;
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)((int32_t)(((RuntimeArray*)L_9)->max_length)))))
+		{
+			goto IL_0067;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:109>
+		__this->___currTextureCollectionIndex = 0;
+	}
+
+IL_0067:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:111>
+		int32_t L_10 = ___0_collectionChangeAmount;
+		if ((((int32_t)L_10) <= ((int32_t)0)))
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:111>
+		__this->___currTextureIndex = 0;
+		goto IL_00b6;
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:114>
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_11 = __this->___textureCollections;
+		int32_t L_12 = __this->___currTextureCollectionIndex;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		NullCheck(L_14);
+		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_15 = L_14->___demoTextureCollection;
+		NullCheck(L_15);
+		int32_t L_16 = __this->___numberOfImagesPerPage;
+		V_0 = ((int32_t)(((int32_t)(((RuntimeArray*)L_15)->max_length))%L_16));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:115>
+		int32_t L_17 = V_0;
+		if (L_17)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:115>
+		int32_t L_18 = __this->___numberOfImagesPerPage;
+		V_0 = L_18;
+	}
+
+IL_009a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:116>
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_19 = __this->___textureCollections;
+		int32_t L_20 = __this->___currTextureCollectionIndex;
+		NullCheck(L_19);
+		int32_t L_21 = L_20;
+		All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		NullCheck(L_22);
+		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_23 = L_22->___demoTextureCollection;
+		NullCheck(L_23);
+		int32_t L_24 = V_0;
+		__this->___currTextureIndex = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_23)->max_length)), L_24));
+	}
+
+IL_00b6:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:119>
+		AllIn1VfxTextureDemoManager_AssignCurrentImages_m219466C9A22397E01B804260AF179B0844993135(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:120>
+		AllIn1VfxTextureDemoManager_RefreshCollectionAndPageText_m0107EFE52902B719673C71A68CC4FD85E631BA55(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:121>
+		return;
+	}
+}
+// Method Definition Index: 127546
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_RefreshCollectionAndPageText_m0107EFE52902B719673C71A68CC4FD85E631BA55 (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB1EFBA0C65B736BCC0888A4050F62D0D24AA95D9);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:125>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___collectionText;
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_1 = __this->___textureCollections;
+		int32_t L_2 = __this->___currTextureCollectionIndex;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		String_t* L_5 = L_4->___collectionName;
+		String_t* L_6;
+		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_5, _stringLiteralB1EFBA0C65B736BCC0888A4050F62D0D24AA95D9, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_6);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:126>
+		V_0 = 0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:127>
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_7 = __this->___textureCollections;
+		int32_t L_8 = __this->___currTextureCollectionIndex;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_11 = L_10->___demoTextureCollection;
+		NullCheck(L_11);
+		int32_t L_12 = __this->___numberOfImagesPerPage;
+		float L_13;
+		L_13 = ceilf(((float)(((float)((int32_t)(((RuntimeArray*)L_11)->max_length)))/((float)L_12))));
+		V_1 = il2cpp_codegen_cast_double_to_int<int32_t>(L_13);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:128>
+		int32_t L_14 = __this->___currTextureIndex;
+		if ((((int32_t)L_14) <= ((int32_t)1)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:128>
+		int32_t L_15 = __this->___currTextureIndex;
+		int32_t L_16 = __this->___numberOfImagesPerPage;
+		V_0 = ((int32_t)(L_15/L_16));
+	}
+
+IL_0064:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:129>
+		int32_t L_17 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_17, 1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:130>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_18 = __this->___pageText;
+		String_t* L_19;
+		L_19 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_19, _stringLiteral86BBAACC00198DBB3046818AD3FC2AA10AE48DE1, L_20, NULL);
+		NullCheck(L_18);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_18, L_21);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:131>
+		return;
+	}
+}
+// Method Definition Index: 127547
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager_AssignCurrentImages_m219466C9A22397E01B804260AF179B0844993135 (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* V_1 = NULL;
+	int32_t V_2 = 0;
+	RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* V_3 = NULL;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:135>
+		V_0 = 0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:136>
+		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_0 = __this->___images;
+		V_1 = L_0;
+		V_2 = 0;
+		goto IL_0068;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:136>
+		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_1 = V_1;
+		int32_t L_2 = V_2;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_3 = L_4;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:138>
+		int32_t L_5 = __this->___currTextureIndex;
+		int32_t L_6 = V_0;
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_7 = __this->___textureCollections;
+		int32_t L_8 = __this->___currTextureCollectionIndex;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_11 = L_10->___demoTextureCollection;
+		NullCheck(L_11);
+		if ((((int32_t)((int32_t)il2cpp_codegen_add(L_5, L_6))) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:140>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_12 = V_3;
+		NullCheck(L_12);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_12, (bool)0, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:141>
+		goto IL_0064;
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:143>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_13 = V_3;
+		NullCheck(L_13);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_13, (bool)1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:144>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_14 = V_3;
+		All1VfxDemoTextureCollectionU5BU5D_t7222DBF2407A3A4C0C0AC9B605452668C899537D* L_15 = __this->___textureCollections;
+		int32_t L_16 = __this->___currTextureCollectionIndex;
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		All1VfxDemoTextureCollection_t736E627B7F1C6C0440CC5808FB39AD42BBEB84FB* L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		NullCheck(L_18);
+		TextureU5BU5D_t0C3F884241E8243E791A31B920CAA89212888E46* L_19 = L_18->___demoTextureCollection;
+		int32_t L_20 = __this->___currTextureIndex;
+		int32_t L_21 = V_0;
+		NullCheck(L_19);
+		int32_t L_22 = ((int32_t)il2cpp_codegen_add(L_20, L_21));
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_23 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		NullCheck(L_14);
+		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_14, L_23, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:145>
+		int32_t L_24 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_24, 1));
+	}
+
+IL_0064:
+	{
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_0068:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:136>
+		int32_t L_26 = V_2;
+		RawImageU5BU5D_tCF8D2C9175896CDEA0650874FCEA19472CBD6997* L_27 = V_1;
+		NullCheck(L_27);
+		if ((((int32_t)L_26) < ((int32_t)((int32_t)(((RuntimeArray*)L_27)->max_length)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:147>
+		return;
+	}
+}
+// Method Definition Index: 127548
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxTextureDemoManager__ctor_mE9B388CB0993463D02AABEFE1EC16CA4443E6BA6 (AllIn1VfxTextureDemoManager_t7B085A76025711A85A4042F20557709F91E63873* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:20>
+		__this->___nextPageKey = ((int32_t)275);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:21>
+		__this->___nextPageKeyAlt = ((int32_t)100);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:22>
+		__this->___previousPageKey = ((int32_t)276);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:23>
+		__this->___previousPageKeyAlt = ((int32_t)97);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:24>
+		__this->___nextCollectionKey = ((int32_t)273);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:25>
+		__this->___nextCollectionKeyAlt = ((int32_t)119);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:26>
+		__this->___previousCollectionKey = ((int32_t)274);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures Demo/Scripts/AllIn1VfxTextureDemoManager.cs:27>
+		__this->___previousCollectionKeyAlt = ((int32_t)115);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 69257
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 69158
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 69256
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}

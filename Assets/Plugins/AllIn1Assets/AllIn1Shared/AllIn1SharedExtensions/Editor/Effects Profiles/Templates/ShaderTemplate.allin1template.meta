@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1008b6c26c1d5604fbea18f1f31eb1bd
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/AllIn1SharedExtensions/Editor/Effects
+    Profiles/Templates/ShaderTemplate.allin1template
+  uploadId: 1035270

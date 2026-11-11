@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d1a196139fead4645a29579e0326eaeb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Shaders/EditorShaders/AllIn1VfxWorleyNoise.shader
+  uploadId: 1035270

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226b59a4754385e42b6f812d91c1758f, type: 3}
+  m_Name: AllIn1VfxToolkit
+  m_EditorClassIdentifier: AllIn1VfxToolkitAssembly.Editor::AllIn1Assets.AllIn1VfxToolkit.AllIn1VfxToolkitConfig
+  urpConfiguredFirstTime: 1
+  sceneNotificationsEnabled: 1
+  defaultPreset: {fileID: 0}
+  materialPresetCollection: {fileID: 0}
+  blendingPresetCollection: {fileID: 0}
+  effectsExtraData: {fileID: 0}
+  materialNameDefault: 
+  exportFolderPath: 
+  materialSavePath: 
+  renderImageSavePath: 
+  normalMapSavePath: 
+  gradientSavePath: 
+  atlasesSavePath: 
+  noiseSavePath: 
+  bakedShaderSavePath: 
+  renderImageScale: 0
+  projectConfiguredFirstTime: 0
+  lastTimeShaderPropertiesRebuiltKey: 
+  effectsProfileCollection: {fileID: 0}
+  propertiesConfigCollection: {fileID: 0}
+  shStandard: {fileID: 0}
+  shStandardNoShadowCaster: {fileID: 0}
+  shOutline: {fileID: 0}
+  shOutlineNoShadowCaster: {fileID: 0}
+  urpSettings: {fileID: 0}
+  urpSettingsUserPref: {fileID: 0}
+  particlePresetsSavePath: 

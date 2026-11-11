@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d56b87557a2d32340bf36655f72d7ef8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Prefabs/Plasma
+    Ball.prefab
+  uploadId: 1035270

@@ -226,7 +226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_m2728CBA081E79B97DDC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 126886
+// Method Definition Index: 127438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ScreenCapture_CaptureScreenshotAsTexture_m3041B552FEB1E7AA144F9E36BADB0A2CAFD49512 (const RuntimeMethod* method) 
 {
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_0 = NULL;
@@ -243,7 +243,7 @@ IL_000b:
 		return L_1;
 	}
 }
-// Method Definition Index: 126887
+// Method Definition Index: 127439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ScreenCapture_CaptureScreenshotAsTexture_mFC8952EC7C888CBDB55B90213731D203527F2F1D (int32_t ___0_superSize, int32_t ___1_stereoScreenCaptureMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -262,7 +262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		return L_3;
 	}
 }
-// Method Definition Index: 126888
+// Method Definition Index: 127440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ScreenCapture_CaptureScreenshotAsTexture_Injected_m0A1ECF6DF4B46AB7AC6E53D5BAF9C575866BDA3A (int32_t ___0_superSize, int32_t ___1_stereoScreenCaptureMode, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*ScreenCapture_CaptureScreenshotAsTexture_Injected_m0A1ECF6DF4B46AB7AC6E53D5BAF9C575866BDA3A_ftn) (int32_t, int32_t);
@@ -283,7 +283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ScreenCapture_CaptureScreenshotAsTex
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 70748
+// Method Definition Index: 70781
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Unmarshal_UnmarshalUnityObject_TisRuntimeObject_m2B04FEB8E4BB254DD6F827F3111C91F2AF16D04A_gshared_inline (intptr_t ___0_gcHandlePtr, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -340,7 +340,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE
 		return (bool)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0);
 	}
 }
-// Method Definition Index: 70749
+// Method Definition Index: 70782
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC Unmarshal_FromIntPtrUnsafe_mB304834C5EC431CC0FBE13C6BB97066F222BC55C_inline (intptr_t ___0_gcHandle, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

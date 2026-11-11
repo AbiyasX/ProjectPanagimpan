@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b49f2d192cb249159692889a3886f5e6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/Demo/Meshes/Prefabs/SphereVertexColor.prefab
+  uploadId: 1035270

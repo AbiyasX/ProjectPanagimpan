@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a3504fefc187ff0499e8c9dcfc1498f5
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures
+    Demo/Scripts/AllIn1VfxTexDemoAssembly.asmdef
+  uploadId: 1035270

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7d398bbab33c80d468f2f970c98d8fed
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Shaders/ShaderLibrary/AllIn1VfxSRPBatch_URPHelper.hlsl
+  uploadId: 1035270

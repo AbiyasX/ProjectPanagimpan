@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 404df31b79007ba41be5a7da78e703a5
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Shaders/ShaderLibrary/AllIn1VfxSRPBatch_FragmentPass.hlsl
+  uploadId: 1035270

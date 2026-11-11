@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8e3b02d95af7461cb824f06d9a15c3e7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/Demo/Meshes/Prefabs/ScreenRobot.prefab
+  uploadId: 1035270

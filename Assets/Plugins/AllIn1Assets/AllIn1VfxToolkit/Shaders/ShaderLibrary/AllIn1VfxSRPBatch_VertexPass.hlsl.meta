@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9243bc5f995ce4d449d2eee78389f067
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Shaders/ShaderLibrary/AllIn1VfxSRPBatch_VertexPass.hlsl
+  uploadId: 1035270

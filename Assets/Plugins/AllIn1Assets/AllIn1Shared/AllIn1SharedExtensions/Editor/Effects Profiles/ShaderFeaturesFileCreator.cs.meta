@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5fe0720354f0da947a8fd419d3d70fc5
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/AllIn1SharedExtensions/Editor/Effects
+    Profiles/ShaderFeaturesFileCreator.cs
+  uploadId: 1035270

@@ -17,7 +17,6 @@ public class MapSystem : MonoBehaviour
     [ReadOnly] public GameObject travelerInstance;
 
     public float verticalSpacing = 150f;
-    public float horizontalOffset = 250f;
 
     [Header("Curve")]
     [Range(0f, 1f)] public float curveStrength = 0.5f;
@@ -93,12 +92,9 @@ public class MapSystem : MonoBehaviour
         spawnedNodes.Clear();
         Vector3[] points = new Vector3[m_MapNodes.Length];
 
-        int lastIndex = m_MapNodes.Length - 1;
-
         for (int i = 0; i < m_MapNodes.Length; i++)
         {
-            float side = (i % 2 == 0) ? -1f : 1f;
-            float x = (i == lastIndex) ? 0f : side * horizontalOffset;
+            float x = 0f;
             float y = verticalSpacing * i;
 
             GameObject node = Instantiate(m_MapNodes[i].Model, Parent.transform);
@@ -189,7 +185,7 @@ public class MapSystem : MonoBehaviour
 
             int low = Mathf.Min(a, b);
             int high = Mathf.Max(a, b);
-            Vector3 control = GetControlPoint(spawnedNodes[low].position, spawnedNodes[high].position);
+            Vector3 control = GetControlPoint(spawnedNodes[low].position, spawnedNodes[high].position, low);
 
             float progress = 0f;
 
@@ -216,11 +212,13 @@ public class MapSystem : MonoBehaviour
         return Vector3.Lerp(ab, bc, t);
     }
 
-    Vector3 GetControlPoint(Vector3 from, Vector3 to)
+    Vector3 GetControlPoint(Vector3 from, Vector3 to, int segmentIndex)
     {
         Vector3 mid = (from + to) * 0.5f;
-        Vector3 corner = new Vector3(from.x, to.y, from.z);
-        return Vector3.Lerp(mid, corner, curveStrength);
+        Vector3 dir = to - from;
+        Vector3 side = new Vector3(-dir.y, dir.x, 0f).normalized;
+        float sign = segmentIndex % 2 == 0 ? 1f : -1f;
+        return mid + side * (dir.magnitude * curveStrength * sign);
     }
 
 
@@ -238,7 +236,7 @@ public class MapSystem : MonoBehaviour
 
         for (int i = 0; i < points.Length - 1; i++)
         {
-            Vector3 control = GetControlPoint(points[i], points[i + 1]);
+            Vector3 control = GetControlPoint(points[i], points[i + 1], i);
 
             for (int s = 1; s <= lineSegmentsPerNode; s++)
             {

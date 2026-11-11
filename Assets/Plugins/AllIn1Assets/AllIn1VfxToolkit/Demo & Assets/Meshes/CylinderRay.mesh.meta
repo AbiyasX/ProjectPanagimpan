@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1131b7183b9c7f3448e351d8146c4000
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Meshes/CylinderRay.mesh
+  uploadId: 1035270

@@ -18,9 +18,15 @@ public class ScenarioSystem : MonoBehaviour
     public MapSystem mapSystem;
     public GameObject[] hideDuringMap;
 
+    [Header("Cloud Transition")]
+    public TransitionScript transitionScript;
+    [MinValue(0)]
+    public float cloudTransitionDuration = 1f;
+
     [Header("GameUI")]
     public TextMeshProUGUI[] currentplayerText;
     public GameObject endResult;
+    public ResultPanel resultPanel;
     [MinValue(0)]
     public int cameraScreenIndex = 2;
 
@@ -73,6 +79,10 @@ public class ScenarioSystem : MonoBehaviour
             mapSystem = FindAnyObjectByType<MapSystem>(FindObjectsInactive.Include);
         if (progressTracker == null)
             progressTracker = FindAnyObjectByType<ProgressTracker>(FindObjectsInactive.Include);
+        if (resultPanel == null)
+            resultPanel = FindAnyObjectByType<ResultPanel>(FindObjectsInactive.Include);
+        if (transitionScript == null)
+            transitionScript = FindAnyObjectByType<TransitionScript>(FindObjectsInactive.Include);
     }
 
     private void OnEnable()
@@ -221,10 +231,29 @@ public class ScenarioSystem : MonoBehaviour
         return currentPlayer = activePlayer == 0 ? nameSetterScript.p1Name : nameSetterScript.p2Name;
     }
 
+    int GetLastPlayerIndex()
+    {
+        return playerSwitcher ? 1 - startingPlayer : startingPlayer;
+    }
+
     string GetLastPlayer()
     {
-        int lastPlayerIndex = playerSwitcher ? 1 - startingPlayer : startingPlayer;
-        return lastPlayerIndex == 0 ? nameSetterScript.p1Name : nameSetterScript.p2Name;
+        return GetLastPlayerIndex() == 0 ? nameSetterScript.p1Name : nameSetterScript.p2Name;
+    }
+
+    void ShowResultPanel(int lastPlayerIndex, Emotions faceEmotion, Emotions pickedEmotion, bool isCorrect, System.Action onContinue)
+    {
+        if (resultPanel == null)
+        {
+            Debug.LogWarning("No ResultPanel in the scene");
+            onContinue?.Invoke();
+            return;
+        }
+
+        Emotions p1Emotion = lastPlayerIndex == 0 ? faceEmotion : pickedEmotion;
+        Emotions p2Emotion = lastPlayerIndex == 1 ? faceEmotion : pickedEmotion;
+
+        resultPanel.ShowResult(nameSetterScript.p1Name, p1Emotion, nameSetterScript.p2Name, p2Emotion, isCorrect, onContinue);
     }
 
     public void CurrentArea()
@@ -233,7 +262,7 @@ public class ScenarioSystem : MonoBehaviour
         if (Area_Index >= SceneArea.Length) return;
 
         AreasData area = SceneArea[Area_Index];
-
+        AudioManager.Instance.PlayBGM(area.BackgroundMusic);
         ShowAreaBackground(area);
 
         PlayDialogue(area.areaDialogue, continueButton);
@@ -249,26 +278,100 @@ public class ScenarioSystem : MonoBehaviour
     {
         Area_Index++;
         bool finished = Area_Index >= SceneArea.Length;
-
         if (!finished)
         {
             startingPlayer = Area_Index % 2;
             playerSwitcher = true;
             correctGuesses = 0;
         }
-
-        ShowMap(() =>
+        WaitForRewardPanel(() =>
         {
-            if (finished)
+            PlayCloudTransition(() =>
             {
-                Debug.LogWarning("You Finished The AREAS!!!");
-                EndGame();
-            }
-            else
+                screenChanger.SetVisible(false);
+                SetGameUIVisible(false);
+            },
+            () =>
             {
-                CurrentArea();
-            }
+                SetGameUIVisible(true);
+
+                bool hasMap = mapSystem != null && Area_Index < mapSystem.NodeCount;
+                if (!hasMap)
+                {
+                    GoToNextArea(finished);
+                    return;
+                }
+
+                ShowMap(() =>
+                {
+                    SetGameUIVisible(false);
+
+                    PlayCloudTransition(() =>
+                    {
+                        screenChanger.SetVisible(false);
+                        SetGameUIVisible(true);
+                        if (!finished)
+                            ShowAreaBackground(SceneArea[Area_Index]);
+                    },
+                    () => GoToNextArea(finished));
+                });
+            });
         });
+    }
+
+    void GoToNextArea(bool finished)
+    {
+        if (finished)
+        {
+            Debug.LogWarning("You Finished The AREAS!!!");
+            EndGame();
+        }
+        else
+        {
+            CurrentArea();
+        }
+    }
+
+    void PlayCloudTransition(System.Action onCovered, System.Action onFinished)
+    {
+        TransitionScript transition = transitionScript != null ? transitionScript : TransitionScript.Instance;
+
+        if (transition == null)
+        {
+            Debug.LogWarning("No TransitionScript in the scene, skipping cloud transition");
+            onCovered?.Invoke();
+            onFinished?.Invoke();
+            return;
+        }
+
+        if (!transition.gameObject.activeInHierarchy)
+        {
+            Debug.LogWarning($"TransitionScript on '{transition.gameObject.name}' is inactive. Turn it (and its parents) on so the clouds can show.", transition);
+            transition.gameObject.SetActive(true);
+        }
+
+        transition.PlayTransitionAnimation(cloudTransitionDuration, 0f, onCovered, onFinished);
+    }
+
+    void WaitForRewardPanel(System.Action onFinished)
+    {
+        RewardPanelScript panel = RewardSystem.Instance != null ? RewardSystem.Instance.rewardPanel : null;
+
+        if (panel == null || !panel.IsShowing)
+        {
+            onFinished?.Invoke();
+            return;
+        }
+
+        screenChanger.SetVisible(false);
+
+        System.Action handler = null;
+        handler = () =>
+        {
+            panel.Closed -= handler;
+            onFinished?.Invoke();
+        };
+        panel.Closed += handler;
     }
 
     void ShowMap(System.Action onFinished)
@@ -330,6 +433,9 @@ public class ScenarioSystem : MonoBehaviour
         playerSwitcher = true;
         if (Area_Index >= SceneArea.Length) return;
         scenarioPicker.ShowRandomChoices(SceneArea[Area_Index].possbileScenarios);
+
+        if (screenChanger.IsVisible && RoundSystem.Instance != null)
+            RoundSystem.Instance.OpenRoundScreen(rounds + 1);
     }
 
     public void SelectScene(int index)
@@ -371,13 +477,27 @@ public class ScenarioSystem : MonoBehaviour
 
     public void scenarioCondition()
     {
+        if (resultPanel != null && resultPanel.IsShowing) return;
+
         playerEmotionChecker();
         emotionChecker();
         string lastPlayer = GetLastPlayer();
+        int lastPlayerIndex = GetLastPlayerIndex();
+        Emotions faceEmotion = faceCapture != null ? faceCapture.CurrentEmotion : Emotions.None;
+        Emotions pickedEmotion = emotionPicker.PickedEmotion;
+        bool isCorrect = isPLayerEmotionCorrect;
 
-        if (isPLayerEmotionCorrect)
+        if (isCorrect)
             correctGuesses++;
 
+        ShowResultPanel(lastPlayerIndex, faceEmotion, pickedEmotion, isCorrect, () =>
+        {
+            ContinueAfterResult(lastPlayer, isCorrect);
+        });
+    }
+
+    void ContinueAfterResult(string lastPlayer, bool isCorrect)
+    {
         string rewardMessage = $"\nCorrect guesses: {correctGuesses}/{roundsPerArea}";
 
         ShowNextUI();
@@ -395,7 +515,7 @@ public class ScenarioSystem : MonoBehaviour
             return;
         }
 
-        if (isPLayerEmotionCorrect)
+        if (isCorrect)
             NotificationSystem.Instance.ShowCorrect($"You guessed {lastPlayer}'s emotion correctly!" + rewardMessage);
         else
             NotificationSystem.Instance.ShowWrong($"You did not guess {lastPlayer}'s emotion correctly!" + rewardMessage);

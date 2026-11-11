@@ -8,6 +8,7 @@ public class EmotionDisplay
     public Emotions emotion;
     public Sprite image;
     public string label;
+    public AudioClip switchSound;
 }
 
 public class FaceCapture : MonoBehaviour
@@ -25,12 +26,19 @@ public class FaceCapture : MonoBehaviour
     public Sprite noFaceImage;
     public string noFaceText = "...";
 
+    [Header("Switch Sound")]
+    public AudioClip defaultSwitchSound;
+    [Range(0f, 1f)] public float switchVolume = 0.8f;
+    public bool playOnNoFace = false;
+    public float switchSoundCooldown = 0.15f;
+
     public bool IsActive { get; private set; }
 
     public Emotions CurrentEmotion => ferController != null ? ferController.CurrentEmotion : Emotions.None;
 
     private Emotions shownEmotion;
     private bool hasShown;
+    private float lastSoundTime = -999f;
 
     private void Awake()
     {
@@ -47,7 +55,7 @@ public class FaceCapture : MonoBehaviour
         Emotions emotion = CurrentEmotion;
         if (hasShown && emotion == shownEmotion) return;
 
-        ShowEmotion(emotion);
+        ShowEmotion(emotion, true);
     }
 
     public void SetActive(bool active)
@@ -63,7 +71,7 @@ public class FaceCapture : MonoBehaviour
         IsActive = active;
 
         if (active)
-            ShowEmotion(Emotions.None);
+            ShowEmotion(Emotions.None, false);
     }
 
     public void SetActiveIfChanged(bool active)
@@ -77,7 +85,7 @@ public class FaceCapture : MonoBehaviour
         return CurrentEmotion == emotion;
     }
 
-    void ShowEmotion(Emotions emotion)
+    void ShowEmotion(Emotions emotion, bool playSound)
     {
         shownEmotion = emotion;
         hasShown = true;
@@ -106,6 +114,20 @@ public class FaceCapture : MonoBehaviour
                 detectedEmotionText.text = upperCaseDetectedText ? text.ToUpper() : text;
             }
         }
+
+        if (playSound && (!noFace || playOnNoFace))
+            PlaySwitchSound(display);
+    }
+
+    void PlaySwitchSound(EmotionDisplay display)
+    {
+        if (Time.unscaledTime - lastSoundTime < switchSoundCooldown) return;
+
+        AudioClip clip = display != null && display.switchSound != null ? display.switchSound : defaultSwitchSound;
+        if (clip == null) return;
+
+        lastSoundTime = Time.unscaledTime;
+        AudioManager.Instance.PlaySFX(clip);
     }
 
     EmotionDisplay FindDisplay(Emotions emotion)

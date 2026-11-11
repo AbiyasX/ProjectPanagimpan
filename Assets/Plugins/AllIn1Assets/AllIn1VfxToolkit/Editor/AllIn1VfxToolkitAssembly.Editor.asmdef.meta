@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e88e0a873956e2148aa391dc09cd93ef
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Editor/AllIn1VfxToolkitAssembly.Editor.asmdef
+  uploadId: 1035270

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 45cc3537ff215b648a176fd0da16c169
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Materials/MagicPurpleCircle.mat
+  uploadId: 1035270

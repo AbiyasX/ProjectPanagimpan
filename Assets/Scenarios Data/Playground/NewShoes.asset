@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8555e504c1b904949a35b283082e1fc4, type: 3}
+  m_Name: NewShoes
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
+  scenarioTitle: New Shoes.
+  scenaroSypnosis: You are wearing your new shoes today
+  Image: {fileID: 21300000, guid: e776a7af7f8c0a8459a23e9d198b797b, type: 3}
+  goodResult: 
+  badResult: 
+  textScenario: You are wearing your new shoes today, and they are still clean and
+    shiny. But you accidentally take a big step into the mud.
+  emotionsRequirment: 0
+  rewardName: 
+  rewardIndex: -1

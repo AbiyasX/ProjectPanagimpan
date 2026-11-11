@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7adab9d9ef604e42af226d41cf88436, type: 3}
+  m_Name: SasakyanDialogueData
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogue_Background: {fileID: 0}
+  dialogue_Texts:
+  - speakerType: 0
+    dialogueSpeaker: Narrator
+    dialogueText: Right before they reach their destination, the pair make it to
+      a familiar sakayan.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: This is the place where we get a ride back home!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: "Yeah, at least when we don\u2019t use our kite."
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: It's fun to ride the jeeps too! And it's easier.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: "Right! Because then we don\u2019t have to bring the kite. You\u2019re
+      right!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: We also get to make memories here, when we come home together!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: You know, that sounds like a good time to charge our kite once
+      more!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: You know, this is a good time to charge our kite again.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 0
+    dialogueSpeaker: NARRATOR
+    dialogueText: "The kids nod together and take a moment to remember the memories
+      they\u2019ve made."
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  startTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []

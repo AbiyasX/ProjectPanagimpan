@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7481046c0aff40d4fb17d42d0fb2840d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/EffectsScriptableObjects/Explosions
+    Bomb.asset
+  uploadId: 1035270

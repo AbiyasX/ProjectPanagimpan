@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1a6e229c07e23d246b06cf435495e9d5
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Shaders/LitShaders/AllIn1VfxLit_BetterShader_HDRP2023.txt
+  uploadId: 1035270

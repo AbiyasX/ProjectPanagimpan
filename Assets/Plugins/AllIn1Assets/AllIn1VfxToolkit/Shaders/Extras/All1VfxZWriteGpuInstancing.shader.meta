@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3417d8b94c5085547be6e63e9522e6e7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Shaders/Extras/All1VfxZWriteGpuInstancing.shader
+  uploadId: 1035270

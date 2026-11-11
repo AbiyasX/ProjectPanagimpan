@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefdd8838c41d2147942db8751b1c36e, type: 3}
+  m_Name: Playground
+  m_EditorClassIdentifier: Assembly-CSharp::AreasData
+  AreaTitle: Playground
+  WelcomeText: Playground
+  areaSypnosis: '
+
+'
+  background: {fileID: 21300000, guid: c83ac55ed8277e941a67b1dfb52bdf54, type: 3}
+  BackgroundMusic: {fileID: 8300000, guid: af890908458682c4295ea706d5b8e5df, type: 3}
+  areaDialogue: {fileID: 11400000, guid: 1212ec596d8441a40971f02a0925bb22, type: 2}
+  possbileScenarios:
+  - {fileID: 11400000, guid: 1e06bebca73d373468a72f1db717a036, type: 2}
+  - {fileID: 11400000, guid: 8f88aebb84c11f7409d234439afc39cc, type: 2}
+  - {fileID: 11400000, guid: 57b192e5dd80cf945b34b691b38860d0, type: 2}
+  - {fileID: 11400000, guid: 86cdb6fd25b059941a1ff6b443cee2ef, type: 2}
+  - {fileID: 11400000, guid: cd3ba4a1dd6c9d14d9d13bf9b726c895, type: 2}
+  rewardName: Blue
+  onRewardEarned:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 6693b6cd008e0a448be5f120db14d0f9, type: 2}
+        m_TargetAssemblyTypeName: RewardSystemData, Assembly-CSharp
+        m_MethodName: CollectReward
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

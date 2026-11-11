@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b72596da8a58ad84088b3c4cb50d7950
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/EffectsScriptableObjects/Shields
+    Scifi.asset
+  uploadId: 1035270

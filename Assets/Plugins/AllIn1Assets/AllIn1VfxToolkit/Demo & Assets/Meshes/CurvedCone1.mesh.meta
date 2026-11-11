@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca47c45f62b890743a7cff2aabcba200
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Meshes/CurvedCone1.mesh
+  uploadId: 1035270

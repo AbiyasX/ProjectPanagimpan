@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 74232ef4607c1994da35fc0c197de228
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/PostProcessingProfile/AllIn1VfxPp.asset
+  uploadId: 1035270

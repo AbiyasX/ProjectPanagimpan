@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9f1465dabf2f2ec4a835fd50bc504c62
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/EffectsScriptableObjects/Shields
+    Fire.asset
+  uploadId: 1035270

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8555e504c1b904949a35b283082e1fc4, type: 3}
+  m_Name: You and your friends
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
+  scenarioTitle: You and your friends
+  scenaroSypnosis: You and your friends are in the middle of your favorite game.
+  Image: {fileID: 21300000, guid: e776a7af7f8c0a8459a23e9d198b797b, type: 3}
+  goodResult: 
+  badResult: 
+  textScenario: You and your friends are in the middle of your favorite game. Then
+    the rain starts to fall hard, and everyone has to run home.
+  emotionsRequirment: 0
+  rewardName: 
+  rewardIndex: -1

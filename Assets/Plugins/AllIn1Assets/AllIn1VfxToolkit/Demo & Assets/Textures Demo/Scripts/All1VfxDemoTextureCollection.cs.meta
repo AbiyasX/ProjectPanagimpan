@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0fe0244c061406149b7407a688699f9a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Textures
+    Demo/Scripts/All1VfxDemoTextureCollection.cs
+  uploadId: 1035270

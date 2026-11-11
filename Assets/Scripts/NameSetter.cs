@@ -33,6 +33,11 @@ public class NameSetter : MonoBehaviour
         sceneSystemScript = GetComponent<ScenarioSystem>();
     }
 
+    public bool IsNameSet()
+    {
+        return !string.IsNullOrWhiteSpace(nameInput.text);
+    }
+
     public void ConfirmPlayerName()
     {
         if (nameInput != null)

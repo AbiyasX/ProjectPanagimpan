@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4bb63eeebd6a8d34ba7c7b852d8dc969
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/Demo/Meshes/Prefabs/TestObject.prefab
+  uploadId: 1035270

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fad0d7d6619928a4c8b1090c5da59e92
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Shaders/LitShaders/AllIn1VfxLit_BetterShader_Standard.txt
+  uploadId: 1035270

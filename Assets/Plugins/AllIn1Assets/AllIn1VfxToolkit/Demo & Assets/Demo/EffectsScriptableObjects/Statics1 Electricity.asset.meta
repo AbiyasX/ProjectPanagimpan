@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3d852b57762b99543a2668635d883124
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/EffectsScriptableObjects/Statics1
+    Electricity.asset
+  uploadId: 1035270

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bb4ec45733fc1424cb331fde8da3ae10
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Shaders/AllIn1VfxDOTS.shader
+  uploadId: 1035270

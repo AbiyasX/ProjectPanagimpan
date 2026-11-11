@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe1145441c7954443bb6695ebeaa34c0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Meshes/CastSpell100Deg.mesh
+  uploadId: 1035270

@@ -5,14 +5,17 @@ using UnityEngine;
 [System.Serializable]
 public class Reward
 {
+    public string rewardName;
+    public Texture rewardImage;
     public GameObject rewardObject;
     public bool isCollected;
 }
+
 public class RewardSystem : MonoBehaviour
 {
-
     public static RewardSystem Instance;
 
+    public RewardPanelScript rewardPanel;
     public List<Reward> rewards = new List<Reward>();
 
     void Awake()
@@ -28,8 +31,25 @@ public class RewardSystem : MonoBehaviour
             return false;
         }
 
-        rewards[index].isCollected = true;
+        Reward reward = rewards[index];
+
+        if (reward.isCollected)
+            return false;
+
+        reward.isCollected = true;
+
+        if (rewardPanel != null)
+            rewardPanel.ShowReward(reward.rewardImage, reward.rewardName);
+        else
+            Debug.LogWarning("RewardPanelScript is not assigned in RewardSystem");
+
         return true;
+    }
+
+    [Button("Test Collect")]
+    void TestCollect(int index)
+    {
+        Collect(index);
     }
 
     [Button("Show Rewards")]

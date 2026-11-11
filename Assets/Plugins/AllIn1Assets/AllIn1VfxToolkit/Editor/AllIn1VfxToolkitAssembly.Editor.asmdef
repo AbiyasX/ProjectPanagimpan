@@ -1,0 +1,24 @@
+{
+    "name": "AllIn1VfxToolkitAssembly.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:13a9354c55b60044abfc2fa6088e30dc",
+        "GUID:742172b1482a6584a8d6c884aed4e370",
+        "GUID:0fb3b4c444307044a828a0e72684a95b",
+        "GUID:edb759cfdddc2154da124a3815260a2c",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:c579267770062bf448e75eb160330b7f",
+        "GUID:e21b290f41bd7574da054fd31a3f2f27"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

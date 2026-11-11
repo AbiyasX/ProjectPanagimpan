@@ -1,0 +1,90 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAE4E2A66CF010E8C2BED7DB9C2F20A6F14EFC515 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE44828C7C605830E75A884206604FB7980FBE0C9 (void);
+extern void All1VfxDemoTextureCollection__ctor_m3E4264373986F09BC5251912A694818C93890178 (void);
+extern void AllIn1DemoScaleTween_Start_m6514C407F9D5C0FD6FD2BB37C876C61ADD12E0D1 (void);
+extern void AllIn1DemoScaleTween_Update_m31102AE2356B093EEEDA2E7524390C2A50833FAD (void);
+extern void AllIn1DemoScaleTween_UpdateScaleToApply_mDAD3F31EA3FC671EEE3DBCE21E5CDFF7A4319F53 (void);
+extern void AllIn1DemoScaleTween_ApplyScale_mA47BDF1F3A4B1AC306590A1FB6B7E7051A30F99B (void);
+extern void AllIn1DemoScaleTween_ScaleUpTween_mAA72D11CAB852D82A83966A7A5315777CD92D403 (void);
+extern void AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC (void);
+extern void AllIn1DemoScaleTween__ctor_mA6D5B1E13DC36651582147578B70C31CD834061D (void);
+extern void AllIn1VfxTextureDemoManager_Start_m6AB96957F295464AAC17C0218A0D101E79A5604D (void);
+extern void AllIn1VfxTextureDemoManager_CheckEventSystem_mD06B6C604A613732521694DD75A7E31AE0E08C7A (void);
+extern void AllIn1VfxTextureDemoManager_Update_m3D6A3018BABDD10EF381F9EB792D36521ED16C2C (void);
+extern void AllIn1VfxTextureDemoManager_ChangeTextureIndex_m3101C038696D3C8A48AFCB55D263C73DBA3ABD6B (void);
+extern void AllIn1VfxTextureDemoManager_ChangeCollectionIndex_m5614B1A62B4B44A6BACA58B2AED41D9E0D07ABA9 (void);
+extern void AllIn1VfxTextureDemoManager_RefreshCollectionAndPageText_m0107EFE52902B719673C71A68CC4FD85E631BA55 (void);
+extern void AllIn1VfxTextureDemoManager_AssignCurrentImages_m219466C9A22397E01B804260AF179B0844993135 (void);
+extern void AllIn1VfxTextureDemoManager__ctor_mE9B388CB0993463D02AABEFE1EC16CA4443E6BA6 (void);
+static Il2CppMethodPointer s_methodPointers[18] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAE4E2A66CF010E8C2BED7DB9C2F20A6F14EFC515,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE44828C7C605830E75A884206604FB7980FBE0C9,
+	All1VfxDemoTextureCollection__ctor_m3E4264373986F09BC5251912A694818C93890178,
+	AllIn1DemoScaleTween_Start_m6514C407F9D5C0FD6FD2BB37C876C61ADD12E0D1,
+	AllIn1DemoScaleTween_Update_m31102AE2356B093EEEDA2E7524390C2A50833FAD,
+	AllIn1DemoScaleTween_UpdateScaleToApply_mDAD3F31EA3FC671EEE3DBCE21E5CDFF7A4319F53,
+	AllIn1DemoScaleTween_ApplyScale_mA47BDF1F3A4B1AC306590A1FB6B7E7051A30F99B,
+	AllIn1DemoScaleTween_ScaleUpTween_mAA72D11CAB852D82A83966A7A5315777CD92D403,
+	AllIn1DemoScaleTween_ScaleDownTween_mB02C309672738DE52B4CD631DD15A6FC5EB1A2AC,
+	AllIn1DemoScaleTween__ctor_mA6D5B1E13DC36651582147578B70C31CD834061D,
+	AllIn1VfxTextureDemoManager_Start_m6AB96957F295464AAC17C0218A0D101E79A5604D,
+	AllIn1VfxTextureDemoManager_CheckEventSystem_mD06B6C604A613732521694DD75A7E31AE0E08C7A,
+	AllIn1VfxTextureDemoManager_Update_m3D6A3018BABDD10EF381F9EB792D36521ED16C2C,
+	AllIn1VfxTextureDemoManager_ChangeTextureIndex_m3101C038696D3C8A48AFCB55D263C73DBA3ABD6B,
+	AllIn1VfxTextureDemoManager_ChangeCollectionIndex_m5614B1A62B4B44A6BACA58B2AED41D9E0D07ABA9,
+	AllIn1VfxTextureDemoManager_RefreshCollectionAndPageText_m0107EFE52902B719673C71A68CC4FD85E631BA55,
+	AllIn1VfxTextureDemoManager_AssignCurrentImages_m219466C9A22397E01B804260AF179B0844993135,
+	AllIn1VfxTextureDemoManager__ctor_mE9B388CB0993463D02AABEFE1EC16CA4443E6BA6,
+};
+static const int32_t s_InvokerIndices[18] = 
+{
+	34253,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	18824,
+	14467,
+	14467,
+	18824,
+	18824,
+	18824,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AllIn1VfxTexDemoAssembly_CodeGenModule;
+const Il2CppCodeGenModule g_AllIn1VfxTexDemoAssembly_CodeGenModule = 
+{
+	"AllIn1VfxTexDemoAssembly.dll",
+	18,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

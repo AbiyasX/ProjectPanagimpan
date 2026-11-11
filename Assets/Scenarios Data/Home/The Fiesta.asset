@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
   scenarioTitle: The Fiesta
   scenaroSypnosis: The fiesta is over. You're walking home with your friend
-  Image: {fileID: -1594447757, guid: dbe27d29dc5e95f458fb78831bad6916, type: 3}
+  Image: {fileID: 21300000, guid: 914e74e750e2ce24a867f3bb52760547, type: 3}
   goodResult: 
   badResult: 
   textScenario: 'The fiesta is over. You''re walking home with your friend, tired,

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 10e29c83631353f44b7eca0cc6a85099
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Materials/ProjGlowRed.mat
+  uploadId: 1035270

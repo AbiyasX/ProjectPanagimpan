@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 32065d03744540c386adf1685adc7bf0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/Demo/Meshes/Prefabs/ChomperMesh.prefab
+  uploadId: 1035270

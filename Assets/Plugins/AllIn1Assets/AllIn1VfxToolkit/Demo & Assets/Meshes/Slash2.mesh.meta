@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a637ff494703e414c8c4ab36fbf90240
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Meshes/Slash2.mesh
+  uploadId: 1035270

@@ -1,0 +1,6458 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_tD91E4D0ED3C2E385D3BDD4B3EA48B5F99D39F1DC;
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+struct Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E;
+struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
+struct Dictionary_2_t609CD6E7E686007E5CF00E6A12C74A3B3106EF96;
+struct List_1_tC3125D359B5BFC11439B1C3D9D6620A529B03EF0;
+struct List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F;
+struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
+struct List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3;
+struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
+struct List_1_t8292C421BBB00D7661DC07462822936152BAB446;
+struct List_1_t89B39292AD45371F7FDCB295AAE956D33588BC6E;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct TweenRunner_1_t830EC096236A3CEC7189DFA6E0B2E74C5C97780B;
+struct UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90;
+struct UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4;
+struct All1VfxDemoEffectU5BU5D_t1230E7FDD3FC87E2D93CD090C8BCEFB93F5C7577;
+struct All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct PointerModelU5BU5D_tE7B1CA281F392BD0840E1A81754AC94AF44FEE81;
+struct SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192;
+struct SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353;
+struct UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct All1DemoDropdownScroller_t299CB63AE717CA6BDE71D805D784F56D2D64B682;
+struct All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D;
+struct All1DemoProjectileObstacle_t30BF228ECA28DB6AD56628B650EC30D214EB2245;
+struct All1DemoSceneColor_t3F1578B65FC48232B451DEEF68BCFCBD5FF2140E;
+struct All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9;
+struct All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1;
+struct AllIn1AutoRotate_t8B6E6B119E707D4A9231347FEA41375C510199FF;
+struct AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2;
+struct AllIn1ChangeAllChildTextFonts_t19F596A74AE2FE2E294592BA221C6BB406B29596;
+struct AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082;
+struct AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3;
+struct AllIn1DoShake_tB09066DBB708ACD4E2ECB28F60DB98D68955D682;
+struct AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3;
+struct AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77;
+struct AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0;
+struct AllIn1VfxAutoDestroy_t759F195AD327358C7C09E6384A84870F466AEA70;
+struct AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08;
+struct AllIn1VfxFadeLight_t4FC162372AD5D7F6CA07353EDE474016D239D39C;
+struct AllIn1VfxParticleSystemTime_t9309D71850B97651EA06277DDFE0EE3E09DC1118;
+struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
+struct AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938;
+struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
+struct BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622;
+struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1;
+struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DefaultInputActions_t8041965208E4C6952C7969FD33249007DE96F0A6;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89;
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707;
+struct ExtendedPointerEventData_t164B462A9B123B2EE69B7DEC4F33F6AA3DE7937F;
+struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6;
+struct FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D;
+struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1;
+struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
+struct InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77;
+struct UIToolkitInteroperabilityBridge_t8E98EE5D73E8CCAA894A1BE50049E2A06E592CDD;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tB700B2E5B9339CC17D9D3EC961D024D7A43DDD7D;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0;
+struct ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct DropdownEvent_t8A008B010A742724CFC93576D6976E474BB13059;
+struct OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F;
+struct OptionDataList_t53255477D0A9C6980AB48693A520EFBC94DFFB96;
+struct FontTextureRebuildCallback_t76D5E172DF8AA57E67763D453AAC40F0961D09B1;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
+
+IL2CPP_EXTERN_C RuntimeClass* AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t3C4CDC94ED2443EB2B6A90A8F43E020260E767F6____90AE927A8D4B85DF31DD62FD62CB0E0F362C9063F37DCD30BC215EA7A2F00EF5_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t3C4CDC94ED2443EB2B6A90A8F43E020260E767F6____D9C53FF7C2FB1359F516A8E758077D3F5D51C6EA169415A9A36D13143ACA502F_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral006976E56695070D63E145217B701EDEE8895C82;
+IL2CPP_EXTERN_C String_t* _stringLiteral4780AF940655CB59AF49F6344DA95EC30E32AA8A;
+IL2CPP_EXTERN_C String_t* _stringLiteral493129A97A0C654B32ECBC950426300104965D7F;
+IL2CPP_EXTERN_C String_t* _stringLiteral5FD7ACA76D20D20DB889E633C51EEB14ED85007F;
+IL2CPP_EXTERN_C String_t* _stringLiteral8E09F6971F42D87127E76A675589BE96CC2160A7;
+IL2CPP_EXTERN_C String_t* _stringLiteral9DED1F98F6124037784F89A7135F9F6F303C3B60;
+IL2CPP_EXTERN_C String_t* _stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8;
+IL2CPP_EXTERN_C String_t* _stringLiteralB93A832C1F693E12C0F1F117D18A77DA7AD47E26;
+IL2CPP_EXTERN_C String_t* _stringLiteralEDE8C4DF1715CFC71A5D1502BBF477C021B0A6BE;
+IL2CPP_EXTERN_C String_t* _stringLiteralF12CEF824BF74FB0B0A862C961B9E80A0783D802;
+IL2CPP_EXTERN_C String_t* _stringLiteralF5D8EF422ABD0284BA3EEB3BF58FBA9313575F4E;
+IL2CPP_EXTERN_C const RuntimeMethod* AllIn1TimeControl_U3CStartU3Eb__13_0_mB6CC25A3AC7FB3CC50F9B66CDFC59FF086897770_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082_mA47212D689EF403AE234289425ED7323095976E2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3_m9ED529DD9C3119ED87A2F2B210A965CDDCB1AE24_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m3FC915DEC37CE1CE6E48A26D44655BAE36FD140E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisAllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0_m313D7092D6F30F2B0BCA8D2245F938D280EA6738_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CCurrentEffectLabelTweenEffectCRU3Ed__41_System_Collections_IEnumerator_Reset_mADB16029C48E0041EBDA7E385D23DBFB467862A3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct All1VfxDemoEffectU5BU5D_t1230E7FDD3FC87E2D93CD090C8BCEFB93F5C7577;
+struct All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t1EE020DFAD8B16A5B31E04261037046B6EFF3844 
+{
+};
+struct U3CPrivateImplementationDetailsU3E_t3C4CDC94ED2443EB2B6A90A8F43E020260E767F6  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tB700B2E5B9339CC17D9D3EC961D024D7A43DDD7D  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct InlinedArray_1_tC2490B07B1DD813665B621955586CF31457DB284 
+{
+	int32_t ___length;
+	int32_t ___firstValue;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___additionalValues;
+};
+struct UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1__padding[1];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD 
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_pinvoke
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SubmitCancelModel_t9EE6EB92BEF49CDE76DD473E3677C344D2953C58 
+{
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct SubmitCancelModel_t9EE6EB92BEF49CDE76DD473E3677C344D2953C58_marshaled_pinvoke
+{
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct SubmitCancelModel_t9EE6EB92BEF49CDE76DD473E3677C344D2953C58_marshaled_com
+{
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D1224_t1B35E8169C38DE5B348F3C5E316C87423D28E26C 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D1224_t1B35E8169C38DE5B348F3C5E316C87423D28E26C__padding[1224];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D1872_t5C70FC695DCDE5559BB0DCB6EE1568A0D03B75BB 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D1872_t5C70FC695DCDE5559BB0DCB6EE1568A0D03B75BB__padding[1872];
+	};
+};
+#pragma pack(pop, tp)
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88 
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	bool ___sendEvents;
+	bool ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88_marshaled_pinvoke
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88_marshaled_com
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct Nullable_1_t33D5AB3CF72EDE570A226DE48EF7C3A10F25A7C4 
+{
+	bool ___hasValue;
+	UIToolkitOverrideConfigOld_tE63BCF42BC8CC79144B2817BE309C5C19015FD88 ___value;
+};
+struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_HighlightedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_PressedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_DisabledColor;
+	float ___m_ColorMultiplier;
+	float ___m_FadeDuration;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct CursorLockMode_tB70C7D1B9208B821C1C8A614BE904500B92C47D2 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct LightShape_t538BE3D1AD8C9B537615DAE1C77FA43E26295E91 
+{
+	int32_t ___value__;
+};
+struct MoveDirection_t0981B415CB2BEB70F14E647EDE5DE29F52DEC5E6 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+	UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77* ___document;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___element;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct Space_tF043E93E06B702DD05199C28C6F779049B38A969 
+{
+	int32_t ___value__;
+};
+struct UIPointerBehavior_tCAF2F71C525676D79B709E579FA26750E57F6E9F 
+{
+	int32_t ___value__;
+};
+struct UIPointerType_tF7BFB4984CB24DD368B1FFBC86A82CA43C1B9B1B 
+{
+	int32_t ___value__;
+};
+struct U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* ___U3CU3E4__this;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___U3CstartColorU3E5__2;
+};
+struct FillMethod_t36837ED12068DF1582CC20489D571B0BCAA7AD19 
+{
+	int32_t ___value__;
+};
+struct Type_t81D6F138C2FC745112D5247CD91BD483EDFFC041 
+{
+	int32_t ___value__;
+};
+struct CursorLockBehavior_t9141355F41B4E0611F5F963716D819E6EB8C9D55 
+{
+	int32_t ___value__;
+};
+struct Mode_t2D49D0E10E2FDA0026278C2400C16033888D0542 
+{
+	int32_t ___value__;
+};
+struct FramePressState_t1C7FDAE5827219BC328972DD7E496343581BDF95 
+{
+	int32_t ___value__;
+};
+struct Transition_tF856A77C9FAC6D26EA3CA158CF68B739D35397B3 
+{
+	int32_t ___value__;
+};
+struct Direction_t4C81D17BB6C089A0EC1C4934525B86E75E693EFA 
+{
+	int32_t ___value__;
+};
+struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555  : public UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4
+{
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+	FontTextureRebuildCallback_t76D5E172DF8AA57E67763D453AAC40F0961D09B1* ___m_FontTextureRebuildCallback;
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
+{
+	int32_t ___m_Mode;
+	bool ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___move;
+	int32_t ___consecutiveMoveCount;
+	int32_t ___lastMoveDirection;
+	float ___lastMoveTime;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2_marshaled_pinvoke
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___move;
+	int32_t ___consecutiveMoveCount;
+	int32_t ___lastMoveDirection;
+	float ___lastMoveTime;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2_marshaled_com
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___move;
+	int32_t ___consecutiveMoveCount;
+	int32_t ___lastMoveDirection;
+	float ___lastMoveTime;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___eventData;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___device;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69 
+{
+	bool ___m_IsPressed;
+	int32_t ___m_FramePressState;
+	float ___m_PressTime;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___m_PressRaycast;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RawPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LastPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_DragObject;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PressPosition;
+	float ___m_ClickTime;
+	int32_t ___m_ClickCount;
+	bool ___m_Dragging;
+	bool ___m_ClickedOnSameGameObject;
+	bool ___m_IgnoreNextClick;
+};
+struct ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_pinvoke
+{
+	int32_t ___m_IsPressed;
+	int32_t ___m_FramePressState;
+	float ___m_PressTime;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke ___m_PressRaycast;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RawPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LastPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_DragObject;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PressPosition;
+	float ___m_ClickTime;
+	int32_t ___m_ClickCount;
+	int32_t ___m_Dragging;
+	int32_t ___m_ClickedOnSameGameObject;
+	int32_t ___m_IgnoreNextClick;
+};
+struct ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_com
+{
+	int32_t ___m_IsPressed;
+	int32_t ___m_FramePressState;
+	float ___m_PressTime;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com ___m_PressRaycast;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_RawPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LastPressObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_DragObject;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PressPosition;
+	float ___m_ClickTime;
+	int32_t ___m_ClickCount;
+	int32_t ___m_Dragging;
+	int32_t ___m_ClickedOnSameGameObject;
+	int32_t ___m_IgnoreNextClick;
+};
+struct UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90  : public MulticastDelegate_t
+{
+};
+struct All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	bool ___onlyOneAtATime;
+	bool ___canBePlayedAgain;
+	float ___randomSpreadRadius;
+	float ___cooldown;
+	bool ___isShootProjectile;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___effectPrefab;
+	bool ___spawnTouchingFloor;
+	float ___projectileSpeed;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___projectilePrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___muzzleFlashPrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___impactPrefab;
+	bool ___doCameraShake;
+	float ___mainEffectShakeAmount;
+	float ___projectileImpactShakeAmount;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positionOffset;
+	float ___scaleMultiplier;
+};
+struct All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	All1VfxDemoEffectU5BU5D_t1230E7FDD3FC87E2D93CD090C8BCEFB93F5C7577* ___demoEffectCollection;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42 
+{
+	bool ___changedThisFrame;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69 ___leftButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69 ___rightButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69 ___middleButton;
+	ExtendedPointerEventData_t164B462A9B123B2EE69B7DEC4F33F6AA3DE7937F* ___eventData;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScreenPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScrollDelta;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_WorldPosition;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_WorldOrientation;
+	float ___m_Pressure;
+	float ___m_AzimuthAngle;
+	float ___m_AltitudeAngle;
+	float ___m_Twist;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Radius;
+};
+struct PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42_marshaled_pinvoke
+{
+	int32_t ___changedThisFrame;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_pinvoke ___leftButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_pinvoke ___rightButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_pinvoke ___middleButton;
+	ExtendedPointerEventData_t164B462A9B123B2EE69B7DEC4F33F6AA3DE7937F* ___eventData;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScreenPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScrollDelta;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_WorldPosition;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_WorldOrientation;
+	float ___m_Pressure;
+	float ___m_AzimuthAngle;
+	float ___m_AltitudeAngle;
+	float ___m_Twist;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Radius;
+};
+struct PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42_marshaled_com
+{
+	int32_t ___changedThisFrame;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_com ___leftButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_com ___rightButton;
+	ButtonState_tC90005D9F1E87688352A8F97B40400D0319CFC69_marshaled_com ___middleButton;
+	ExtendedPointerEventData_t164B462A9B123B2EE69B7DEC4F33F6AA3DE7937F* ___eventData;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScreenPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ScrollDelta;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_WorldPosition;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_WorldOrientation;
+	float ___m_Pressure;
+	float ___m_AzimuthAngle;
+	float ___m_AltitudeAngle;
+	float ___m_Twist;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Radius;
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct InlinedArray_1_t6E2851F85C23093EDE233F71F5CE3D6D08FAE920 
+{
+	int32_t ___length;
+	PointerModel_t6E979AA49D01ACA529A68AF8F48624E73484CD42 ___firstValue;
+	PointerModelU5BU5D_tE7B1CA281F392BD0840E1A81754AC94AF44FEE81* ___additionalValues;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	uint32_t ___m_NonSerializedVersion;
+};
+struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	int32_t ___U3CshapeU3Ek__BackingField;
+	int32_t ___m_BakedIndex;
+};
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct All1DemoDropdownScroller_t299CB63AE717CA6BDE71D805D784F56D2D64B682  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___dropdownElementCount;
+	int32_t ___nextDropdownElementKey;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdown;
+};
+struct All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___mouseLockerKey;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___lockButtonImage;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___lockButtonColor;
+	AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* ___allIn1MouseRotate;
+	AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* ___lockedTween;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___pausedButtonText;
+	bool ___currentlyLocked;
+};
+struct All1DemoProjectileObstacle_t30BF228ECA28DB6AD56628B650EC30D214EB2245  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___projectileObstacles;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___projectileObstacleDropdown;
+};
+struct All1DemoSceneColor_t3F1578B65FC48232B451DEEF68BCFCBD5FF2140E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___sceneColors;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___targetCamera;
+	float ___cameraColorMult;
+	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___floorMeshRenderer;
+	float ___floorColorMult;
+	float ___fogColorMult;
+	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___sceneColorDropdown;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___floorMaterial;
+};
+struct AllIn1AutoRotate_t8B6E6B119E707D4A9231347FEA41375C510199FF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___rotationSpeed;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rotationAxis;
+};
+struct AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___fadeToggleKey;
+	float ___tweenSpeed;
+	AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* ___hideUiButtonTween;
+	bool ___isTweening;
+	float ___currentAlpha;
+	float ___targetAlpha;
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___canvasGroup;
+	bool ___hideUiButtonTweenNotNull;
+};
+struct AllIn1ChangeAllChildTextFonts_t19F596A74AE2FE2E294592BA221C6BB406B29596  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___newFont;
+	bool ___changeFontOnStart;
+};
+struct AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___inaccurateAmount;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___currentImpactPrefab;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___currentHierarchyParent;
+	bool ___doImpactSpawn;
+	bool ___doShake;
+	float ___shakeAmountOnImpact;
+	float ___impactScaleSize;
+};
+struct AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___maxTweenScale;
+	float ___minTweenScale;
+	float ___tweenSpeed;
+	bool ___isTweening;
+	float ___currentScale;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scaleToApply;
+};
+struct AllIn1DoShake_tB09066DBB708ACD4E2ECB28F60DB98D68955D682  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___shakeAmount;
+	bool ___doShakeOnStart;
+	float ___shakeOnStartDelay;
+};
+struct AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___objectToRotate;
+	float ___rotationSpeedHorizontal;
+	float ___translateVerticalSpeed;
+	float ___translateScrollSpeed;
+	bool ___lockCursor;
+	int32_t ___lockCursorKeyCode;
+	AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* ___hideUiButtonTween;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___lockedButtonImage;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___lockedButtonText;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___lockedButtonColor;
+	bool ___cursorIsLocked;
+	float ___maxHeight;
+	float ___maxZoom;
+	float ___minZoom;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___currPosition;
+	float ___dt;
+};
+struct AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___maximumTranslationShake;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___maximumAngularShake;
+	float ___shakeFrequency;
+	float ___shakeSmoothingExponent;
+	float ___shakeRecoverPerSecond;
+	float ___currentShakeAmount;
+	float ___seed;
+};
+struct AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___increaseTimeScale;
+	int32_t ___increaseTimeScaleAlt;
+	int32_t ___decreaseTimeScale;
+	int32_t ___decreaseTimeScaleAlt;
+	int32_t ___pauseKey;
+	float ___timeScaleInterval;
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___timeScaleSlider;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___pausedButtonImage;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___pausedButtonColor;
+	bool ___timeScaleSliderNotNull;
+	float ___lastChangeTime;
+	AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* ___pausedButtonTween;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___pausedButtonText;
+};
+struct AllIn1VfxAutoDestroy_t759F195AD327358C7C09E6384A84870F466AEA70  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___destroyTime;
+};
+struct AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___startingCollectionIndex;
+	int32_t ___startingEffectIndex;
+	All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1* ___effectsToSpawnCollections;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___projectileBasePrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___projectileSceneSetupObject;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___projectileSpawnPoint;
+	int32_t ___playEffectKey;
+	int32_t ___nextEffectKey;
+	int32_t ___nextEffectKeyAlt;
+	int32_t ___previousEffectKey;
+	int32_t ___previousEffectKeyAlt;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___currentEffectLabel;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___playEffectButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___playEffectInstructionsGo;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___nextEffectButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___previousEffectButton;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___groundSpawnTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___cameraPivotTransform;
+	float ___camPivotHeightSmoothing;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___projectileEffectUI;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___normalEffectUI;
+	All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* ___currDemoEffect;
+	int32_t ___currDemoCollectionIndex;
+	int32_t ___currDemoEffectIndex;
+	int32_t ___currentEffectPlays;
+	AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* ___currLabelTween;
+	AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* ___playButtTween;
+	AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* ___nextButtTween;
+	AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* ___prevButtTween;
+	float ___timeSinceEffectPlay;
+	AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* ___allIn1TimeControl;
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___eventSystem;
+};
+struct AllIn1VfxFadeLight_t4FC162372AD5D7F6CA07353EDE474016D239D39C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___fadeDuration;
+	bool ___destroyWhenFaded;
+	Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___targetLight;
+	float ___animationRatioRemaining;
+	float ___iniLightIntensity;
+};
+struct AllIn1VfxParticleSystemTime_t9309D71850B97651EA06277DDFE0EE3E09DC1118  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___updateEveryFrame;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___simulationTimeRange;
+	ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* ___targetPs;
+	bool ___isValid;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	List_1_t8292C421BBB00D7661DC07462822936152BAB446* ___m_RaycastResultCache;
+	bool ___m_SendPointerHoverToParent;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___m_AxisEventData;
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___m_EventSystem;
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_BaseEventData;
+	BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* ___m_InputOverride;
+	BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622* ___m_DefaultInput;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F* ___m_SystemInputModules;
+	BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* ___m_CurrentInputModule;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstSelected;
+	bool ___m_sendNavigationEvents;
+	int32_t ___m_DragThreshold;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CurrentSelected;
+	bool ___m_HasFocus;
+	bool ___m_SelectionGuard;
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_DummyData;
+	UIToolkitInteroperabilityBridge_t8E98EE5D73E8CCAA894A1BE50049E2A06E592CDD* ___m_UIToolkitInterop;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	bool ___m_EnableCalled;
+	Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___m_Navigation;
+	int32_t ___m_Transition;
+	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___m_Colors;
+	SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___m_SpriteState;
+	AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074* ___m_AnimationTriggers;
+	bool ___m_Interactable;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_TargetGraphic;
+	bool ___m_GroupsAllowInteraction;
+	int32_t ___m_CurrentIndex;
+	bool ___U3CisPointerInsideU3Ek__BackingField;
+	bool ___U3CisPointerDownU3Ek__BackingField;
+	bool ___U3ChasSelectionU3Ek__BackingField;
+	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache;
+};
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* ___m_OnClick;
+};
+struct Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_Template;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_CaptionText;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_CaptionImage;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___m_ItemText;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_ItemImage;
+	int32_t ___m_Value;
+	OptionDataList_t53255477D0A9C6980AB48693A520EFBC94DFFB96* ___m_Options;
+	DropdownEvent_t8A008B010A742724CFC93576D6976E474BB13059* ___m_OnValueChanged;
+	float ___m_AlphaFadeSpeed;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_Dropdown;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_Blocker;
+	List_1_t89B39292AD45371F7FDCB295AAE956D33588BC6E* ___m_Items;
+	TweenRunner_1_t830EC096236A3CEC7189DFA6E0B2E74C5C97780B* ___m_AlphaTweenRunner;
+	bool ___validTemplate;
+};
+struct InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58  : public BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1
+{
+	float ___m_MoveRepeatDelay;
+	float ___m_MoveRepeatRate;
+	float ___m_TrackedDeviceDragThresholdMultiplier;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_XRTrackingOrigin;
+	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___m_ActionsAsset;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_PointAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_MoveAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_SubmitAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_CancelAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_LeftClickAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_MiddleClickAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_RightClickAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_ScrollWheelAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_TrackedDevicePositionAction;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_TrackedDeviceOrientationAction;
+	bool ___m_DeselectOnBackgroundClick;
+	int32_t ___m_PointerBehavior;
+	int32_t ___m_CursorLockBehavior;
+	float ___m_ScrollDeltaPerTick;
+	bool ___m_ActionsHooked;
+	bool ___m_NeedToPurgeStalePointers;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnPointDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnMoveDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnSubmitCancelDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnLeftClickDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnRightClickDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnMiddleClickDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnScrollWheelDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnTrackedDevicePositionDelegate;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnTrackedDeviceOrientationDelegate;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___m_OnControlsChangedDelegate;
+	int32_t ___m_CurrentPointerId;
+	int32_t ___m_CurrentPointerIndex;
+	int32_t ___m_CurrentPointerType;
+	InlinedArray_1_tC2490B07B1DD813665B621955586CF31457DB284 ___m_PointerIds;
+	InlinedArray_1_t6E2851F85C23093EDE233F71F5CE3D6D08FAE920 ___m_PointerStates;
+	NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2 ___m_NavigationState;
+	SubmitCancelModel_t9EE6EB92BEF49CDE76DD473E3677C344D2953C58 ___m_SubmitCancelState;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LocalMultiPlayerRoot;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillRect;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleRect;
+	int32_t ___m_Direction;
+	float ___m_MinValue;
+	float ___m_MaxValue;
+	bool ___m_WholeNumbers;
+	float ___m_Value;
+	SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* ___m_OnValueChanged;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_FillImage;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_FillTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillContainerRect;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_HandleTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleContainerRect;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Offset;
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker;
+	bool ___m_DelayedUpdateVisuals;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite;
+	int32_t ___m_Type;
+	bool ___m_PreserveAspect;
+	bool ___m_FillCenter;
+	int32_t ___m_FillMethod;
+	float ___m_FillAmount;
+	bool ___m_FillClockwise;
+	int32_t ___m_FillOrigin;
+	float ___m_AlphaHitTestMinimumThreshold;
+	bool ___m_Tracked;
+	bool ___m_UseSpriteMesh;
+	float ___m_PixelsPerUnitMultiplier;
+	float ___m_CachedReferencePixelsPerUnit;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___m_SecondaryTextures;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData;
+	String_t* ___m_Text;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout;
+	bool ___m_DisableFontTextureRebuiltCallback;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts;
+};
+struct U3CPrivateImplementationDetailsU3E_t3C4CDC94ED2443EB2B6A90A8F43E020260E767F6_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D1872_t5C70FC695DCDE5559BB0DCB6EE1568A0D03B75BB ___90AE927A8D4B85DF31DD62FD62CB0E0F362C9063F37DCD30BC215EA7A2F00EF5;
+	__StaticArrayInitTypeSizeU3D1224_t1B35E8169C38DE5B348F3C5E316C87423D28E26C ___D9C53FF7C2FB1359F516A8E758077D3F5D51C6EA169415A9A36D13143ACA502F;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6_StaticFields
+{
+	Action_1_tD91E4D0ED3C2E385D3BDD4B3EA48B5F99D39F1DC* ___textureRebuilt;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_StaticFields
+{
+	int32_t ___k_ColorId;
+	int32_t ___k_MainTexId;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+struct AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields
+{
+	AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* ___i;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_StaticFields
+{
+	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems;
+	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer;
+	Nullable_1_t33D5AB3CF72EDE570A226DE48EF7C3A10F25A7C4 ___s_UIToolkitOverrideConfigOld;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712_StaticFields
+{
+	SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9* ___s_Selectables;
+	int32_t ___s_SelectableCount;
+};
+struct Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_StaticFields
+{
+	OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* ___s_NoOptionData;
+};
+struct InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_StaticFields
+{
+	DefaultInputActions_t8041965208E4C6952C7969FD33249007DE96F0A6* ___defaultActions;
+	Dictionary_2_t609CD6E7E686007E5CF00E6A12C74A3B3106EF96* ___s_InputActionReferenceCounts;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI;
+	SecondarySpriteTextureU5BU5D_tC322D73EA4B9A8B747013A3584DEFEAFC0D87192* ___s_TempNewSecondaryTextures;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv;
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages;
+	bool ___s_Initialized;
+};
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* m_Items[1];
+
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Color_tD001788D726C3A7F1379BEED0260B9591F440C1F m_Items[1];
+
+	inline Color_tD001788D726C3A7F1379BEED0260B9591F440C1F GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Color_tD001788D726C3A7F1379BEED0260B9591F440C1F GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* m_Items[1];
+
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1  : public RuntimeArray
+{
+	ALIGN_FIELD (8) All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* m_Items[1];
+
+	inline All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct All1VfxDemoEffectU5BU5D_t1230E7FDD3FC87E2D93CD090C8BCEFB93F5C7577  : public RuntimeArray
+{
+	ALIGN_FIELD (8) All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* m_Items[1];
+
+	inline All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared (RuntimeObject* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5_gshared (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindAnyObjectByType_TisRuntimeObject_mE7A79400E013891ADB85E4C6A5CF95B447D374BA_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared (RuntimeObject* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+inline Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD (int32_t ___0_keyCode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoDropdownScroller_NextDropdownElements_m84EFB5CAE6B792030C2FF9A59DC0315F7A3FA58C (All1DemoDropdownScroller_t299CB63AE717CA6BDE71D805D784F56D2D64B682* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C_inline (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_set_value_m0764A5E2023E34705ADD422689BF6C0074449FEE (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+inline AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* Component_GetComponent_TisAllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3_m9ED529DD9C3119ED87A2F2B210A965CDDCB1AE24 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoMouseLocker_ProcessInput_m9D6ED58EC07B4AD2C829DF0D9C3531A83179BBEF (All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoMouseLocker_DoMouseLockToggle_mDF6DD31A69F01B23F8A19425084AFFC7B5D4BA5C (All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_ScaleUpTween_m003631433F3804F1952FD42B06E81E99B55B41CC (AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoProjectileObstacle_DropdownValueChanged_mEC37B6247F9EE76964F897A933BB4D0666DABF49 (All1DemoProjectileObstacle_t30BF228ECA28DB6AD56628B650EC30D214EB2245* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoProjectileObstacle_SetProjectileObstacleN_m9D85B974FF87795D30441FE6937D51A277CCE3DC (All1DemoProjectileObstacle_t30BF228ECA28DB6AD56628B650EC30D214EB2245* __this, int32_t ___0_nIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoSceneColor_DropdownValueChanged_m8CE7095F31A78DE812E476A4CC8AF7B3D0F5C1C5 (All1DemoSceneColor_t3F1578B65FC48232B451DEEF68BCFCBD5FF2140E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoSceneColor_SetSceneColor_m1160B9B6C0F2BB0FC40CD3F86A76692DFF54D229 (All1DemoSceneColor_t3F1578B65FC48232B451DEEF68BCFCBD5FF2140E* __this, int32_t ___0_nIndex, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_backgroundColor_m036FD8C316A93A0B168ACC89AFF16D396B872138 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderSettings_set_fogColor_mBBD12EC3492195F85F583CAF4FAE4A973227639B (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_mAE711E1B1F639FDBA7B456E1E1B35DB90EEB737A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_eulers, int32_t ___1_relativeTo, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+inline CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F (CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_ProcessInput_m5EAEB3A73782504AC392E016B276EF6F25FCB1B5 (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline (float ___0_current, float ___1_target, float ___2_maxDelta, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_HideUiButtonPressed_mC2F3062925FC9765BEFCE219570E6F022B3A563F (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_MakeCanvasVisibleTween_m2AE69C3C53028C402A40426BD6B616D8193A9854 (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_MakeCanvasInvisibleTween_m684FED2EC08297B278E948BFC863328A8C5BD2AB (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1ChangeAllChildTextFonts_ChangeFonts_m1F2AA82ECE96DF169B8E0D5AE836380050B1BDDD (AllIn1ChangeAllChildTextFonts_t19F596A74AE2FE2E294592BA221C6BB406B29596* __this, const RuntimeMethod* method) ;
+inline TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* Component_GetComponentsInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m3FC915DEC37CE1CE6E48A26D44655BAE36FD140E (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Text_set_font_mA0D2999281A72029A5BC7294A886C5674F07DC5F (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoProjectile_ApplyPrecisionOffsetToProjectileDir_mB1114B39B2404CCD9572F197A8AE8A71C3560451 (AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_projectileDir, const RuntimeMethod* method) ;
+inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared)(___0_original, ___1_position, ___2_rotation, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AllIn1Shaker_DoCameraShake_mA80A474C73CCE2A57EC7B1FE0B25368A1B02D44C_inline (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, float ___0_shakeAmount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DoShake_DoShake_mB2E77313F20688B4EF443C0C08300BD07427AC02 (AllIn1DoShake_tB09066DBB708ACD4E2ECB28F60DB98D68955D682* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___0_methodName, float ___1_time, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_ToggleCursorLocked_mA5077D225DB4D9F744AD317C854D36CDEC1AC30B (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_timeSinceLevelLoad_m65C386103A91B172781032CA1A6FFDEC8CFBA921 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_CamRotateAroundYAxis_m8EAD81C81D896423C1AC2A8F4218CD4D48157584 (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_CamHeightTranslate_m6004112DFD7B58C2EE78D2C1FEC8F3DB5150BEE6 (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_CamZoom_mB3BE4DA5B152BB92E420F0AFB7E38D457056146E (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AllIn1InputSystem_GetMouseXAxis_m4869B1303965AABEACAB9404C80F19E4A5295C2A (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_RotateAround_m489C5BE8B8B15D0A5F4863DE6D23FF2CC8FA76C6 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_axis, float ___2_angle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AllIn1InputSystem_GetMouseYAxis_m475B128A962B7251A3CBE5FF8647213D4D4B4042 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AllIn1InputSystem_GetMouseScroll_mED6E5F7309AEAEDAA394D28971775D4D633EE0C5 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9 (int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7 (bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AllIn1Shaker_SmoothShakeToApply_m349D19D91845FB990E286613060135950CE0FD9C (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1Shaker_ShakePosition_m4AFE9DFDCFE0F62D9CFD42FC83562D79A46453CA (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, float ___0_shake, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1Shaker_ShakeRotation_m0E6002D03926C2DB9F16341E3FB0E182CD08555D (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, float ___0_shake, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A (float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_UpdateTimeScaleUI_mD90A4301A980E675149F29EA5943FB9C54D00B59 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5 (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, const RuntimeMethod*))UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_ProcessInput_m8D70A85417060889B28B636985076585F639D7C7 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, float ___0_changeAmount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AllIn1InputSystem_GetKey_m702D8D372739BD78F92DEF5168465148A55260A1 (int32_t ___0_keyCode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331 (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, float ___1_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_CheckEventSystem_mFCEC9EE6F84CD75688AC0E295A414AA602B52CC5 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) ;
+inline AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* GameObject_GetComponent_TisAllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0_m313D7092D6F30F2B0BCA8D2245F938D280EA6738 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_SetupAndInstantiateCurrentEffect_mCB89313A1A365B5A77CC275CBB5FF3A643929C72 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) ;
+inline EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD (const RuntimeMethod* method)
+{
+	return ((  EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* (*) (const RuntimeMethod*))Object_FindAnyObjectByType_TisRuntimeObject_mE7A79400E013891ADB85E4C6A5CF95B447D374BA_gshared)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+inline EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+inline InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58* GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_ProcessInput_mEC0A06119780AE83EBA2DB8536E76BD906A686B5 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_CooldownHandling_mB83B0AB930FB0C88BDF8E364E3BF68A7192A3619 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_PlayCurrentEffect_mB95334CBCF0F1A083D3BB7089026A09D08E90481 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, bool ___0_isAfterSetupAndInstantiateEffect, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_ChangeCurrentEffect_m93E51B103B13D59D1BFEC96333B82B837981CB96 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, int32_t ___0_changeAmount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_DestroyAllChildren_m0C16384A93B6CAA18E28BDC83C749D423558B097 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+inline AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* Component_GetComponent_TisAllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082_mA47212D689EF403AE234289425ED7323095976E2 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoProjectile_Initialize_mD2A472EC2CF824D8AEE75BABCDFDB78CD238D537 (AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_hierarchyParent, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_projectileDir, float ___2_speed, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_impactPrefab, float ___4_impactScaleSize, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoProjectile_AddScreenShakeOnImpact_m2B8E91FBD03C6F642A739541D52A20972496DF26 (AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* __this, float ___0_projectileImpactShakeAmount, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared)(___0_original, ___1_parent, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AllIn1VfxDemoController_CurrentEffectLabelTweenEffectCR_m20C382F269A38E789F88E9C3FFBD06A8E5238E1D (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_CurrentEffectChanged_m8B7EDB6C18BCAA8DFE2F9E551693BC7D0EC90C4A (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_ComputeValidEffectAndCollectionIndex_m4ADEDD2003FAE27D993937BFC438C4E445F7958F (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCurrentEffectLabelTweenEffectCRU3Ed__41__ctor_m996D76043F461AB3445230DDEEA6953E5382F94B (U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Transform_GetEnumerator_mA7E1C882ACA0C33E284711CD09971DEA3FFEF404 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoScaleTween_ScaleDownTween_m55CD44A310043C798359EBE1F97F1A79935565C1 (AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+inline Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Light_get_intensity_m8FA28D515853068A93FA68B2148809BBEE4E710F (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854 (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxParticleSystemTime_SetSimulationTime_mFD920AF3B4848794988BCAADC0AB567E6BFCF3C9 (AllIn1VfxParticleSystemTime_t9309D71850B97651EA06277DDFE0EE3E09DC1118* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+inline ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystem_Simulate_mE81EFF12AC1E2C08F3AE86DA7CF0D5CA4EA8F91F (ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* __this, float ___0_t, bool ___1_withChildren, bool ___2_restart, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_mD0C4C0EFE1D70EC0EA4A92B11F1A4D5B0A134E49 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_euler, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126727
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mE78A3557E01053B911C44AE85B460DC0B10E3E81 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t3C4CDC94ED2443EB2B6A90A8F43E020260E767F6____90AE927A8D4B85DF31DD62FD62CB0E0F362C9063F37DCD30BC215EA7A2F00EF5_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t3C4CDC94ED2443EB2B6A90A8F43E020260E767F6____D9C53FF7C2FB1359F516A8E758077D3F5D51C6EA169415A9A36D13143ACA502F_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1872));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t3C4CDC94ED2443EB2B6A90A8F43E020260E767F6____90AE927A8D4B85DF31DD62FD62CB0E0F362C9063F37DCD30BC215EA7A2F00EF5_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1224));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t3C4CDC94ED2443EB2B6A90A8F43E020260E767F6____D9C53FF7C2FB1359F516A8E758077D3F5D51C6EA169415A9A36D13143ACA502F_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)18);
+		(&V_0)->___TotalTypes = ((int32_t)18);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 126728
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB1D1AA45BFA38733A8673EBFBAA8683B1601AF2E (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tB700B2E5B9339CC17D9D3EC961D024D7A43DDD7D* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshal_pinvoke(const MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97& unmarshaled, MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshal_pinvoke_back(const MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshaled_pinvoke& marshaled, MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshal_pinvoke_cleanup(MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshal_com(const MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97& unmarshaled, MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshal_com_back(const MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshaled_com& marshaled, MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshal_com_cleanup(MonoScriptData_t62BACC3095706AE393759F4D4566056C1F007C97_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126729
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoDropdownScroller_Start_mE757A1E3544ED3496DF8202CA43C5A0E7976BFA0 (All1DemoDropdownScroller_t299CB63AE717CA6BDE71D805D784F56D2D64B682* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:16>
+		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0;
+		L_0 = Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00(__this, Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
+		__this->___dropdown = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___dropdown), (void*)L_0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 126730
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoDropdownScroller_Update_m6B7B33EFBD7E69958A7ED1F9B86C2104FBB37E19 (All1DemoDropdownScroller_t299CB63AE717CA6BDE71D805D784F56D2D64B682* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:21>
+		int32_t L_0 = __this->___nextDropdownElementKey;
+		bool L_1;
+		L_1 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:21>
+		All1DemoDropdownScroller_NextDropdownElements_m84EFB5CAE6B792030C2FF9A59DC0315F7A3FA58C(__this, NULL);
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 126731
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoDropdownScroller_NextDropdownElements_m84EFB5CAE6B792030C2FF9A59DC0315F7A3FA58C (All1DemoDropdownScroller_t299CB63AE717CA6BDE71D805D784F56D2D64B682* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:26>
+		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___dropdown;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C_inline(L_0, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:27>
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) >= ((int32_t)0)))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:27>
+		int32_t L_3 = __this->___dropdownElementCount;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, 1));
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:28>
+		int32_t L_4 = V_0;
+		int32_t L_5 = __this->___dropdownElementCount;
+		if ((((int32_t)L_4) < ((int32_t)L_5)))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:28>
+		V_0 = 0;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:29>
+		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_6 = __this->___dropdown;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		Dropdown_set_value_m0764A5E2023E34705ADD422689BF6C0074449FEE(L_6, L_7, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 126732
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoDropdownScroller__ctor_mD443BFEC7F60BA220AC6338D6907E0EC03A4474A (All1DemoDropdownScroller_t299CB63AE717CA6BDE71D805D784F56D2D64B682* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoDropdownScroller.cs:10>
+		__this->___nextDropdownElementKey = ((int32_t)109);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126733
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoMouseLocker_Start_m4C714E4BB695BEEC70EC925ADC3AD08FB1530DE6 (All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3_m9ED529DD9C3119ED87A2F2B210A965CDDCB1AE24_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:20>
+		AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* L_0;
+		L_0 = Component_GetComponent_TisAllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3_m9ED529DD9C3119ED87A2F2B210A965CDDCB1AE24(__this, Component_GetComponent_TisAllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3_m9ED529DD9C3119ED87A2F2B210A965CDDCB1AE24_RuntimeMethod_var);
+		__this->___allIn1MouseRotate = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___allIn1MouseRotate), (void*)L_0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:21>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = __this->___lockButtonImage;
+		NullCheck(L_1);
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_2;
+		L_2 = Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B(L_1, Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		__this->___lockedTween = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lockedTween), (void*)L_2);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:22>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->___lockButtonImage;
+		NullCheck(L_3);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4;
+		L_4 = Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259(L_3, Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259_RuntimeMethod_var);
+		__this->___pausedButtonText = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pausedButtonText), (void*)L_4);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 126734
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoMouseLocker_Update_mEE789244C2DB8FAF5E84FD68D7A03B2288AF04FC (All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:27>
+		All1DemoMouseLocker_ProcessInput_m9D6ED58EC07B4AD2C829DF0D9C3531A83179BBEF(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 126735
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoMouseLocker_ProcessInput_m9D6ED58EC07B4AD2C829DF0D9C3531A83179BBEF (All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:32>
+		int32_t L_0 = __this->___mouseLockerKey;
+		bool L_1;
+		L_1 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:32>
+		All1DemoMouseLocker_DoMouseLockToggle_mDF6DD31A69F01B23F8A19425084AFFC7B5D4BA5C(__this, NULL);
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 126736
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoMouseLocker_DoMouseLockToggle_mDF6DD31A69F01B23F8A19425084AFFC7B5D4BA5C (All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral006976E56695070D63E145217B701EDEE8895C82);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral493129A97A0C654B32ECBC950426300104965D7F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:37>
+		bool L_0 = __this->___currentlyLocked;
+		__this->___currentlyLocked = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:38>
+		AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* L_1 = __this->___allIn1MouseRotate;
+		bool L_2 = __this->___currentlyLocked;
+		NullCheck(L_1);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_1, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:39>
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_3 = __this->___lockedTween;
+		NullCheck(L_3);
+		AllIn1DemoScaleTween_ScaleUpTween_m003631433F3804F1952FD42B06E81E99B55B41CC(L_3, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:40>
+		bool L_4 = __this->___currentlyLocked;
+		if (!L_4)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:42>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___pausedButtonText;
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_5, _stringLiteral493129A97A0C654B32ECBC950426300104965D7F);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:43>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___lockButtonImage;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = __this->___lockButtonColor;
+		NullCheck(L_6);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_6, L_7);
+		return;
+	}
+
+IL_0058:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:47>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___pausedButtonText;
+		NullCheck(L_8);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_8, _stringLiteral006976E56695070D63E145217B701EDEE8895C82);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:48>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___lockButtonImage;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
+		L_10 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		NullCheck(L_9);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_9, L_10);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 126737
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoMouseLocker__ctor_mB469228CBCEADC039CDE0E21B7EB83FDAB576190 (All1DemoMouseLocker_t59E034F11BAD1F2BA2F530FE0F94037140D5455D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoMouseLocker.cs:9>
+		__this->___mouseLockerKey = ((int32_t)108);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126738
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoProjectileObstacle_Start_m7647767DF5667166F177A6EA9AC18F7EC00D6BFB (All1DemoProjectileObstacle_t30BF228ECA28DB6AD56628B650EC30D214EB2245* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:13>
+		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0;
+		L_0 = Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00(__this, Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
+		__this->___projectileObstacleDropdown = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___projectileObstacleDropdown), (void*)L_0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:14>
+		All1DemoProjectileObstacle_DropdownValueChanged_mEC37B6247F9EE76964F897A933BB4D0666DABF49(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 126739
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoProjectileObstacle_DropdownValueChanged_mEC37B6247F9EE76964F897A933BB4D0666DABF49 (All1DemoProjectileObstacle_t30BF228ECA28DB6AD56628B650EC30D214EB2245* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:19>
+		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___projectileObstacleDropdown;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C_inline(L_0, NULL);
+		All1DemoProjectileObstacle_SetProjectileObstacleN_m9D85B974FF87795D30441FE6937D51A277CCE3DC(__this, L_1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 126740
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoProjectileObstacle_SetProjectileObstacleN_m9D85B974FF87795D30441FE6937D51A277CCE3DC (All1DemoProjectileObstacle_t30BF228ECA28DB6AD56628B650EC30D214EB2245* __this, int32_t ___0_nIndex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:24>
+		V_0 = 0;
+		goto IL_0019;
+	}
+
+IL_0004:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:24>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->___projectileObstacles;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		int32_t L_4 = V_0;
+		int32_t L_5 = ___0_nIndex;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)((((int32_t)L_4) == ((int32_t)L_5))? 1 : 0), NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:24>
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:24>
+		int32_t L_7 = V_0;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->___projectileObstacles;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoProjectileObstacle.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 126741
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoProjectileObstacle__ctor_m62201289B0E0330A1B536A9235BDC1E701D4005B (All1DemoProjectileObstacle_t30BF228ECA28DB6AD56628B650EC30D214EB2245* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126742
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoSceneColor_Start_m30F611AAFB6F9F5E1F4E9DA7788362AB6A447A26 (All1DemoSceneColor_t3F1578B65FC48232B451DEEF68BCFCBD5FF2140E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:21>
+		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0;
+		L_0 = Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00(__this, Component_GetComponent_TisDropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_m0DC2A1698BB6D852352E5460A07E91DA649EED00_RuntimeMethod_var);
+		__this->___sceneColorDropdown = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___sceneColorDropdown), (void*)L_0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:22>
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_1 = __this->___floorMeshRenderer;
+		NullCheck(L_1);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2;
+		L_2 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_1, NULL);
+		__this->___floorMaterial = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___floorMaterial), (void*)L_2);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:23>
+		All1DemoSceneColor_DropdownValueChanged_m8CE7095F31A78DE812E476A4CC8AF7B3D0F5C1C5(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 126743
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoSceneColor_DropdownValueChanged_m8CE7095F31A78DE812E476A4CC8AF7B3D0F5C1C5 (All1DemoSceneColor_t3F1578B65FC48232B451DEEF68BCFCBD5FF2140E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:28>
+		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_0 = __this->___sceneColorDropdown;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C_inline(L_0, NULL);
+		All1DemoSceneColor_SetSceneColor_m1160B9B6C0F2BB0FC40CD3F86A76692DFF54D229(__this, L_1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 126744
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoSceneColor_SetSceneColor_m1160B9B6C0F2BB0FC40CD3F86A76692DFF54D229 (All1DemoSceneColor_t3F1578B65FC48232B451DEEF68BCFCBD5FF2140E* __this, int32_t ___0_nIndex, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:33>
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_0 = __this->___targetCamera;
+		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_1 = __this->___sceneColors;
+		int32_t L_2 = ___0_nIndex;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		float L_5 = __this->___cameraColorMult;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
+		L_6 = Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline(L_4, L_5, NULL);
+		NullCheck(L_0);
+		Camera_set_backgroundColor_m036FD8C316A93A0B168ACC89AFF16D396B872138(L_0, L_6, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:34>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = __this->___floorMaterial;
+		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_8 = __this->___sceneColors;
+		int32_t L_9 = ___0_nIndex;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		float L_12 = __this->___floorColorMult;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13;
+		L_13 = Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline(L_11, L_12, NULL);
+		NullCheck(L_7);
+		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_7, L_13, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:35>
+		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_14 = __this->___sceneColors;
+		int32_t L_15 = ___0_nIndex;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		float L_18 = __this->___fogColorMult;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
+		L_19 = Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline(L_17, L_18, NULL);
+		RenderSettings_set_fogColor_mBBD12EC3492195F85F583CAF4FAE4A973227639B(L_19, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 126745
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1DemoSceneColor__ctor_m5AD75C0A6E4920E905D5F897F762315D13B63481 (All1DemoSceneColor_t3F1578B65FC48232B451DEEF68BCFCBD5FF2140E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:11>
+		__this->___cameraColorMult = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:13>
+		__this->___floorColorMult = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1DemoSceneColor.cs:14>
+		__this->___fogColorMult = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126746
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1VfxDemoEffect__ctor_m93B7A976A11339F14E76C805FE5FC4D55FCFF38A (All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1VfxDemoEffect.cs:10>
+		__this->___canBePlayedAgain = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1VfxDemoEffect.cs:12>
+		__this->___cooldown = (0.25f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1VfxDemoEffect.cs:22>
+		__this->___projectileSpeed = (15.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1VfxDemoEffect.cs:29>
+		__this->___mainEffectShakeAmount = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1VfxDemoEffect.cs:30>
+		__this->___projectileImpactShakeAmount = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/All1VfxDemoEffect.cs:34>
+		__this->___scaleMultiplier = (1.0f);
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126747
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void All1VfxDemoEffectCollection__ctor_m48881245FB85D0BE753D2F03E9E2D337F8D3AC16 (All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126748
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1AutoRotate_Update_mD4944BAC42FACA55405DC80C1E35F5FFF067AD42 (AllIn1AutoRotate_t8B6E6B119E707D4A9231347FEA41375C510199FF* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1AutoRotate.cs:12>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = __this->___rotationAxis;
+		float L_2 = __this->___rotationSpeed;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, ((float)il2cpp_codegen_multiply(L_2, L_3)), NULL);
+		NullCheck(L_0);
+		Transform_Rotate_mAE711E1B1F639FDBA7B456E1E1B35DB90EEB737A(L_0, L_4, 1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1AutoRotate.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 126749
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1AutoRotate__ctor_m7DAA398020D8D1E0B84F4F090F3E97C4C31B47ED (AllIn1AutoRotate_t8B6E6B119E707D4A9231347FEA41375C510199FF* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1AutoRotate.cs:7>
+		__this->___rotationSpeed = (30.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1AutoRotate.cs:8>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		__this->___rotationAxis = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126750
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_Start_m0DB8E624374E3D648FE5D4AFE40E1D79A3FDE5C9 (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:19>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0;
+		L_0 = Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2(__this, Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
+		__this->___canvasGroup = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___canvasGroup), (void*)L_0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:20>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_1 = __this->___canvasGroup;
+		NullCheck(L_1);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_1, (1.0f), NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:21>
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_2 = __this->___hideUiButtonTween;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		__this->___hideUiButtonTweenNotNull = L_3;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 126751
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_Update_mBAC81E0A01B239663366EDCBBEB8E3BEFB227912 (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:26>
+		AllIn1CanvasFader_ProcessInput_m5EAEB3A73782504AC392E016B276EF6F25FCB1B5(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:28>
+		bool L_0 = __this->___isTweening;
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:28>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:29>
+		float L_1 = __this->___currentAlpha;
+		float L_2 = __this->___targetAlpha;
+		float L_3;
+		L_3 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		float L_4 = __this->___tweenSpeed;
+		float L_5;
+		L_5 = Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline(L_1, L_2, ((float)il2cpp_codegen_multiply(L_3, L_4)), NULL);
+		__this->___currentAlpha = L_5;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:30>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_6 = __this->___canvasGroup;
+		float L_7 = __this->___currentAlpha;
+		NullCheck(L_6);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_6, L_7, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:31>
+		float L_8 = __this->___targetAlpha;
+		float L_9 = __this->___currentAlpha;
+		if ((!(((float)L_8) == ((float)L_9))))
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:31>
+		__this->___isTweening = (bool)0;
+	}
+
+IL_0058:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 126752
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_ProcessInput_m5EAEB3A73782504AC392E016B276EF6F25FCB1B5 (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:36>
+		int32_t L_0 = __this->___fadeToggleKey;
+		bool L_1;
+		L_1 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:36>
+		AllIn1CanvasFader_HideUiButtonPressed_mC2F3062925FC9765BEFCE219570E6F022B3A563F(__this, NULL);
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:37>
+		return;
+	}
+}
+// Method Definition Index: 126753
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_HideUiButtonPressed_mC2F3062925FC9765BEFCE219570E6F022B3A563F (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:42>
+		float L_0 = __this->___currentAlpha;
+		if ((!(((float)L_0) < ((float)(0.00999999978f)))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:42>
+		AllIn1CanvasFader_MakeCanvasVisibleTween_m2AE69C3C53028C402A40426BD6B616D8193A9854(__this, NULL);
+		goto IL_001b;
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:43>
+		AllIn1CanvasFader_MakeCanvasInvisibleTween_m684FED2EC08297B278E948BFC863328A8C5BD2AB(__this, NULL);
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:44>
+		bool L_1 = __this->___hideUiButtonTweenNotNull;
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:44>
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_2 = __this->___hideUiButtonTween;
+		NullCheck(L_2);
+		AllIn1DemoScaleTween_ScaleUpTween_m003631433F3804F1952FD42B06E81E99B55B41CC(L_2, NULL);
+	}
+
+IL_002e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:45>
+		return;
+	}
+}
+// Method Definition Index: 126754
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_MakeCanvasVisibleTween_m2AE69C3C53028C402A40426BD6B616D8193A9854 (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:49>
+		__this->___isTweening = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:50>
+		__this->___targetAlpha = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 126755
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader_MakeCanvasInvisibleTween_m684FED2EC08297B278E948BFC863328A8C5BD2AB (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:55>
+		__this->___isTweening = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:56>
+		__this->___targetAlpha = (0.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 126756
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1CanvasFader__ctor_m44D2E2352002B018533FC1E675B3EBC948676293 (AllIn1CanvasFader_t4307B039C124FD1097ACD6027B357F11269D72C2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:7>
+		__this->___fadeToggleKey = ((int32_t)117);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:8>
+		__this->___tweenSpeed = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:12>
+		__this->___currentAlpha = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1CanvasFader.cs:13>
+		__this->___targetAlpha = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126757
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1ChangeAllChildTextFonts_Start_m9B1168D993272C0C067442E0ACCC1DF75C7F9B14 (AllIn1ChangeAllChildTextFonts_t19F596A74AE2FE2E294592BA221C6BB406B29596* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:13>
+		bool L_0 = __this->___changeFontOnStart;
+		if (!L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:13>
+		AllIn1ChangeAllChildTextFonts_ChangeFonts_m1F2AA82ECE96DF169B8E0D5AE836380050B1BDDD(__this, NULL);
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 126758
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1ChangeAllChildTextFonts_ChangeFonts_m1F2AA82ECE96DF169B8E0D5AE836380050B1BDDD (AllIn1ChangeAllChildTextFonts_t19F596A74AE2FE2E294592BA221C6BB406B29596* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m3FC915DEC37CE1CE6E48A26D44655BAE36FD140E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:19>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_0;
+		L_0 = Component_GetComponentsInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m3FC915DEC37CE1CE6E48A26D44655BAE36FD140E(__this, Component_GetComponentsInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m3FC915DEC37CE1CE6E48A26D44655BAE36FD140E_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:20>
+		V_1 = 0;
+		goto IL_001d;
+	}
+
+IL_000b:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:20>
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_5 = __this->___newFont;
+		NullCheck(L_4);
+		Text_set_font_mA0D2999281A72029A5BC7294A886C5674F07DC5F(L_4, L_5, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:20>
+		int32_t L_6 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:20>
+		int32_t L_7 = V_1;
+		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_8 = V_0;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1ChangeAllChildTextFonts.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 126759
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1ChangeAllChildTextFonts__ctor_m166FBA71EF0D3C2B611F1B47E214F9BEF6CF16C1 (AllIn1ChangeAllChildTextFonts_t19F596A74AE2FE2E294592BA221C6BB406B29596* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126760
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoProjectile_Initialize_mD2A472EC2CF824D8AEE75BABCDFDB78CD238D537 (AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_hierarchyParent, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_projectileDir, float ___2_speed, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___3_impactPrefab, float ___4_impactScaleSize, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:17>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_hierarchyParent;
+		__this->___currentHierarchyParent = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentHierarchyParent), (void*)L_0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:18>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___3_impactPrefab;
+		__this->___currentImpactPrefab = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentImpactPrefab), (void*)L_1);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:19>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___currentImpactPrefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		__this->___doImpactSpawn = L_3;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:20>
+		float L_4 = ___4_impactScaleSize;
+		__this->___impactScaleSize = L_4;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:22>
+		AllIn1DemoProjectile_ApplyPrecisionOffsetToProjectileDir_mB1114B39B2404CCD9572F197A8AE8A71C3560451(__this, (&___1_projectileDir), NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:25>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_5;
+		L_5 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_projectileDir;
+		float L_7 = ___2_speed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_6, L_7, NULL);
+		NullCheck(L_5);
+		Rigidbody_set_linearVelocity_m29AE03D5FC079EAD4202FCF72E2AEBDC19363985(L_5, L_8, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 126761
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoProjectile_AddScreenShakeOnImpact_m2B8E91FBD03C6F642A739541D52A20972496DF26 (AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* __this, float ___0_projectileImpactShakeAmount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:33>
+		__this->___doShake = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:34>
+		float L_0 = ___0_projectileImpactShakeAmount;
+		__this->___shakeAmountOnImpact = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 126762
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoProjectile_ApplyPrecisionOffsetToProjectileDir_mB1114B39B2404CCD9572F197A8AE8A71C3560451 (AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_projectileDir, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:39>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___0_projectileDir;
+		float* L_1 = (float*)(&L_0->___x);
+		float* L_2 = L_1;
+		float L_3 = *((float*)L_2);
+		float L_4 = __this->___inaccurateAmount;
+		float L_5 = __this->___inaccurateAmount;
+		float L_6;
+		L_6 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((-L_4)), L_5, NULL);
+		*((float*)L_2) = (float)((float)il2cpp_codegen_add(L_3, L_6));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:40>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = ___0_projectileDir;
+		float* L_8 = (float*)(&L_7->___y);
+		float* L_9 = L_8;
+		float L_10 = *((float*)L_9);
+		float L_11 = __this->___inaccurateAmount;
+		float L_12 = __this->___inaccurateAmount;
+		float L_13;
+		L_13 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((-L_11)), L_12, NULL);
+		*((float*)L_9) = (float)((float)il2cpp_codegen_add(L_10, L_13));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:41>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_14 = ___0_projectileDir;
+		float* L_15 = (float*)(&L_14->___z);
+		float* L_16 = L_15;
+		float L_17 = *((float*)L_16);
+		float L_18 = __this->___inaccurateAmount;
+		float L_19 = __this->___inaccurateAmount;
+		float L_20;
+		L_20 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((-L_18)), L_19, NULL);
+		*((float*)L_16) = (float)((float)il2cpp_codegen_add(L_17, L_20));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:42>
+		return;
+	}
+}
+// Method Definition Index: 126763
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoProjectile_OnTriggerEnter_m0D719ABC0D3CE2D27CA5A6E93DA3806D5808A3D7 (AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* __this, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___0_other, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:46>
+		bool L_0 = __this->___doImpactSpawn;
+		if (!L_0)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:48>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___currentImpactPrefab;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
+		L_5 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_1, L_3, L_4, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_5, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:49>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = L_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___currentHierarchyParent;
+		NullCheck(L_7);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_7, L_8, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:50>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = L_7;
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_9, NULL);
+		float L_11 = __this->___impactScaleSize;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_10, L_11, NULL);
+		NullCheck(L_9);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_9, L_12, NULL);
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:52>
+		bool L_13 = __this->___doShake;
+		if (!L_13)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:52>
+		AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* L_14 = ((AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields*)il2cpp_codegen_static_fields_for(AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var))->___i;
+		float L_15 = __this->___shakeAmountOnImpact;
+		NullCheck(L_14);
+		AllIn1Shaker_DoCameraShake_mA80A474C73CCE2A57EC7B1FE0B25368A1B02D44C_inline(L_14, L_15, NULL);
+	}
+
+IL_0062:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:53>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
+		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_16, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 126764
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DemoProjectile__ctor_m4A5597701FF8BDD8C3F007F5AD2C63B09BE027BA (AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DemoProjectile.cs:7>
+		__this->___inaccurateAmount = (0.0500000007f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126765
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DoShake_Start_mBC92EDBE9C2EDFAAA18160ABB64CDB3F3F9C3E86 (AllIn1DoShake_tB09066DBB708ACD4E2ECB28F60DB98D68955D682* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEDE8C4DF1715CFC71A5D1502BBF477C021B0A6BE);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:13>
+		bool L_0 = __this->___doShakeOnStart;
+		if (!L_0)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:15>
+		float L_1 = __this->___shakeOnStartDelay;
+		float L_2;
+		L_2 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		if ((!(((float)L_1) < ((float)L_2))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:15>
+		AllIn1DoShake_DoShake_mB2E77313F20688B4EF443C0C08300BD07427AC02(__this, NULL);
+		return;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:16>
+		float L_3 = __this->___shakeOnStartDelay;
+		MonoBehaviour_Invoke_mF724350C59362B0F1BFE26383209A274A29A63FB(__this, _stringLiteralEDE8C4DF1715CFC71A5D1502BBF477C021B0A6BE, L_3, NULL);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 126766
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DoShake_DoShake_mB2E77313F20688B4EF443C0C08300BD07427AC02 (AllIn1DoShake_tB09066DBB708ACD4E2ECB28F60DB98D68955D682* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8E09F6971F42D87127E76A675589BE96CC2160A7);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:22>
+		AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* L_0 = ((AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields*)il2cpp_codegen_static_fields_for(AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var))->___i;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:22>
+		AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* L_2 = ((AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields*)il2cpp_codegen_static_fields_for(AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var))->___i;
+		float L_3 = __this->___shakeAmount;
+		NullCheck(L_2);
+		AllIn1Shaker_DoCameraShake_mA80A474C73CCE2A57EC7B1FE0B25368A1B02D44C_inline(L_2, L_3, NULL);
+		return;
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:23>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral8E09F6971F42D87127E76A675589BE96CC2160A7, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 126767
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1DoShake__ctor_m2B6693AB080C5A1336140C65F79D925C87E85949 (AllIn1DoShake_tB09066DBB708ACD4E2ECB28F60DB98D68955D682* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1DoShake.cs:7>
+		__this->___shakeAmount = (0.150000006f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126768
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_Start_mDD6C0F0301587DA0C4F7E30D732916DBC6A2C6F9 (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:32>
+		bool L_0 = __this->___lockCursor;
+		if (!L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:32>
+		__this->___cursorIsLocked = (bool)0;
+		goto IL_0018;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:33>
+		__this->___cursorIsLocked = (bool)1;
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:34>
+		AllIn1MouseRotate_ToggleCursorLocked_mA5077D225DB4D9F744AD317C854D36CDEC1AC30B(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 126769
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_Update_mA423092EE612770C102C930A25E6C5B070BCAF04 (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:39>
+		float L_0;
+		L_0 = Time_get_timeSinceLevelLoad_m65C386103A91B172781032CA1A6FFDEC8CFBA921(NULL);
+		if ((!(((float)L_0) < ((float)(0.5f)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:39>
+		return;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:41>
+		float L_1;
+		L_1 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		__this->___dt = L_1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:43>
+		AllIn1MouseRotate_CamRotateAroundYAxis_m8EAD81C81D896423C1AC2A8F4218CD4D48157584(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:45>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___objectToRotate;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		__this->___currPosition = L_3;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:47>
+		AllIn1MouseRotate_CamHeightTranslate_m6004112DFD7B58C2EE78D2C1FEC8F3DB5150BEE6(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:49>
+		AllIn1MouseRotate_CamZoom_mB3BE4DA5B152BB92E420F0AFB7E38D457056146E(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:51>
+		int32_t L_4 = __this->___lockCursorKeyCode;
+		bool L_5;
+		L_5 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:51>
+		AllIn1MouseRotate_ToggleCursorLocked_mA5077D225DB4D9F744AD317C854D36CDEC1AC30B(__this, NULL);
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 126770
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_CamRotateAroundYAxis_m8EAD81C81D896423C1AC2A8F4218CD4D48157584 (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:56>
+		float L_0;
+		L_0 = AllIn1InputSystem_GetMouseXAxis_m4869B1303965AABEACAB9404C80F19E4A5295C2A(NULL);
+		float L_1 = __this->___dt;
+		float L_2 = __this->___rotationSpeedHorizontal;
+		V_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_0, L_1)), (10.0f))), L_2));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:57>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___objectToRotate;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_7 = V_0;
+		NullCheck(L_3);
+		Transform_RotateAround_m489C5BE8B8B15D0A5F4863DE6D23FF2CC8FA76C6(L_3, L_5, L_6, L_7, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 126771
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_CamHeightTranslate_m6004112DFD7B58C2EE78D2C1FEC8F3DB5150BEE6 (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:62>
+		float L_0;
+		L_0 = AllIn1InputSystem_GetMouseYAxis_m475B128A962B7251A3CBE5FF8647213D4D4B4042(NULL);
+		float L_1 = __this->___dt;
+		float L_2 = __this->___translateVerticalSpeed;
+		V_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_0, L_1)), L_2));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:63>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___currPosition);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___currPosition);
+		float L_5 = L_4->___y;
+		float L_6 = V_0;
+		float L_7 = __this->___maxHeight;
+		float L_8;
+		L_8 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)il2cpp_codegen_add(L_5, L_6)), (0.25f), L_7, NULL);
+		L_3->___y = L_8;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:64>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___objectToRotate;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = __this->___currPosition;
+		NullCheck(L_9);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_9, L_10, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:65>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___objectToRotate;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_11);
+		Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2(L_11, L_12, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:66>
+		return;
+	}
+}
+// Method Definition Index: 126772
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_CamZoom_mB3BE4DA5B152BB92E420F0AFB7E38D457056146E (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:70>
+		float L_0;
+		L_0 = AllIn1InputSystem_GetMouseScroll_mED6E5F7309AEAEDAA394D28971775D4D633EE0C5(NULL);
+		float L_1 = __this->___dt;
+		float L_2 = __this->___translateScrollSpeed;
+		V_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_0, L_1)), (100.0f))), L_2));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:71>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___objectToRotate;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_3, NULL);
+		float L_5 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_4, L_5, NULL);
+		V_1 = L_6;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:72>
+		float L_7 = V_0;
+		if ((!(((float)L_7) > ((float)(0.0f)))))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___objectToRotate;
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_10, NULL);
+		float L_12;
+		L_12 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_9, L_11, NULL);
+		float L_13 = __this->___maxZoom;
+		if ((!(((float)L_12) <= ((float)L_13))))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:72>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_1 = L_14;
+		goto IL_0090;
+	}
+
+IL_005f:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:73>
+		float L_15 = V_0;
+		if ((!(((float)L_15) < ((float)(0.0f)))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_16);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_16, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18 = __this->___objectToRotate;
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_18, NULL);
+		float L_20;
+		L_20 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_17, L_19, NULL);
+		float L_21 = __this->___minZoom;
+		if ((!(((float)L_20) >= ((float)L_21))))
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:73>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_1 = L_22;
+	}
+
+IL_0090:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:74>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = __this->___currPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_23, L_24, NULL);
+		__this->___currPosition = L_25;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:75>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = __this->___objectToRotate;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = __this->___currPosition;
+		NullCheck(L_26);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_26, L_27, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 126773
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate_ToggleCursorLocked_mA5077D225DB4D9F744AD317C854D36CDEC1AC30B (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9DED1F98F6124037784F89A7135F9F6F303C3B60);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF12CEF824BF74FB0B0A862C961B9E80A0783D802);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:80>
+		bool L_0 = __this->___cursorIsLocked;
+		__this->___cursorIsLocked = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:81>
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_1 = __this->___hideUiButtonTween;
+		NullCheck(L_1);
+		AllIn1DemoScaleTween_ScaleUpTween_m003631433F3804F1952FD42B06E81E99B55B41CC(L_1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:82>
+		bool L_2 = __this->___cursorIsLocked;
+		if (!L_2)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:84>
+		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:85>
+		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)0, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:86>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->___lockedButtonImage;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = __this->___lockedButtonColor;
+		NullCheck(L_3);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_3, L_4);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:87>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___lockedButtonText;
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_5, _stringLiteral9DED1F98F6124037784F89A7135F9F6F303C3B60);
+		return;
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:91>
+		Cursor_set_lockState_mD81F6E5F3D86506FFB88567689A3A00A7AD242E9(0, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:92>
+		Cursor_set_visible_m612FCB2E86C15F91CE2E6148D1B556667954A2B7((bool)1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:93>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___lockedButtonImage;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
+		L_7 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		NullCheck(L_6);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_6, L_7);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:94>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___lockedButtonText;
+		NullCheck(L_8);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_8, _stringLiteralF12CEF824BF74FB0B0A862C961B9E80A0783D802);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:96>
+		return;
+	}
+}
+// Method Definition Index: 126774
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1MouseRotate__ctor_mFA97FEC5D263D2A6467EB1C053A3CF6B2AE94F5A (AllIn1MouseRotate_tE7FBAA1428B573EDB466C99B81564786966A9CB3* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:9>
+		__this->___rotationSpeedHorizontal = (10.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:10>
+		__this->___translateVerticalSpeed = (5.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:11>
+		__this->___translateScrollSpeed = (2.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:23>
+		__this->___maxHeight = (40.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:24>
+		__this->___maxZoom = (2.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:25>
+		__this->___minZoom = (40.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1MouseRotate.cs:27>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		__this->___currPosition = L_0;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126775
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1Shaker_Awake_m9B13084330555716EDEEC0BC4E2A9D1DA06B654F (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:20>
+		AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* L_0 = ((AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields*)il2cpp_codegen_static_fields_for(AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var))->___i;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* L_2 = ((AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields*)il2cpp_codegen_static_fields_for(AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var))->___i;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, __this, NULL);
+		if (!L_3)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:20>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
+		goto IL_002d;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:21>
+		((AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields*)il2cpp_codegen_static_fields_for(AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var))->___i = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields*)il2cpp_codegen_static_fields_for(AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var))->___i), (void*)__this);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:23>
+		float L_5;
+		L_5 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		__this->___seed = L_5;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 126776
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1Shaker_Update_m447FD291D78247A97CBCF02D25C8AFED784509F5 (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:28>
+		float L_0;
+		L_0 = AllIn1Shaker_SmoothShakeToApply_m349D19D91845FB990E286613060135950CE0FD9C(__this, NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:29>
+		float L_1 = V_0;
+		AllIn1Shaker_ShakePosition_m4AFE9DFDCFE0F62D9CFD42FC83562D79A46453CA(__this, L_1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:30>
+		float L_2 = V_0;
+		AllIn1Shaker_ShakeRotation_m0E6002D03926C2DB9F16341E3FB0E182CD08555D(__this, L_2, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:31>
+		float L_3 = __this->___currentShakeAmount;
+		float L_4 = __this->___shakeRecoverPerSecond;
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_6;
+		L_6 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)il2cpp_codegen_subtract(L_3, ((float)il2cpp_codegen_multiply(L_4, L_5)))), NULL);
+		__this->___currentShakeAmount = L_6;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 126777
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AllIn1Shaker_SmoothShakeToApply_m349D19D91845FB990E286613060135950CE0FD9C (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:36>
+		float L_0 = __this->___currentShakeAmount;
+		float L_1 = __this->___shakeSmoothingExponent;
+		float L_2;
+		L_2 = powf(L_0, L_1);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:37>
+		return L_2;
+	}
+}
+// Method Definition Index: 126778
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1Shaker_ShakeRotation_m0E6002D03926C2DB9F16341E3FB0E182CD08555D (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, float ___0_shake, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:42>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:43>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:44>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:45>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:46>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___maximumAngularShake);
+		float L_2 = L_1->___x;
+		float L_3 = __this->___seed;
+		float L_4;
+		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_5 = __this->___shakeFrequency;
+		float L_6;
+		L_6 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(((float)il2cpp_codegen_add(L_3, (3.0f))), ((float)il2cpp_codegen_multiply(L_4, L_5)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___maximumAngularShake);
+		float L_8 = L_7->___y;
+		float L_9 = __this->___seed;
+		float L_10;
+		L_10 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_11 = __this->___shakeFrequency;
+		float L_12;
+		L_12 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(((float)il2cpp_codegen_add(L_9, (4.0f))), ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_13 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___maximumAngularShake);
+		float L_14 = L_13->___z;
+		float L_15 = __this->___seed;
+		float L_16;
+		L_16 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_17 = __this->___shakeFrequency;
+		float L_18;
+		L_18 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(((float)il2cpp_codegen_add(L_15, (5.0f))), ((float)il2cpp_codegen_multiply(L_16, L_17)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_19), ((float)il2cpp_codegen_multiply(L_2, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_6, (2.0f))), (1.0f))))), ((float)il2cpp_codegen_multiply(L_8, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_12, (2.0f))), (1.0f))))), ((float)il2cpp_codegen_multiply(L_14, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_18, (2.0f))), (1.0f))))), NULL);
+		float L_20 = ___0_shake;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_19, L_20, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22;
+		L_22 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_21, NULL);
+		NullCheck(L_0);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_0, L_22, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 126779
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1Shaker_ShakePosition_m4AFE9DFDCFE0F62D9CFD42FC83562D79A46453CA (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, float ___0_shake, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:51>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:52>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:53>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:54>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:55>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_1 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___maximumTranslationShake);
+		float L_2 = L_1->___x;
+		float L_3 = __this->___seed;
+		float L_4;
+		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_5 = __this->___shakeFrequency;
+		float L_6;
+		L_6 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(L_3, ((float)il2cpp_codegen_multiply(L_4, L_5)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___maximumTranslationShake);
+		float L_8 = L_7->___y;
+		float L_9 = __this->___seed;
+		float L_10;
+		L_10 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_11 = __this->___shakeFrequency;
+		float L_12;
+		L_12 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(((float)il2cpp_codegen_add(L_9, (1.0f))), ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_13 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___maximumTranslationShake);
+		float L_14 = L_13->___z;
+		float L_15 = __this->___seed;
+		float L_16;
+		L_16 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_17 = __this->___shakeFrequency;
+		float L_18;
+		L_18 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(((float)il2cpp_codegen_add(L_15, (2.0f))), ((float)il2cpp_codegen_multiply(L_16, L_17)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_19), ((float)il2cpp_codegen_multiply(L_2, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_6, (2.0f))), (1.0f))))), ((float)il2cpp_codegen_multiply(L_8, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_12, (2.0f))), (1.0f))))), ((float)il2cpp_codegen_multiply(L_14, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_18, (2.0f))), (1.0f))))), NULL);
+		float L_20 = ___0_shake;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_19, L_20, NULL);
+		NullCheck(L_0);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_0, L_21, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:56>
+		return;
+	}
+}
+// Method Definition Index: 126780
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1Shaker_DoCameraShake_mA80A474C73CCE2A57EC7B1FE0B25368A1B02D44C (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, float ___0_shakeAmount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:60>
+		float L_0 = ___0_shakeAmount;
+		__this->___currentShakeAmount = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 126781
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1Shaker__ctor_mEE46D78272DCEF24AB4F5AB8899DE1B694C09611 (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:8>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		__this->___maximumTranslationShake = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:9>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_1, (15.0f), NULL);
+		__this->___maximumAngularShake = L_2;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:10>
+		__this->___shakeFrequency = (25.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:11>
+		__this->___shakeSmoothingExponent = (1.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:12>
+		__this->___shakeRecoverPerSecond = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126782
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_Start_mDF3C7424BA2C0A7CCD6202838D9628866E064C13 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AllIn1TimeControl_U3CStartU3Eb__13_0_mB6CC25A3AC7FB3CC50F9B66CDFC59FF086897770_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:24>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___timeScaleSlider;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		__this->___timeScaleSliderNotNull = L_1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:25>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___pausedButtonImage;
+		NullCheck(L_2);
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_3;
+		L_3 = Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B(L_2, Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		__this->___pausedButtonTween = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pausedButtonTween), (void*)L_3);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:26>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___pausedButtonImage;
+		NullCheck(L_4);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5;
+		L_5 = Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259(L_4, Component_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m1D5533D50D961602AC2CD364E03388FFE2985259_RuntimeMethod_var);
+		__this->___pausedButtonText = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pausedButtonText), (void*)L_5);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:27>
+		AllIn1TimeControl_UpdateTimeScaleUI_mD90A4301A980E675149F29EA5943FB9C54D00B59(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:28>
+		bool L_6 = __this->___timeScaleSliderNotNull;
+		if (!L_6)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:28>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_7 = __this->___timeScaleSlider;
+		NullCheck(L_7);
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_8;
+		L_8 = Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline(L_7, NULL);
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_9 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_9, __this, (intptr_t)((void*)AllIn1TimeControl_U3CStartU3Eb__13_0_mB6CC25A3AC7FB3CC50F9B66CDFC59FF086897770_RuntimeMethod_var), NULL);
+		NullCheck(L_8);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(L_8, L_9, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 126783
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_Update_mB57D5203B23FEE595569D2A676BBD1E60B0B9146 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:33>
+		AllIn1TimeControl_ProcessInput_m8D70A85417060889B28B636985076585F639D7C7(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 126784
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_ProcessInput_m8D70A85417060889B28B636985076585F639D7C7 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:38>
+		int32_t L_0 = __this->___increaseTimeScale;
+		bool L_1;
+		L_1 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_2 = __this->___increaseTimeScaleAlt;
+		bool L_3;
+		L_3 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0026;
+		}
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:38>
+		float L_4 = __this->___timeScaleInterval;
+		AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C(__this, L_4, NULL);
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:39>
+		int32_t L_5 = __this->___decreaseTimeScale;
+		bool L_6;
+		L_6 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		int32_t L_7 = __this->___decreaseTimeScaleAlt;
+		bool L_8;
+		L_8 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_004d;
+		}
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:39>
+		float L_9 = __this->___timeScaleInterval;
+		AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C(__this, ((-L_9)), NULL);
+	}
+
+IL_004d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:40>
+		int32_t L_10 = __this->___pauseKey;
+		bool L_11;
+		L_11 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:42>
+		float L_12;
+		L_12 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		if ((!(((float)L_12) < ((float)(0.00999999978f)))))
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:42>
+		float L_13;
+		L_13 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C(__this, ((float)il2cpp_codegen_subtract((1.0f), L_13)), NULL);
+		goto IL_0085;
+	}
+
+IL_0079:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:43>
+		float L_14;
+		L_14 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C(__this, ((-L_14)), NULL);
+	}
+
+IL_0085:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:44>
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_15 = __this->___pausedButtonTween;
+		NullCheck(L_15);
+		AllIn1DemoScaleTween_ScaleUpTween_m003631433F3804F1952FD42B06E81E99B55B41CC(L_15, NULL);
+	}
+
+IL_0090:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:47>
+		V_0 = (0.100000001f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:48>
+		float L_16;
+		L_16 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
+		float L_17 = __this->___lastChangeTime;
+		float L_18 = V_0;
+		if ((((float)((float)il2cpp_codegen_subtract(L_16, L_17))) > ((float)L_18)))
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:48>
+		return;
+	}
+
+IL_00a6:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:49>
+		int32_t L_19 = __this->___increaseTimeScale;
+		bool L_20;
+		L_20 = AllIn1InputSystem_GetKey_m702D8D372739BD78F92DEF5168465148A55260A1(L_19, NULL);
+		if (L_20)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		int32_t L_21 = __this->___increaseTimeScaleAlt;
+		bool L_22;
+		L_22 = AllIn1InputSystem_GetKey_m702D8D372739BD78F92DEF5168465148A55260A1(L_21, NULL);
+		if (!L_22)
+		{
+			goto IL_00cc;
+		}
+	}
+
+IL_00c0:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:49>
+		float L_23 = __this->___timeScaleInterval;
+		AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C(__this, L_23, NULL);
+	}
+
+IL_00cc:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:50>
+		int32_t L_24 = __this->___decreaseTimeScale;
+		bool L_25;
+		L_25 = AllIn1InputSystem_GetKey_m702D8D372739BD78F92DEF5168465148A55260A1(L_24, NULL);
+		if (L_25)
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		int32_t L_26 = __this->___decreaseTimeScaleAlt;
+		bool L_27;
+		L_27 = AllIn1InputSystem_GetKey_m702D8D372739BD78F92DEF5168465148A55260A1(L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_00f3;
+		}
+	}
+
+IL_00e6:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:50>
+		float L_28 = __this->___timeScaleInterval;
+		AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C(__this, ((-L_28)), NULL);
+	}
+
+IL_00f3:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 126785
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, float ___0_changeAmount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:55>
+		float L_0;
+		L_0 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		float L_1 = ___0_changeAmount;
+		float L_2;
+		L_2 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)il2cpp_codegen_add(L_0, L_1)), (0.0f), (1.0f), NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331(L_2, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:56>
+		float L_3;
+		L_3 = Time_get_unscaledTime_mAF4040B858903E1325D1C65B8BF1AC61460B2503(NULL);
+		__this->___lastChangeTime = L_3;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:57>
+		AllIn1TimeControl_UpdateTimeScaleUI_mD90A4301A980E675149F29EA5943FB9C54D00B59(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 126786
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_UpdateTimeScaleUI_mD90A4301A980E675149F29EA5943FB9C54D00B59 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4780AF940655CB59AF49F6344DA95EC30E32AA8A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:62>
+		bool L_0 = __this->___timeScaleSliderNotNull;
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:62>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = __this->___timeScaleSlider;
+		float L_2;
+		L_2 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		NullCheck(L_1);
+		VirtualActionInvoker1< float >::Invoke(47, L_1, L_2);
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:63>
+		float L_3;
+		L_3 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		if ((!(((float)L_3) < ((float)(0.00999999978f)))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:65>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___pausedButtonText;
+		NullCheck(L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_4, _stringLiteral4780AF940655CB59AF49F6344DA95EC30E32AA8A);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:66>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->___pausedButtonImage;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = __this->___pausedButtonColor;
+		NullCheck(L_5);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_5, L_6);
+		return;
+	}
+
+IL_0046:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:70>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_7 = __this->___pausedButtonText;
+		NullCheck(L_7);
+		VirtualActionInvoker1< String_t* >::Invoke(75, L_7, _stringLiteralAAAA401E86E41E6120BB9E96B9892141CF5A81F8);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:71>
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = __this->___pausedButtonImage;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9;
+		L_9 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
+		NullCheck(L_8);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_8, L_9);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 126787
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_PauseUiButton_mD20CF97F02344BCE0BC30B8C2E277E8B2DB5EFC9 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:77>
+		float L_0;
+		L_0 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		if ((!(((float)L_0) < ((float)(0.00999999978f)))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:77>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		goto IL_0022;
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:78>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:80>
+		AllIn1TimeControl_UpdateTimeScaleUI_mD90A4301A980E675149F29EA5943FB9C54D00B59(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:81>
+		return;
+	}
+}
+// Method Definition Index: 126788
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_CurrentEffectChanged_m8B7EDB6C18BCAA8DFE2F9E551693BC7D0EC90C4A (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:85>
+		float L_0;
+		L_0 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		if ((!(((float)L_0) < ((float)(0.00999999978f)))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:87>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.100000001f), NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:88>
+		AllIn1TimeControl_UpdateTimeScaleUI_mD90A4301A980E675149F29EA5943FB9C54D00B59(__this, NULL);
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:90>
+		return;
+	}
+}
+// Method Definition Index: 126789
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl__ctor_m55E24CB0FA2DA1214698C2D1A3F7DFBAFD972DF7 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:8>
+		__this->___increaseTimeScale = ((int32_t)273);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:9>
+		__this->___increaseTimeScaleAlt = ((int32_t)119);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:10>
+		__this->___decreaseTimeScale = ((int32_t)274);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:11>
+		__this->___decreaseTimeScaleAlt = ((int32_t)115);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:12>
+		__this->___pauseKey = ((int32_t)112);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:13>
+		__this->___timeScaleInterval = (0.0500000007f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 126790
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1TimeControl_U3CStartU3Eb__13_0_mB6CC25A3AC7FB3CC50F9B66CDFC59FF086897770 (AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* __this, float ___0_U3Cp0U3E, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:28>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___timeScaleSlider;
+		NullCheck(L_0);
+		float L_1;
+		L_1 = VirtualFuncInvoker0< float >::Invoke(46, L_0);
+		float L_2;
+		L_2 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		AllIn1TimeControl_ChangeTimeScale_m4901E1CD74BC11A9B93DC1DFCDEB5C8C5131495C(__this, ((float)il2cpp_codegen_subtract(L_1, L_2)), NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1TimeControl.cs:28>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126791
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxAutoDestroy_Start_mDDDE7411840EA3DDEB726FA0BE76E875B74804A4 (AllIn1VfxAutoDestroy_t759F195AD327358C7C09E6384A84870F466AEA70* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxAutoDestroy.cs:11>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		float L_1 = __this->___destroyTime;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_0, L_1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxAutoDestroy.cs:12>
+		return;
+	}
+}
+// Method Definition Index: 126792
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxAutoDestroy__ctor_mFE7822080921D5A93C9E2E9FDBBB4333775B5943 (AllIn1VfxAutoDestroy_t759F195AD327358C7C09E6384A84870F466AEA70* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxAutoDestroy.cs:7>
+		__this->___destroyTime = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126793
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_Start_m764C889421B7C14F4237E598ED33A67B0AD24132 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisAllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0_m313D7092D6F30F2B0BCA8D2245F938D280EA6738_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:51>
+		AllIn1VfxDemoController_CheckEventSystem_mFCEC9EE6F84CD75688AC0E295A414AA602B52CC5(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:54>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___projectileSceneSetupObject;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:55>
+		int32_t L_1 = __this->___startingCollectionIndex;
+		__this->___currDemoCollectionIndex = L_1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:56>
+		int32_t L_2 = __this->___startingEffectIndex;
+		__this->___currDemoEffectIndex = L_2;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:57>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___currentEffectLabel;
+		NullCheck(L_3);
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_4;
+		L_4 = Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B(L_3, Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		__this->___currLabelTween = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currLabelTween), (void*)L_4);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:58>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___playEffectButton;
+		NullCheck(L_5);
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_6;
+		L_6 = Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B(L_5, Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		__this->___playButtTween = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___playButtTween), (void*)L_6);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:59>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___nextEffectButton;
+		NullCheck(L_7);
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_8;
+		L_8 = Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B(L_7, Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		__this->___nextButtTween = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___nextButtTween), (void*)L_8);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:60>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___previousEffectButton;
+		NullCheck(L_9);
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_10;
+		L_10 = Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B(L_9, Component_GetComponent_TisAllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3_m196F7F847A2995C398D860DEED1FC193E99DA72B_RuntimeMethod_var);
+		__this->___prevButtTween = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___prevButtTween), (void*)L_10);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:61>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
+		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_11);
+		AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* L_12;
+		L_12 = GameObject_GetComponent_TisAllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0_m313D7092D6F30F2B0BCA8D2245F938D280EA6738(L_11, GameObject_GetComponent_TisAllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0_m313D7092D6F30F2B0BCA8D2245F938D280EA6738_RuntimeMethod_var);
+		__this->___allIn1TimeControl = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___allIn1TimeControl), (void*)L_12);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:63>
+		AllIn1VfxDemoController_SetupAndInstantiateCurrentEffect_mCB89313A1A365B5A77CC275CBB5FF3A643929C72(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:64>
+		return;
+	}
+}
+// Method Definition Index: 126794
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_CheckEventSystem_mFCEC9EE6F84CD75688AC0E295A414AA602B52CC5 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB93A832C1F693E12C0F1F117D18A77DA7AD47E26);
+		s_Il2CppMethodInitialized = true;
+	}
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* V_0 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:68>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_0;
+		L_0 = Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD(Object_FindAnyObjectByType_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m5037601022CECF2312B0DCAAAC03BBF5A82FEBDD_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:69>
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_1 = V_0;
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:71>
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_3 = V_0;
+		NullCheck(L_3);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:74>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_5, _stringLiteralB93A832C1F693E12C0F1F117D18A77DA7AD47E26, NULL);
+		V_1 = L_5;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:75>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_1;
+		NullCheck(L_6);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_7;
+		L_7 = GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8(L_6, GameObject_AddComponent_TisEventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_m203F7DE96857384187AB285095F071B84400B9B8_RuntimeMethod_var);
+		__this->___eventSystem = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___eventSystem), (void*)L_7);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:78>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_1;
+		NullCheck(L_8);
+		InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58* L_9;
+		L_9 = GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7(L_8, GameObject_AddComponent_TisInputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_mA175957B292E3F565216766FCE1E9D85836183A7_RuntimeMethod_var);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 126795
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_Update_m99A41B7E26AEC523DCD9D128F95D1D7FA2AE5B13 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:86>
+		AllIn1VfxDemoController_ProcessInput_mEC0A06119780AE83EBA2DB8536E76BD906A686B5(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:88>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_0 = __this->___currDemoEffect;
+		NullCheck(L_0);
+		bool L_1 = L_0->___spawnTouchingFloor;
+		if (!L_1)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:88>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___cameraPivotTransform;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___cameraPivotTransform;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_5), (0.0f), (0.100000001f), (0.0f), NULL);
+		float L_6;
+		L_6 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		float L_7 = __this->___camPivotHeightSmoothing;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_4, L_5, ((float)il2cpp_codegen_multiply(L_6, L_7)), NULL);
+		NullCheck(L_2);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_2, L_8, NULL);
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:89>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_9 = __this->___currDemoEffect;
+		NullCheck(L_9);
+		bool L_10 = L_9->___spawnTouchingFloor;
+		if (L_10)
+		{
+			goto IL_0096;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:89>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___cameraPivotTransform;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->___cameraPivotTransform;
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), (0.0f), (2.0f), (0.0f), NULL);
+		float L_15;
+		L_15 = Time_get_unscaledDeltaTime_mF057EECA857E5C0F90A3F910D26D3EE59F27C4B5(NULL);
+		float L_16 = __this->___camPivotHeightSmoothing;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_13, L_14, ((float)il2cpp_codegen_multiply(L_15, L_16)), NULL);
+		NullCheck(L_11);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_11, L_17, NULL);
+	}
+
+IL_0096:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:91>
+		AllIn1VfxDemoController_CooldownHandling_mB83B0AB930FB0C88BDF8E364E3BF68A7192A3619(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:92>
+		return;
+	}
+}
+// Method Definition Index: 126796
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_ProcessInput_mEC0A06119780AE83EBA2DB8536E76BD906A686B5 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:96>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_0 = __this->___currDemoEffect;
+		NullCheck(L_0);
+		bool L_1 = L_0->___canBePlayedAgain;
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		int32_t L_2 = __this->___playEffectKey;
+		bool L_3;
+		L_3 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:96>
+		AllIn1VfxDemoController_PlayCurrentEffect_mB95334CBCF0F1A083D3BB7089026A09D08E90481(__this, (bool)0, NULL);
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:97>
+		int32_t L_4 = __this->___nextEffectKey;
+		bool L_5;
+		L_5 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_4, NULL);
+		if (L_5)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		int32_t L_6 = __this->___nextEffectKeyAlt;
+		bool L_7;
+		L_7 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0043;
+		}
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:97>
+		AllIn1VfxDemoController_ChangeCurrentEffect_m93E51B103B13D59D1BFEC96333B82B837981CB96(__this, 1, NULL);
+		return;
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:98>
+		int32_t L_8 = __this->___previousEffectKey;
+		bool L_9;
+		L_9 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_8, NULL);
+		if (L_9)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		int32_t L_10 = __this->___previousEffectKeyAlt;
+		bool L_11;
+		L_11 = AllIn1InputSystem_GetKeyDown_m496DFB8412E7FD90A106666E957AC9620764EBCD(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_0064;
+		}
+	}
+
+IL_005d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:98>
+		AllIn1VfxDemoController_ChangeCurrentEffect_m93E51B103B13D59D1BFEC96333B82B837981CB96(__this, (-1), NULL);
+	}
+
+IL_0064:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:99>
+		return;
+	}
+}
+// Method Definition Index: 126797
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_CooldownHandling_mB83B0AB930FB0C88BDF8E364E3BF68A7192A3619 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* G_B4_0 = NULL;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* G_B3_0 = NULL;
+	int32_t G_B5_0 = 0;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* G_B5_1 = NULL;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:103>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_0 = __this->___currDemoEffect;
+		NullCheck(L_0);
+		bool L_1 = L_0->___canBePlayedAgain;
+		if (L_1)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:103>
+		return;
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:104>
+		float L_2 = __this->___timeSinceEffectPlay;
+		float L_3;
+		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___timeSinceEffectPlay = ((float)il2cpp_codegen_add(L_2, L_3));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:105>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___playEffectButton;
+		int32_t L_5 = __this->___currentEffectPlays;
+		if ((((int32_t)L_5) < ((int32_t)1)))
+		{
+			G_B4_0 = L_4;
+			goto IL_0047;
+		}
+		G_B3_0 = L_4;
+	}
+	{
+		float L_6 = __this->___timeSinceEffectPlay;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_7 = __this->___currDemoEffect;
+		NullCheck(L_7);
+		float L_8 = L_7->___cooldown;
+		G_B5_0 = ((((int32_t)((!(((float)L_6) >= ((float)L_8)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		G_B5_1 = G_B3_0;
+		goto IL_0048;
+	}
+
+IL_0047:
+	{
+		G_B5_0 = 1;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_0048:
+	{
+		NullCheck(G_B5_1);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(G_B5_1, (bool)G_B5_0, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:106>
+		return;
+	}
+}
+// Method Definition Index: 126798
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_PlayCurrentEffect_mB95334CBCF0F1A083D3BB7089026A09D08E90481 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, bool ___0_isAfterSetupAndInstantiateEffect, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082_mA47212D689EF403AE234289425ED7323095976E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
+	AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* V_2 = NULL;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:110>
+		int32_t L_0 = __this->___currentEffectPlays;
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		float L_1 = __this->___timeSinceEffectPlay;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_2 = __this->___currDemoEffect;
+		NullCheck(L_2);
+		float L_3 = L_2->___cooldown;
+		if ((!(((float)L_1) < ((float)L_3))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:110>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:112>
+		bool L_4 = ___0_isAfterSetupAndInstantiateEffect;
+		if (L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		float L_5;
+		L_5 = Time_get_timeSinceLevelLoad_m65C386103A91B172781032CA1A6FFDEC8CFBA921(NULL);
+		if ((!(((float)L_5) > ((float)(0.100000001f)))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:112>
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_6 = __this->___playButtTween;
+		NullCheck(L_6);
+		AllIn1DemoScaleTween_ScaleUpTween_m003631433F3804F1952FD42B06E81E99B55B41CC(L_6, NULL);
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:114>
+		bool L_7 = ___0_isAfterSetupAndInstantiateEffect;
+		if (L_7)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_8 = __this->___currDemoEffect;
+		NullCheck(L_8);
+		bool L_9 = L_8->___onlyOneAtATime;
+		if (!L_9)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:114>
+		AllIn1VfxDemoController_DestroyAllChildren_m0C16384A93B6CAA18E28BDC83C749D423558B097(__this, NULL);
+	}
+
+IL_004d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:116>
+		__this->___timeSinceEffectPlay = (0.0f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:118>
+		V_0 = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:119>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_10 = __this->___currDemoEffect;
+		NullCheck(L_10);
+		bool L_11 = L_10->___isShootProjectile;
+		if (!L_11)
+		{
+			goto IL_01de;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:121>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_12 = __this->___currDemoEffect;
+		NullCheck(L_12);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = L_12->___muzzleFlashPrefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:123>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_15 = __this->___currDemoEffect;
+		NullCheck(L_15);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = L_15->___muzzleFlashPrefab;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = __this->___projectileSpawnPoint;
+		NullCheck(L_17);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_17, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19;
+		L_19 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
+		L_20 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_16, L_18, L_19, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		NullCheck(L_20);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_20, NULL);
+		V_0 = L_21;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:124>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23;
+		L_23 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_22);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_22, L_23, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:125>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = __this->___projectileSpawnPoint;
+		NullCheck(L_25);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_25, NULL);
+		NullCheck(L_24);
+		Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26(L_24, L_26, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:126>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_27);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_27, L_28, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:127>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = L_29;
+		NullCheck(L_30);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_30, NULL);
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_32 = __this->___currDemoEffect;
+		NullCheck(L_32);
+		float L_33 = L_32->___scaleMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_31, L_33, NULL);
+		NullCheck(L_30);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_30, L_34, NULL);
+	}
+
+IL_00e7:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:129>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = __this->___projectileBasePrefab;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = __this->___projectileSpawnPoint;
+		NullCheck(L_36);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_36, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38;
+		L_38 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39;
+		L_39 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_35, L_37, L_38, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		NullCheck(L_39);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
+		L_40 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_39, NULL);
+		V_1 = L_40;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:130>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41 = V_1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42 = __this->___projectileSpawnPoint;
+		NullCheck(L_42);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_42, NULL);
+		NullCheck(L_41);
+		Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26(L_41, L_43, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:131>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44 = V_1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45;
+		L_45 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_44);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_44, L_45, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:132>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_47;
+		L_47 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_46);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_46, L_47, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:134>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_48 = __this->___currDemoEffect;
+		NullCheck(L_48);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49 = L_48->___projectilePrefab;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50 = __this->___projectileSpawnPoint;
+		NullCheck(L_50);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_50, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52;
+		L_52 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53;
+		L_53 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_49, L_51, L_52, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		NullCheck(L_53);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_54;
+		L_54 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_53, NULL);
+		V_0 = L_54;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:135>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_55 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56;
+		L_56 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_55);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_55, L_56, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:136>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_57 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_58 = __this->___projectileSpawnPoint;
+		NullCheck(L_58);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
+		L_59 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_58, NULL);
+		NullCheck(L_57);
+		Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26(L_57, L_59, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:137>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_61 = V_1;
+		NullCheck(L_60);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_60, L_61, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:138>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_62 = V_1;
+		NullCheck(L_62);
+		AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* L_63;
+		L_63 = Component_GetComponent_TisAllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082_mA47212D689EF403AE234289425ED7323095976E2(L_62, Component_GetComponent_TisAllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082_mA47212D689EF403AE234289425ED7323095976E2_RuntimeMethod_var);
+		V_2 = L_63;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:139>
+		AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* L_64 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_65;
+		L_65 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_66 = __this->___projectileSpawnPoint;
+		NullCheck(L_66);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67;
+		L_67 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_66, NULL);
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_68 = __this->___currDemoEffect;
+		NullCheck(L_68);
+		float L_69 = L_68->___projectileSpeed;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_70 = __this->___currDemoEffect;
+		NullCheck(L_70);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_71 = L_70->___impactPrefab;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_72 = __this->___currDemoEffect;
+		NullCheck(L_72);
+		float L_73 = L_72->___scaleMultiplier;
+		NullCheck(L_64);
+		AllIn1DemoProjectile_Initialize_mD2A472EC2CF824D8AEE75BABCDFDB78CD238D537(L_64, L_65, L_67, L_69, L_71, L_73, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:140>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_74 = __this->___currDemoEffect;
+		NullCheck(L_74);
+		bool L_75 = L_74->___doCameraShake;
+		if (!L_75)
+		{
+			goto IL_02bb;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:140>
+		AllIn1DemoProjectile_t69EC725E682EC10FDD7263CFD0559225CE87A082* L_76 = V_2;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_77 = __this->___currDemoEffect;
+		NullCheck(L_77);
+		float L_78 = L_77->___projectileImpactShakeAmount;
+		NullCheck(L_76);
+		AllIn1DemoProjectile_AddScreenShakeOnImpact_m2B8E91FBD03C6F642A739541D52A20972496DF26(L_76, L_78, NULL);
+		goto IL_02bb;
+	}
+
+IL_01de:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:144>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_79 = __this->___currDemoEffect;
+		NullCheck(L_79);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_80 = L_79->___effectPrefab;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_81;
+		L_81 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_82;
+		L_82 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_80, L_81, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		NullCheck(L_82);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_83;
+		L_83 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_82, NULL);
+		V_0 = L_83;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:145>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_84 = __this->___currDemoEffect;
+		NullCheck(L_84);
+		bool L_85 = L_84->___spawnTouchingFloor;
+		if (L_85)
+		{
+			goto IL_0214;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:145>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_86 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87;
+		L_87 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_86);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_86, L_87, NULL);
+		goto IL_0225;
+	}
+
+IL_0214:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:146>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_88 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_89 = __this->___groundSpawnTransform;
+		NullCheck(L_89);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
+		L_90 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_89, NULL);
+		NullCheck(L_88);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_88, L_90, NULL);
+	}
+
+IL_0225:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:147>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_91 = V_0;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_92 = __this->___currDemoEffect;
+		NullCheck(L_92);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_93 = L_92->___effectPrefab;
+		NullCheck(L_93);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_94;
+		L_94 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_93, NULL);
+		NullCheck(L_94);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_95;
+		L_95 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_94, NULL);
+		NullCheck(L_91);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_91, L_95, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:148>
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_96 = __this->___currDemoEffect;
+		NullCheck(L_96);
+		bool L_97 = L_96->___canBePlayedAgain;
+		if (!L_97)
+		{
+			goto IL_02bb;
+		}
+	}
+	{
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_98 = __this->___currDemoEffect;
+		NullCheck(L_98);
+		float L_99 = L_98->___randomSpreadRadius;
+		if ((!(((float)L_99) > ((float)(0.0f)))))
+		{
+			goto IL_02bb;
+		}
+	}
+	{
+		int32_t L_100 = __this->___currentEffectPlays;
+		if ((((int32_t)L_100) <= ((int32_t)0)))
+		{
+			goto IL_02bb;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:150>
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:151>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_101 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_102 = L_101;
+		NullCheck(L_102);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103;
+		L_103 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_102, NULL);
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_104 = __this->___currDemoEffect;
+		NullCheck(L_104);
+		float L_105 = L_104->___randomSpreadRadius;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_106 = __this->___currDemoEffect;
+		NullCheck(L_106);
+		float L_107 = L_106->___randomSpreadRadius;
+		float L_108;
+		L_108 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((-L_105)), L_107, NULL);
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_109 = __this->___currDemoEffect;
+		NullCheck(L_109);
+		float L_110 = L_109->___randomSpreadRadius;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_111 = __this->___currDemoEffect;
+		NullCheck(L_111);
+		float L_112 = L_111->___randomSpreadRadius;
+		float L_113;
+		L_113 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((-L_110)), L_112, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_114;
+		memset((&L_114), 0, sizeof(L_114));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_114), L_108, (0.0f), L_113, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_115;
+		L_115 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_103, L_114, NULL);
+		NullCheck(L_102);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_102, L_115, NULL);
+	}
+
+IL_02bb:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:154>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_116 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_117 = L_116;
+		NullCheck(L_117);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_118;
+		L_118 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_117, NULL);
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_119 = __this->___currDemoEffect;
+		NullCheck(L_119);
+		float L_120 = L_119->___scaleMultiplier;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_121;
+		L_121 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_118, L_120, NULL);
+		NullCheck(L_117);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_117, L_121, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:155>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_122 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_123 = L_122;
+		NullCheck(L_123);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_124;
+		L_124 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_123, NULL);
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_125 = __this->___currDemoEffect;
+		NullCheck(L_125);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_126 = L_125->___positionOffset;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_127;
+		L_127 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_124, L_126, NULL);
+		NullCheck(L_123);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_123, L_127, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:157>
+		bool L_128 = ___0_isAfterSetupAndInstantiateEffect;
+		if (L_128)
+		{
+			goto IL_0318;
+		}
+	}
+	{
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_129 = __this->___currDemoEffect;
+		NullCheck(L_129);
+		bool L_130 = L_129->___doCameraShake;
+		if (!L_130)
+		{
+			goto IL_0318;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:157>
+		AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* L_131 = ((AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_StaticFields*)il2cpp_codegen_static_fields_for(AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77_il2cpp_TypeInfo_var))->___i;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_132 = __this->___currDemoEffect;
+		NullCheck(L_132);
+		float L_133 = L_132->___mainEffectShakeAmount;
+		NullCheck(L_131);
+		AllIn1Shaker_DoCameraShake_mA80A474C73CCE2A57EC7B1FE0B25368A1B02D44C_inline(L_131, L_133, NULL);
+	}
+
+IL_0318:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:159>
+		int32_t L_134 = __this->___currentEffectPlays;
+		__this->___currentEffectPlays = ((int32_t)il2cpp_codegen_add(L_134, 1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:160>
+		return;
+	}
+}
+// Method Definition Index: 126799
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_ChangeCurrentEffect_m93E51B103B13D59D1BFEC96333B82B837981CB96 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, int32_t ___0_changeAmount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:164>
+		int32_t L_0 = ___0_changeAmount;
+		if ((((int32_t)L_0) >= ((int32_t)0)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:164>
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_1 = __this->___prevButtTween;
+		NullCheck(L_1);
+		AllIn1DemoScaleTween_ScaleUpTween_m003631433F3804F1952FD42B06E81E99B55B41CC(L_1, NULL);
+		goto IL_0020;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:165>
+		int32_t L_2 = ___0_changeAmount;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:165>
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_3 = __this->___nextButtTween;
+		NullCheck(L_3);
+		AllIn1DemoScaleTween_ScaleUpTween_m003631433F3804F1952FD42B06E81E99B55B41CC(L_3, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:166>
+		RuntimeObject* L_4;
+		L_4 = AllIn1VfxDemoController_CurrentEffectLabelTweenEffectCR_m20C382F269A38E789F88E9C3FFBD06A8E5238E1D(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
+		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:167>
+		int32_t L_6 = __this->___currDemoEffectIndex;
+		int32_t L_7 = ___0_changeAmount;
+		__this->___currDemoEffectIndex = ((int32_t)il2cpp_codegen_add(L_6, L_7));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:168>
+		AllIn1VfxDemoController_SetupAndInstantiateCurrentEffect_mCB89313A1A365B5A77CC275CBB5FF3A643929C72(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:169>
+		AllIn1TimeControl_t85776F676EDD8AA060FAB5D2DA19B1413B0A55B0* L_8 = __this->___allIn1TimeControl;
+		NullCheck(L_8);
+		AllIn1TimeControl_CurrentEffectChanged_m8B7EDB6C18BCAA8DFE2F9E551693BC7D0EC90C4A(L_8, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:170>
+		return;
+	}
+}
+// Method Definition Index: 126800
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_SetupAndInstantiateCurrentEffect_mCB89313A1A365B5A77CC275CBB5FF3A643929C72 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B2_0 = NULL;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B1_0 = NULL;
+	String_t* G_B3_0 = NULL;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B3_1 = NULL;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:174>
+		AllIn1VfxDemoController_DestroyAllChildren_m0C16384A93B6CAA18E28BDC83C749D423558B097(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:175>
+		__this->___currentEffectPlays = 0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:176>
+		AllIn1VfxDemoController_ComputeValidEffectAndCollectionIndex_m4ADEDD2003FAE27D993937BFC438C4E445F7958F(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:177>
+		All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1* L_0 = __this->___effectsToSpawnCollections;
+		int32_t L_1 = __this->___currDemoCollectionIndex;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		All1VfxDemoEffectU5BU5D_t1230E7FDD3FC87E2D93CD090C8BCEFB93F5C7577* L_4 = L_3->___demoEffectCollection;
+		int32_t L_5 = __this->___currDemoEffectIndex;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		__this->___currDemoEffect = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currDemoEffect), (void*)L_7);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:178>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___projectileSceneSetupObject;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_9 = __this->___currDemoEffect;
+		NullCheck(L_9);
+		bool L_10 = L_9->___isShootProjectile;
+		NullCheck(L_8);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, L_10, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:179>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___projectileEffectUI;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_12 = __this->___currDemoEffect;
+		NullCheck(L_12);
+		bool L_13 = L_12->___isShootProjectile;
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, L_13, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:180>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___normalEffectUI;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_15 = __this->___currDemoEffect;
+		NullCheck(L_15);
+		bool L_16 = L_15->___isShootProjectile;
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)((((int32_t)L_16) == ((int32_t)0))? 1 : 0), NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:181>
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___currentEffectLabel;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_18 = __this->___currDemoEffect;
+		NullCheck(L_18);
+		bool L_19 = L_18->___isShootProjectile;
+		if (L_19)
+		{
+			G_B2_0 = L_17;
+			goto IL_009c;
+		}
+		G_B1_0 = L_17;
+	}
+	{
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_20 = __this->___currDemoEffect;
+		NullCheck(L_20);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = L_20->___effectPrefab;
+		NullCheck(L_21);
+		String_t* L_22;
+		L_22 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_21, NULL);
+		G_B3_0 = L_22;
+		G_B3_1 = G_B1_0;
+		goto IL_00ac;
+	}
+
+IL_009c:
+	{
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_23 = __this->___currDemoEffect;
+		NullCheck(L_23);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = L_23->___projectilePrefab;
+		NullCheck(L_24);
+		String_t* L_25;
+		L_25 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_24, NULL);
+		G_B3_0 = L_25;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_00ac:
+	{
+		NullCheck(G_B3_1);
+		VirtualActionInvoker1< String_t* >::Invoke(75, G_B3_1, G_B3_0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:182>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_26 = __this->___playEffectButton;
+		NullCheck(L_26);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27;
+		L_27 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_26, NULL);
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_28 = __this->___currDemoEffect;
+		NullCheck(L_28);
+		bool L_29 = L_28->___canBePlayedAgain;
+		NullCheck(L_27);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_27, L_29, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:183>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->___playEffectInstructionsGo;
+		All1VfxDemoEffect_tE44E24A9F9B163FEFE6F4F1DF806D7EB1D9DAEB9* L_31 = __this->___currDemoEffect;
+		NullCheck(L_31);
+		bool L_32 = L_31->___canBePlayedAgain;
+		NullCheck(L_30);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_30, L_32, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:184>
+		AllIn1VfxDemoController_PlayCurrentEffect_mB95334CBCF0F1A083D3BB7089026A09D08E90481(__this, (bool)1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:185>
+		return;
+	}
+}
+// Method Definition Index: 126801
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_ComputeValidEffectAndCollectionIndex_m4ADEDD2003FAE27D993937BFC438C4E445F7958F (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:189>
+		V_0 = 0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:190>
+		int32_t L_0 = __this->___currDemoEffectIndex;
+		if ((((int32_t)L_0) >= ((int32_t)0)))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:192>
+		int32_t L_1 = __this->___currDemoCollectionIndex;
+		__this->___currDemoCollectionIndex = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:193>
+		V_0 = 2;
+		goto IL_0049;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:195>
+		int32_t L_2 = __this->___currDemoEffectIndex;
+		All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1* L_3 = __this->___effectsToSpawnCollections;
+		int32_t L_4 = __this->___currDemoCollectionIndex;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_6);
+		All1VfxDemoEffectU5BU5D_t1230E7FDD3FC87E2D93CD090C8BCEFB93F5C7577* L_7 = L_6->___demoEffectCollection;
+		NullCheck(L_7);
+		if ((((int32_t)L_2) < ((int32_t)((int32_t)(((RuntimeArray*)L_7)->max_length)))))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:197>
+		int32_t L_8 = __this->___currDemoCollectionIndex;
+		__this->___currDemoCollectionIndex = ((int32_t)il2cpp_codegen_add(L_8, 1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:198>
+		V_0 = 1;
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:201>
+		int32_t L_9 = __this->___currDemoCollectionIndex;
+		if ((((int32_t)L_9) >= ((int32_t)0)))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:203>
+		All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1* L_10 = __this->___effectsToSpawnCollections;
+		NullCheck(L_10);
+		__this->___currDemoCollectionIndex = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_10)->max_length)), 1));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:204>
+		V_0 = 2;
+		goto IL_007f;
+	}
+
+IL_0066:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:206>
+		int32_t L_11 = __this->___currDemoCollectionIndex;
+		All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1* L_12 = __this->___effectsToSpawnCollections;
+		NullCheck(L_12);
+		if ((((int32_t)L_11) < ((int32_t)((int32_t)(((RuntimeArray*)L_12)->max_length)))))
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:208>
+		__this->___currDemoCollectionIndex = 0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:209>
+		V_0 = 1;
+	}
+
+IL_007f:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:212>
+		int32_t L_13 = V_0;
+		if ((((int32_t)L_13) <= ((int32_t)0)))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:214>
+		int32_t L_14 = V_0;
+		if ((!(((uint32_t)L_14) == ((uint32_t)1))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:214>
+		__this->___currDemoEffectIndex = 0;
+		return;
+	}
+
+IL_008f:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:215>
+		int32_t L_15 = V_0;
+		if ((!(((uint32_t)L_15) == ((uint32_t)2))))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:215>
+		All1VfxDemoEffectCollectionU5BU5D_t6EA40E9C50848D80E5347A23C6E1990050E177C1* L_16 = __this->___effectsToSpawnCollections;
+		int32_t L_17 = __this->___currDemoCollectionIndex;
+		NullCheck(L_16);
+		int32_t L_18 = L_17;
+		All1VfxDemoEffectCollection_t2839E9422B57F5A5EA2C1526C5947B2327C153A1* L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		NullCheck(L_19);
+		All1VfxDemoEffectU5BU5D_t1230E7FDD3FC87E2D93CD090C8BCEFB93F5C7577* L_20 = L_19->___demoEffectCollection;
+		NullCheck(L_20);
+		__this->___currDemoEffectIndex = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_20)->max_length)), 1));
+	}
+
+IL_00af:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:217>
+		return;
+	}
+}
+// Method Definition Index: 126802
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AllIn1VfxDemoController_CurrentEffectLabelTweenEffectCR_m20C382F269A38E789F88E9C3FFBD06A8E5238E1D (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* L_0 = (U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0*)il2cpp_codegen_object_new(U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0_il2cpp_TypeInfo_var);
+		U3CCurrentEffectLabelTweenEffectCRU3Ed__41__ctor_m996D76043F461AB3445230DDEEA6953E5382F94B(L_0, 0, NULL);
+		U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 126803
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController_DestroyAllChildren_m0C16384A93B6CAA18E28BDC83C749D423558B097 (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:231>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = Transform_GetEnumerator_mA7E1C882ACA0C33E284711CD09971DEA3FFEF404(L_0, NULL);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_002d:
+			{
+				{
+					RuntimeObject* L_2 = V_0;
+					V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_2, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var));
+					RuntimeObject* L_3 = V_1;
+					if (!L_3)
+					{
+						goto IL_003d;
+					}
+				}
+				{
+					RuntimeObject* L_4 = V_1;
+					NullCheck(L_4);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_4);
+				}
+
+IL_003d:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			{
+				goto IL_0023_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:231>
+				RuntimeObject* L_5 = V_0;
+				NullCheck(L_5);
+				RuntimeObject* L_6;
+				L_6 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_5);
+				//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:231>
+				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_6, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
+				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+				L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_6, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), NULL);
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_7, NULL);
+			}
+
+IL_0023_1:
+			{
+				//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:231>
+				RuntimeObject* L_8 = V_0;
+				NullCheck(L_8);
+				bool L_9;
+				L_9 = InterfaceFuncInvoker0< bool >::Invoke(0, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_8);
+				if (L_9)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_003e;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_003e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:232>
+		return;
+	}
+}
+// Method Definition Index: 126804
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxDemoController__ctor_m2846A9E67E6F77DAC470C1E52E262CBE205B393B (AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:25>
+		__this->___playEffectKey = ((int32_t)113);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:26>
+		__this->___nextEffectKey = ((int32_t)275);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:27>
+		__this->___nextEffectKeyAlt = ((int32_t)100);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:28>
+		__this->___previousEffectKey = ((int32_t)276);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:29>
+		__this->___previousEffectKeyAlt = ((int32_t)97);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126805
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCurrentEffectLabelTweenEffectCRU3Ed__41__ctor_m996D76043F461AB3445230DDEEA6953E5382F94B (U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 126806
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCurrentEffectLabelTweenEffectCRU3Ed__41_System_IDisposable_Dispose_mB0C35C9EED5525D25C4C157EA5AE8D1F5B7F210D (U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 126807
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCurrentEffectLabelTweenEffectCRU3Ed__41_MoveNext_mA762E2ACAA608C49A0074FD3CA915BC1A37958D7 (U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:222>
+		AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* L_4 = V_1;
+		NullCheck(L_4);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = L_4->___currentEffectLabel;
+		NullCheck(L_5);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6;
+		L_6 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_5);
+		__this->___U3CstartColorU3E5__2 = L_6;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:223>
+		AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* L_7 = V_1;
+		NullCheck(L_7);
+		AllIn1DemoScaleTween_tA97C6519B0111FAD47B877A3FDC7F8EC3F650FE3* L_8 = L_7->___currLabelTween;
+		NullCheck(L_8);
+		AllIn1DemoScaleTween_ScaleDownTween_m55CD44A310043C798359EBE1F97F1A79935565C1(L_8, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:224>
+		AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* L_9 = V_1;
+		NullCheck(L_9);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = L_9->___currentEffectLabel;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_11 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CstartColorU3E5__2);
+		float L_12 = L_11->___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_13 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CstartColorU3E5__2);
+		float L_14 = L_13->___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_15 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CstartColorU3E5__2);
+		float L_16 = L_15->___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_17), L_12, L_14, L_16, (0.0f), NULL);
+		NullCheck(L_10);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_10, L_17);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:225>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0080:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:226>
+		AllIn1VfxDemoController_t1C7F68B8256FD750E371E95317C58E7A78046E08* L_18 = V_1;
+		NullCheck(L_18);
+		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = L_18->___currentEffectLabel;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_20 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CstartColorU3E5__2);
+		float L_21 = L_20->___r;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_22 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CstartColorU3E5__2);
+		float L_23 = L_22->___g;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_24 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___U3CstartColorU3E5__2);
+		float L_25 = L_24->___b;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_26), L_21, L_23, L_25, (1.0f), NULL);
+		NullCheck(L_19);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_19, L_26);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxDemoController.cs:227>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 126808
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCurrentEffectLabelTweenEffectCRU3Ed__41_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8C38416166D598EA4C879A6E1D8C0297B0372E5A (U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 126809
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCurrentEffectLabelTweenEffectCRU3Ed__41_System_Collections_IEnumerator_Reset_mADB16029C48E0041EBDA7E385D23DBFB467862A3 (U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CCurrentEffectLabelTweenEffectCRU3Ed__41_System_Collections_IEnumerator_Reset_mADB16029C48E0041EBDA7E385D23DBFB467862A3_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 126810
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CCurrentEffectLabelTweenEffectCRU3Ed__41_System_Collections_IEnumerator_get_Current_mB3279683438EBC26406FB0FB9E8882B0E4B54934 (U3CCurrentEffectLabelTweenEffectCRU3Ed__41_t0DD5FF6DE0D05391F42BFB3B7BE6F6CEB09540A0* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126811
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxFadeLight_Start_mF6B79163A743AF39A06E6A817329817D66EC8EB5 (AllIn1VfxFadeLight_t4FC162372AD5D7F6CA07353EDE474016D239D39C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:16>
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_0;
+		L_0 = Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9(__this, Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var);
+		__this->___targetLight = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetLight), (void*)L_0);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:17>
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_1 = __this->___targetLight;
+		NullCheck(L_1);
+		float L_2;
+		L_2 = Light_get_intensity_m8FA28D515853068A93FA68B2148809BBEE4E710F(L_1, NULL);
+		__this->___iniLightIntensity = L_2;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 126812
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxFadeLight_Update_m9242F02264C10DD0752369F68F94AC6C83772988 (AllIn1VfxFadeLight_t4FC162372AD5D7F6CA07353EDE474016D239D39C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:22>
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_0 = __this->___targetLight;
+		float L_1 = __this->___iniLightIntensity;
+		float L_2 = __this->___animationRatioRemaining;
+		float L_3;
+		L_3 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((0.0f), L_1, L_2, NULL);
+		NullCheck(L_0);
+		Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854(L_0, L_3, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:23>
+		float L_4 = __this->___animationRatioRemaining;
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_6 = __this->___fadeDuration;
+		__this->___animationRatioRemaining = ((float)il2cpp_codegen_subtract(L_4, ((float)(L_5/L_6))));
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:24>
+		bool L_7 = __this->___destroyWhenFaded;
+		if (!L_7)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		float L_8 = __this->___animationRatioRemaining;
+		if ((!(((float)L_8) <= ((float)(0.0f)))))
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:24>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_9, NULL);
+	}
+
+IL_005a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 126813
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxFadeLight__ctor_m4891C5A5D242E62B87DAC42D752A5BE93D7F4DBF (AllIn1VfxFadeLight_t4FC162372AD5D7F6CA07353EDE474016D239D39C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:8>
+		__this->___fadeDuration = (0.100000001f);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:9>
+		__this->___destroyWhenFaded = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxFadeLight.cs:11>
+		__this->___animationRatioRemaining = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 126814
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxParticleSystemTime_Start_m45D05568666823155A0B4C09704C7BB8E09626B4 (AllIn1VfxParticleSystemTime_t9309D71850B97651EA06277DDFE0EE3E09DC1118* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:19>
+		AllIn1VfxParticleSystemTime_SetSimulationTime_mFD920AF3B4848794988BCAADC0AB567E6BFCF3C9(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 126815
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxParticleSystemTime_Update_mDBA78312503F33518C1EAE904C8229DAF1C98D3B (AllIn1VfxParticleSystemTime_t9309D71850B97651EA06277DDFE0EE3E09DC1118* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:24>
+		bool L_0 = __this->___updateEveryFrame;
+		if (!L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:24>
+		AllIn1VfxParticleSystemTime_SetSimulationTime_mFD920AF3B4848794988BCAADC0AB567E6BFCF3C9(__this, NULL);
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 126816
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxParticleSystemTime_OnValidate_m35B7928CA218B79A47EAB34082D39FC31B24D233 (AllIn1VfxParticleSystemTime_t9309D71850B97651EA06277DDFE0EE3E09DC1118* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:29>
+		AllIn1VfxParticleSystemTime_SetSimulationTime_mFD920AF3B4848794988BCAADC0AB567E6BFCF3C9(__this, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 126817
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxParticleSystemTime_SetSimulationTime_mFD920AF3B4848794988BCAADC0AB567E6BFCF3C9 (AllIn1VfxParticleSystemTime_t9309D71850B97651EA06277DDFE0EE3E09DC1118* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5FD7ACA76D20D20DB889E633C51EEB14ED85007F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF5D8EF422ABD0284BA3EEB3BF58FBA9313575F4E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:35>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_0 = __this->___targetPs;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:37>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_2;
+		L_2 = Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9(__this, Component_GetComponent_TisParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1_mF2B700ECAEEEDBCC076CC66C9592C6DDFA0D36F9_RuntimeMethod_var);
+		__this->___targetPs = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___targetPs), (void*)L_2);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:38>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_3 = __this->___targetPs;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		bool L_5 = __this->___isValid;
+		if (!L_5)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:40>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_6, NULL);
+		String_t* L_8;
+		L_8 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralF5D8EF422ABD0284BA3EEB3BF58FBA9313575F4E, L_7, _stringLiteral5FD7ACA76D20D20DB889E633C51EEB14ED85007F, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_8, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:41>
+		__this->___isValid = (bool)0;
+	}
+
+IL_0056:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:44>
+		bool L_9 = __this->___isValid;
+		if (L_9)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:44>
+		return;
+	}
+
+IL_005f:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:45>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_10 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___simulationTimeRange);
+		float L_11 = L_10->___y;
+		if ((!(((float)L_11) > ((float)(0.0f)))))
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:45>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_12 = __this->___targetPs;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_13 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___simulationTimeRange);
+		float L_14 = L_13->___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_15 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___simulationTimeRange);
+		float L_16 = L_15->___y;
+		float L_17;
+		L_17 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_14, L_16, NULL);
+		NullCheck(L_12);
+		ParticleSystem_Simulate_mE81EFF12AC1E2C08F3AE86DA7CF0D5CA4EA8F91F(L_12, L_17, (bool)1, (bool)1, NULL);
+		return;
+	}
+
+IL_009a:
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:46>
+		ParticleSystem_tB19986EE308BD63D36FB6025EEEAFBEDB97C67C1* L_18 = __this->___targetPs;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_19 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___simulationTimeRange);
+		float L_20 = L_19->___x;
+		NullCheck(L_18);
+		ParticleSystem_Simulate_mE81EFF12AC1E2C08F3AE86DA7CF0D5CA4EA8F91F(L_18, L_20, (bool)1, (bool)1, NULL);
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 126818
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllIn1VfxParticleSystemTime__ctor_m515F41EA1F3272CB6809B958344A258551F8D22D (AllIn1VfxParticleSystemTime_t9309D71850B97651EA06277DDFE0EE3E09DC1118* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:9>
+		__this->___updateEveryFrame = (bool)1;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:12>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		__this->___simulationTimeRange = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1VfxParticleSystemTime.cs:32>
+		__this->___isValid = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 114682
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C_inline (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@bb329a87fcdc/Runtime/UGUI/UI/Core/Dropdown.cs:398>
+		int32_t L_0 = __this->___m_Value;
+		return L_0;
+	}
+}
+// Method Definition Index: 69007
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline (const RuntimeMethod* method) 
+{
+	{
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 68987
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_op_Multiply_m379B20A820266ACF82A21425B9CAE8DCD773CFBB_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_a;
+		float L_1 = L_0.___r;
+		float L_2 = ___1_b;
+		(&V_0)->___r = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_a;
+		float L_4 = L_3.___g;
+		float L_5 = ___1_b;
+		(&V_0)->___g = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___0_a;
+		float L_7 = L_6.___b;
+		float L_8 = ___1_b;
+		(&V_0)->___b = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_9 = ___0_a;
+		float L_10 = L_9.___a;
+		float L_11 = ___1_b;
+		(&V_0)->___a = ((float)il2cpp_codegen_multiply(L_10, L_11));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 69168
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 69161
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 69259
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline (float ___0_current, float ___1_target, float ___2_maxDelta, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	{
+		float L_0 = ___1_target;
+		float L_1 = ___0_current;
+		float L_2;
+		L_2 = fabsf(((float)il2cpp_codegen_subtract(L_0, L_1)));
+		float L_3 = ___2_maxDelta;
+		V_0 = (bool)((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		float L_5 = ___1_target;
+		V_1 = L_5;
+		goto IL_0026;
+	}
+
+IL_0017:
+	{
+		float L_6 = ___0_current;
+		float L_7 = ___1_target;
+		float L_8 = ___0_current;
+		float L_9;
+		L_9 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(((float)il2cpp_codegen_subtract(L_7, L_8)), NULL);
+		float L_10 = ___2_maxDelta;
+		V_1 = ((float)il2cpp_codegen_add(L_6, ((float)il2cpp_codegen_multiply(L_9, L_10))));
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		float L_11 = V_1;
+		return L_11;
+	}
+}
+// Method Definition Index: 69193
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		return L_0;
+	}
+}
+// Method Definition Index: 126780
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AllIn1Shaker_DoCameraShake_mA80A474C73CCE2A57EC7B1FE0B25368A1B02D44C_inline (AllIn1Shaker_tBA79C70B871AE326AF7018095F74775E700E0B77* __this, float ___0_shakeAmount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:60>
+		float L_0 = ___0_shakeAmount;
+		__this->___currentShakeAmount = L_0;
+		//<source_info:C:/Users/user/OneDrive/Documents/GitHub/ProjectPanagimpan/Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Scripts/AllIn1Shaker.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 69254
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 69148
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+// Method Definition Index: 69157
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 69165
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 69256
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 69129
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 69204
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_euler;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_0, (0.0174532924f), NULL);
+		V_0 = L_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
+		L_2 = Quaternion_Internal_FromEulerRad_mD0C4C0EFE1D70EC0EA4A92B11F1A4D5B0A134E49((&V_0), NULL);
+		return L_2;
+	}
+}
+// Method Definition Index: 69158
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 115701
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* Slider_get_onValueChanged_m4DA3FD0F8D7BB838F442C07F7796EEE584D0D4F6_inline (Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.ugui@bb329a87fcdc/Runtime/UGUI/UI/Core/Slider.cs:356>
+		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_0 = __this->___m_OnValueChanged;
+		return L_0;
+	}
+}
+// Method Definition Index: 69123
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
+		V_1 = L_23;
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		return L_24;
+	}
+}
+// Method Definition Index: 68976
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		return;
+	}
+}
+// Method Definition Index: 69257
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 69310
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 69253
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_f;
+		if ((((float)L_0) >= ((float)(0.0f))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		G_B3_0 = (-1.0f);
+		goto IL_0015;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = (1.0f);
+	}
+
+IL_0015:
+	{
+		V_0 = G_B3_0;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}

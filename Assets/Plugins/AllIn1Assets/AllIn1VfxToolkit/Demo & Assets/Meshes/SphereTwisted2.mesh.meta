@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e91d8f4bda5c4fd4a9e96bd84d53ea2b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1VfxToolkit/Demo & Assets/Meshes/SphereTwisted2.mesh
+  uploadId: 1035270

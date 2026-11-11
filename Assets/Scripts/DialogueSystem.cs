@@ -23,15 +23,33 @@ public class DialogueSystem : MonoBehaviour
     public DialogueCharacterSlot[] characters;
     public float charsPerSecond = 40f;
 
+    [Header("Typing Sound")]
+    public AudioSource typingAudioSource;
+    public AudioClip[] typingClips;
+    [Range(0f, 1f)] public float typingVolume = 0.6f;
+    [Min(1)] public int playEveryNChars = 2;
+    public float typingMinPitch = 0.95f;
+    public float typingMaxPitch = 1.05f;
+
     private Tween typeTween;
     private int textIndex = 0;
     private DialogueData currentDialogue;
     private Action onDialogueFinished;
     private bool isPlaying;
+    private int lastTypedLength;
 
     private readonly Dictionary<string, string> textReplacements = new Dictionary<string, string>();
 
     public bool IsPlaying => isPlaying;
+
+    void Awake()
+    {
+        if (typingAudioSource == null)
+        {
+            typingAudioSource = gameObject.AddComponent<AudioSource>();
+            typingAudioSource.playOnAwake = false;
+        }
+    }
 
     void Start()
     {
@@ -142,14 +160,36 @@ public class DialogueSystem : MonoBehaviour
 
         typeTween?.Kill();
         dialogueTextUI.text = "";
+        lastTypedLength = 0;
 
         string text = ApplyReplacements(line.dialogueText);
         float duration = text.Length / charsPerSecond;
         typeTween = dialogueTextUI.DOText(text, duration)
             .SetEase(Ease.Linear)
+            .OnUpdate(PlayTypingSound)
             .SetLink(gameObject);
 
         line.OnTriggerEvent?.Invoke();
+    }
+
+    void PlayTypingSound()
+    {
+        string shown = dialogueTextUI.text;
+        int length = shown.Length;
+        if (length <= lastTypedLength) return;
+
+        int previous = lastTypedLength;
+        lastTypedLength = length;
+
+        if (char.IsWhiteSpace(shown[length - 1])) return;
+        if (length / playEveryNChars == previous / playEveryNChars) return;
+        if (typingClips == null || typingClips.Length == 0) return;
+
+        AudioClip clip = typingClips[UnityEngine.Random.Range(0, typingClips.Length)];
+        if (clip == null) return;
+
+        typingAudioSource.pitch = UnityEngine.Random.Range(typingMinPitch, typingMaxPitch);
+        typingAudioSource.PlayOneShot(clip, typingVolume);
     }
 
     void OnTap()

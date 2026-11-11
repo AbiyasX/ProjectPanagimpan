@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7adab9d9ef604e42af226d41cf88436, type: 3}
+  m_Name: PlaygroundDialogueData
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogue_Background: {fileID: 0}
+  dialogue_Texts:
+  - speakerType: 0
+    dialogueSpeaker: Narrator
+    dialogueText: "The pair then makes it to their next destination, a kid\u2019s
+      playground."
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: Oh I love the playground! This is where we play with all our friends!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: "You\u2019re right, it's so fun here!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: We made fun and playful memories here, with our friends too!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: Yeah! I always loved playing the swing with you, when we took turns.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: Me too! Though, I also really liked the slide.
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 2
+    dialogueSpeaker: 
+    dialogueText: "All this remembering is charging our kite! Let\u2019s keep doing
+      it!"
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - speakerType: 1
+    dialogueSpeaker: 
+    dialogueText: Good idea!
+    OnTriggerEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  startTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endTriggerEvent:
+    m_PersistentCalls:
+      m_Calls: []

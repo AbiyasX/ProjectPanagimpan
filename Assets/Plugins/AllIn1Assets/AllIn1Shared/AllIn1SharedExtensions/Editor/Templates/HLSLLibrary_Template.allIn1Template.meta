@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4dc35678a5b17a341b974c6a757c4fcc
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206665
+  packageName: All In 1 Vfx Toolkit
+  packageVersion: 2.4
+  assetPath: Assets/Plugins/AllIn1Assets/AllIn1Shared/AllIn1SharedExtensions/Editor/Templates/HLSLLibrary_Template.allIn1Template
+  uploadId: 1035270
